@@ -1,0 +1,229 @@
+{
+  "couts_non_recurrents": [
+    {
+      "poste": "Hébergements écologiques",
+      "montant_estime": 480000,
+      "montant_reel": 576000,
+      "detail_sous_postes": {
+        "Construction chalets (10×40k€)": 400000,
+        "Fondations spéciales terrain": 60000,
+        "Réseaux internes (eau/élec/data)": 45000,
+        "Mise aux normes ERP": 35000,
+        "Aménagements extérieurs": 36000
+      },
+      "risque_depassement": 0.2,
+      "delai_realisation": 8
+    },
+    {
+      "poste": "Restaurant + Atelier transformation",
+      "montant_estime": 320000,
+      "montant_reel": 400000,
+      "detail_sous_postes": {
+        "Gros œuvre + structure": 180000,
+        "Équipements cuisine professionnelle": 85000,
+        "Laboratoire transformation (HACCP)": 75000,
+        "Mise aux normes sanitaires": 40000,
+        "Aménagements + mobilier": 20000
+      },
+      "risque_depassement": 0.25,
+      "delai_realisation": 6
+    },
+    {
+      "poste": "Photovoltaïque + Stockage",
+      "montant_estime": 600000,
+      "montant_reel": 675000,
+      "detail_sous_postes": {
+        "Panneaux 150kWc": 300000,
+        "Onduleurs + équipements": 120000,
+        "Stockage batteries 200kWh": 150000,
+        "Raccordement réseau + comptage": 65000,
+        "Installation + mise en service": 40000
+      },
+      "risque_depassement": 0.12,
+      "delai_realisation": 4
+    },
+    {
+      "poste": "Aménagements Lac de Cayre",
+      "montant_estime": 150000,
+      "montant_reel": 195000,
+      "detail_sous_postes": {
+        "Aménagement berges + plage": 80000,
+        "Ponton + embarcadère": 35000,
+        "Équipements nautiques": 25000,
+        "Études impact + autorisations": 35000,
+        "Sécurisation + surveillance": 20000
+      },
+      "risque_depassement": 0.3,
+      "delai_realisation": 5
+    },
+    {
+      "poste": "VRD + Raccordements",
+      "montant_estime": 0,
+      "montant_reel": 280000,
+      "detail_sous_postes": {
+        "Voirie interne + parking": 85000,
+        "Réseau eau potable + surpresseur": 65000,
+        "Assainissement + station épuration": 85000,
+        "Éclairage public + sécurité": 45000
+      },
+      "risque_depassement": 0.2,
+      "delai_realisation": 3
+    },
+    {
+      "poste": "Production agricole + Équipements",
+      "montant_estime": 200000,
+      "montant_reel": 245000,
+      "detail_sous_postes": {
+        "Tracteur + équipements": 85000,
+        "Serres bioclimatiques": 65000,
+        "Cheptel initial (40 brebis, 20 chèvres)": 15000,
+        "Matériel transformation": 45000,
+        "Clôtures + abris": 35000
+      },
+      "risque_depassement": 0.22,
+      "delai_realisation": 2
+    },
+    {
+      "poste": "Études + Autorisations + Imprévus",
+      "montant_estime": 50000,
+      "montant_reel": 120000,
+      "detail_sous_postes": {
+        "Études terrain obligatoires": 65000,
+        "Permis + autorisations": 25000,
+        "Expertise juridique": 15000,
+        "Imprévus coordination": 15000
+      },
+      "risque_depassement": 0.4,
+      "delai_realisation": 12
+    },
+    {
+      "poste": "Fonds de roulement + BFR",
+      "montant_estime": 170000,
+      "montant_reel": 220000,
+      "detail_sous_postes": {
+        "Trésorerie démarrage": 120000,
+        "Stocks (alimentation, boutique)": 45000,
+        "Créances clients (acomptes)": 25000,
+        "Fonds de réserve risques": 30000
+      },
+      "risque_depassement": 0.15,
+      "delai_realisation": 1
+    }
+  ],
+  "couts_recurrents": [
+    {
+      "poste": "Personnel",
+      "montant_fixe": 280000,
+      "montant_variable": 0.0,
+      "detail_sous_postes": {
+        "Direction (couple propriétaires)": 80000,
+        "Chef de culture + transformation": 45000,
+        "Responsable accueil + animation": 38000,
+        "Agent polyvalent maintenance": 35000,
+        "Personnel saisonnier (6 mois)": 42000,
+        "Charges sociales (42%)": 40000
+      },
+      "evolution_annuelle": 0.03
+    },
+    {
+      "poste": "Assurances + Risques",
+      "montant_fixe": 45000,
+      "montant_variable": 0.0,
+      "detail_sous_postes": {
+        "Responsabilité civile professionnelle": 12000,
+        "Multirisques bâtiments + équipements": 18000,
+        "Garantie décennale": 8000,
+        "Perte d'exploitation": 7000
+      },
+      "evolution_annuelle": 0.04
+    },
+    {
+      "poste": "Maintenance + Entretien",
+      "montant_fixe": 35000,
+      "montant_variable": 0.02,
+      "detail_sous_postes": {
+        "Maintenance photovoltaïque": 15000,
+        "Entretien bâtiments": 12000,
+        "Maintenance équipements cuisine": 8000
+      },
+      "evolution_annuelle": 0.025
+    },
+    {
+      "poste": "Marketing + Communication",
+      "montant_fixe": 25000,
+      "montant_variable": 0.04,
+      "detail_sous_postes": {
+        "Site web + référencement": 8000,
+        "Réseaux sociaux + publicité": 15000,
+        "Supports communication": 5000,
+        "Salons + événements": 12000
+      },
+      "evolution_annuelle": 0.02
+    },
+    {
+      "poste": "Approvisionnements",
+      "montant_fixe": 50000,
+      "montant_variable": 0.25,
+      "detail_sous_postes": {
+        "Alimentation restaurant": 0,
+        "Produits entretien": 12000,
+        "Fournitures bureautiques": 8000,
+        "Carburants + fluides": 15000,
+        "Vêtements travail + EPI": 5000,
+        "Petit équipement": 10000
+      },
+      "evolution_annuelle": 0.03
+    },
+    {
+      "poste": "Énergie + Fluides",
+      "montant_fixe": 15000,
+      "montant_variable": 0.01,
+      "detail_sous_postes": {
+        "Complément électricité (hiver)": 8000,
+        "Gaz (cuisine + chauffage appoint)": 12000,
+        "Eau (consommation + redevances)": 8000,
+        "Télécommunications": 7000
+      },
+      "evolution_annuelle": 0.05
+    },
+    {
+      "poste": "Services externes",
+      "montant_fixe": 35000,
+      "montant_variable": 0.015,
+      "detail_sous_postes": {
+        "Expertise comptable": 15000,
+        "Conseil juridique": 8000,
+        "Formation continue": 12000,
+        "Analyses + contrôles": 6000,
+        "Sous-traitance spécialisée": 9000
+      },
+      "evolution_annuelle": 0.025
+    },
+    {
+      "poste": "Impôts + Taxes",
+      "montant_fixe": 25000,
+      "montant_variable": 0.02,
+      "detail_sous_postes": {
+        "Taxe foncière": 8000,
+        "Contribution économique territoriale": 6000,
+        "Taxes environnementales": 4000,
+        "Autres taxes": 7000
+      },
+      "evolution_annuelle": 0.015
+    },
+    {
+      "poste": "Charges financières",
+      "montant_fixe": 48000,
+      "montant_variable": 0.0,
+      "detail_sous_postes": {
+        "Intérêts emprunt principal": 35000,
+        "Frais bancaires": 8000,
+        "Assurance emprunteur": 5000
+      },
+      "evolution_annuelle": -0.02
+    }
+  ],
+  "total_investissement": 2711000,
+  "charges_fixes_annuelles": 558000,
+  "charges_variables_pct": 0.355
+}

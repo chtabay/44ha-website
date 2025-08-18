@@ -1,0 +1,175 @@
+{
+  "marche_hotelier": [
+    {
+      "segment": "Hébergement familial premium",
+      "demande_non_satisfaite": 850,
+      "taux_occupation_concurrent": 0.45,
+      "prix_moyen_concurrent": 45.0,
+      "manque_identifie": "AUCUN hébergement premium avec activités, capacité familiale 4-6 pers"
+    },
+    {
+      "segment": "Séminaires entreprises",
+      "demande_non_satisfaite": 120,
+      "taux_occupation_concurrent": 0.3,
+      "prix_moyen_concurrent": 85.0,
+      "manque_identifie": "AUCUNE offre séminaire nature + team building dans 30km"
+    },
+    {
+      "segment": "Tourisme international",
+      "demande_non_satisfaite": 450,
+      "taux_occupation_concurrent": 0.25,
+      "prix_moyen_concurrent": 65.0,
+      "manque_identifie": "ZÉRO offre anglophone expérience authentique + lac privé"
+    },
+    {
+      "segment": "Courts séjours couples seniors",
+      "demande_non_satisfaite": 650,
+      "taux_occupation_concurrent": 0.55,
+      "prix_moyen_concurrent": 55.0,
+      "manque_identifie": "PEU d'offres calme + nature + gastronomie locale"
+    },
+    {
+      "segment": "Hébergements groupes",
+      "demande_non_satisfaite": 280,
+      "taux_occupation_concurrent": 0.2,
+      "prix_moyen_concurrent": 35.0,
+      "manque_identifie": "AUCUNE capacité groupe 10-20 pers avec activités"
+    }
+  ],
+  "solutions_financement": [
+    {
+      "nom": "Crédit-bail immobilier intégral",
+      "montant": 3131000,
+      "conditions_specifiques": [
+        "Société créée dédiée au projet",
+        "Garantie hypothécaire sur terrain 44Ha",
+        "Engagement locataire 15 ans minimum",
+        "Business plan certifié expert-comptable"
+      ],
+      "avantages": [
+        "ZÉRO apport personnel requis",
+        "Propriété terrain = garantie suffisante",
+        "Charges déductibles fiscalement",
+        "Option achat en fin de bail"
+      ],
+      "risques": [
+        "Loyers élevés (7-8% valeur/an)",
+        "Engagement longue durée",
+        "Propriété différée"
+      ],
+      "faisabilite": 0.75
+    },
+    {
+      "nom": "Partenariat investisseur-exploitant",
+      "montant": 3131000,
+      "conditions_specifiques": [
+        "Investisseur finance 100% investissement",
+        "Couple = gérant-exploitant (salaires + intéressement)",
+        "Partage bénéfices 60% investisseur / 40% exploitant",
+        "Option rachat parts après 10 ans"
+      ],
+      "avantages": [
+        "ZÉRO risque financier personnel",
+        "Salaires garantis dès début",
+        "Formation/accompagnement investisseur",
+        "Possibilité rachat progressif"
+      ],
+      "risques": [
+        "Perte autonomie décision",
+        "Partage bénéfices",
+        "Dépendance investisseur"
+      ],
+      "faisabilite": 0.6
+    },
+    {
+      "nom": "Financement participatif terrain + subventions",
+      "montant": 3131000,
+      "conditions_specifiques": [
+        "Hypothèque terrain = garantie bancaire",
+        "Subventions 40% (1.2M€)",
+        "Emprunts garantis État 50% (1.6M€)",
+        "Crowdfunding 10% (300k€)"
+      ],
+      "avantages": [
+        "Terrain 44Ha = apport immatériel 500k€+",
+        "Subventions = argent gratuit",
+        "Garantie État = taux préférentiels",
+        "Propriété conservée"
+      ],
+      "risques": [
+        "Complexité administrative énorme",
+        "Délais subventions 18-24 mois",
+        "Risque refus subventions majeures"
+      ],
+      "faisabilite": 0.45
+    },
+    {
+      "nom": "Franchise/Management hôtelier",
+      "montant": 800000,
+      "conditions_specifiques": [
+        "Partenariat chaîne éco-hôtelière",
+        "Terrain = apport en nature",
+        "Financement franchise = infrastructure",
+        "Gestion déléguée avec formation"
+      ],
+      "avantages": [
+        "Investissement divisé par 4",
+        "Formation incluse",
+        "Notoriété immédiate",
+        "Risque opérationnel réduit"
+      ],
+      "risques": [
+        "Dépendance franchiseur",
+        "Cahier charges strict",
+        "Redevances permanentes"
+      ],
+      "faisabilite": 0.8
+    },
+    {
+      "nom": "Société coopérative participative",
+      "montant": 3131000,
+      "conditions_specifiques": [
+        "SCOP avec 8-12 associés locaux",
+        "Chaque associé = 20-50k€ apport",
+        "Couple = gérants majoritaires",
+        "Bénéfices partagés selon participation"
+      ],
+      "avantages": [
+        "Apport personnel limité (20k€ max)",
+        "Risque réparti sur associés",
+        "Dynamique collective locale",
+        "Statut coopératif = aides spécifiques"
+      ],
+      "risques": [
+        "Gestion associés complexe",
+        "Décisions collectives",
+        "Recherche associés longue"
+      ],
+      "faisabilite": 0.55
+    }
+  ],
+  "manque_hotelier": {
+    "demande_totale_non_satisfaite": 2350,
+    "taux_occupation_concurrent_moyen": 0.35,
+    "potentiel_marche": 141000,
+    "segments_zero_concurrence": [
+      "Hébergement premium familial avec lac privé",
+      "Séminaires nature avec team building",
+      "Expérience authentique anglophone"
+    ],
+    "evidence_manque": [
+      "Taux occupation concurrents < 40% = sous-dimensionnement",
+      "AUCUNE structure premium dans 30km",
+      "Flux touristiques A62 non captés",
+      "Demande internationale non servie"
+    ]
+  },
+  "faisabilite_sans_apport": {
+    "terrain_44ha_valeur_estimee": 650000,
+    "terrain_comme_apport": true,
+    "solution_optimale": "Franchise/Management hôtelier",
+    "faisabilite_optimale": 0.8,
+    "alternatives_credibles": 4,
+    "recommandation": "FINANCEMENT SANS APPORT PERSONNEL POSSIBLE"
+  }
+}

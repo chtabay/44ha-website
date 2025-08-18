@@ -1,0 +1,512 @@
+{
+  "topics_debated": [
+    {
+      "topic": "Faisabilité financière et montage de financement",
+      "turns": 10,
+      "consensus_reached": false,
+      "exchanges": [
+        {
+          "speaker": "Didier SOL",
+          "content": "[Erreur technique pour Didier SOL]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:43.155169"
+        },
+        {
+          "speaker": "Estelle TREVISAN",
+          "content": "[Erreur technique pour Estelle TREVISAN]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:43.658160"
+        },
+        {
+          "speaker": "Thomas ENERGIE",
+          "content": "[Erreur technique pour Thomas ENERGIE]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:44.161714"
+        },
+        {
+          "speaker": "Marc HYDRO",
+          "content": "[Erreur technique pour Marc HYDRO]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:44.664927"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "[Erreur technique pour Jean-Pierre CREDIT]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:45.166827"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "[Erreur technique pour Marie-Claire COMPTA]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:45.669369"
+        },
+        {
+          "speaker": "Robert TRANSMISSION",
+          "content": "[Erreur technique pour Robert TRANSMISSION]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:46.174960"
+        },
+        {
+          "speaker": "James BRITISH-EXPERIENCE",
+          "content": "[Erreur technique pour James BRITISH-EXPERIENCE]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:46.677354"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "[Erreur technique pour Jean-Pierre CREDIT]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:47.180265"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "[Erreur technique pour Jean-Pierre CREDIT]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:47.683005"
+        }
+      ]
+    },
+    {
+      "topic": "Priorités d'investissement et optimisation fiscale",
+      "turns": 10,
+      "consensus_reached": false,
+      "exchanges": [
+        {
+          "speaker": "Didier SOL",
+          "content": "[Erreur technique pour Didier SOL]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:48.187543"
+        },
+        {
+          "speaker": "Estelle TREVISAN",
+          "content": "[Erreur technique pour Estelle TREVISAN]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:48.690943"
+        },
+        {
+          "speaker": "Thomas ENERGIE",
+          "content": "[Erreur technique pour Thomas ENERGIE]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:49.192743"
+        },
+        {
+          "speaker": "Marc HYDRO",
+          "content": "[Erreur technique pour Marc HYDRO]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:49.695317"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "[Erreur technique pour Jean-Pierre CREDIT]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:50.197949"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "[Erreur technique pour Marie-Claire COMPTA]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:50.702580"
+        },
+        {
+          "speaker": "Robert TRANSMISSION",
+          "content": "[Erreur technique pour Robert TRANSMISSION]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:51.206658"
+        },
+        {
+          "speaker": "James BRITISH-EXPERIENCE",
+          "content": "[Erreur technique pour James BRITISH-EXPERIENCE]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:51.708168"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "[Erreur technique pour Marie-Claire COMPTA]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:52.212093"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "[Erreur technique pour Marie-Claire COMPTA]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:52.714305"
+        }
+      ]
+    },
+    {
+      "topic": "Gestion hydraulique et adaptation climatique",
+      "turns": 10,
+      "consensus_reached": false,
+      "exchanges": [
+        {
+          "speaker": "Didier SOL",
+          "content": "[Erreur technique pour Didier SOL]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:53.219130"
+        },
+        {
+          "speaker": "Estelle TREVISAN",
+          "content": "[Erreur technique pour Estelle TREVISAN]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:53.720220"
+        },
+        {
+          "speaker": "Thomas ENERGIE",
+          "content": "[Erreur technique pour Thomas ENERGIE]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:54.223629"
+        },
+        {
+          "speaker": "Marc HYDRO",
+          "content": "[Erreur technique pour Marc HYDRO]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:54.727901"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "[Erreur technique pour Jean-Pierre CREDIT]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:55.231024"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "[Erreur technique pour Marie-Claire COMPTA]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:55.732069"
+        },
+        {
+          "speaker": "Robert TRANSMISSION",
+          "content": "[Erreur technique pour Robert TRANSMISSION]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:56.235416"
+        },
+        {
+          "speaker": "James BRITISH-EXPERIENCE",
+          "content": "[Erreur technique pour James BRITISH-EXPERIENCE]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:56.739180"
+        },
+        {
+          "speaker": "Didier SOL",
+          "content": "[Erreur technique pour Didier SOL]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:57.242436"
+        },
+        {
+          "speaker": "Didier SOL",
+          "content": "[Erreur technique pour Didier SOL]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:57.744490"
+        }
+      ]
+    },
+    {
+      "topic": "Développement touristique et valorisation territoriale",
+      "turns": 10,
+      "consensus_reached": false,
+      "exchanges": [
+        {
+          "speaker": "Didier SOL",
+          "content": "[Erreur technique pour Didier SOL]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:58.247261"
+        },
+        {
+          "speaker": "Estelle TREVISAN",
+          "content": "[Erreur technique pour Estelle TREVISAN]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:58.749558"
+        },
+        {
+          "speaker": "Thomas ENERGIE",
+          "content": "[Erreur technique pour Thomas ENERGIE]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:59.253224"
+        },
+        {
+          "speaker": "Marc HYDRO",
+          "content": "[Erreur technique pour Marc HYDRO]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:16:59.756587"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "[Erreur technique pour Jean-Pierre CREDIT]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:17:00.259051"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "[Erreur technique pour Marie-Claire COMPTA]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:17:00.760049"
+        },
+        {
+          "speaker": "Robert TRANSMISSION",
+          "content": "[Erreur technique pour Robert TRANSMISSION]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:17:01.263825"
+        },
+        {
+          "speaker": "James BRITISH-EXPERIENCE",
+          "content": "[Erreur technique pour James BRITISH-EXPERIENCE]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:17:01.766801"
+        },
+        {
+          "speaker": "Didier SOL",
+          "content": "[Erreur technique pour Didier SOL]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:17:02.271003"
+        },
+        {
+          "speaker": "Estelle TREVISAN",
+          "content": "[Erreur technique pour Estelle TREVISAN]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:17:02.772439"
+        }
+      ]
+    },
+    {
+      "topic": "Plan d'action consensuel et stratégie de transmission",
+      "turns": 10,
+      "consensus_reached": false,
+      "exchanges": [
+        {
+          "speaker": "Didier SOL",
+          "content": "[Erreur technique pour Didier SOL]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:17:03.275890"
+        },
+        {
+          "speaker": "Estelle TREVISAN",
+          "content": "[Erreur technique pour Estelle TREVISAN]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:17:03.777377"
+        },
+        {
+          "speaker": "Thomas ENERGIE",
+          "content": "[Erreur technique pour Thomas ENERGIE]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:17:04.279584"
+        },
+        {
+          "speaker": "Marc HYDRO",
+          "content": "[Erreur technique pour Marc HYDRO]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:17:04.781216"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "[Erreur technique pour Jean-Pierre CREDIT]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:17:05.282766"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "[Erreur technique pour Marie-Claire COMPTA]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:17:05.786451"
+        },
+        {
+          "speaker": "Robert TRANSMISSION",
+          "content": "[Erreur technique pour Robert TRANSMISSION]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:17:06.288684"
+        },
+        {
+          "speaker": "James BRITISH-EXPERIENCE",
+          "content": "[Erreur technique pour James BRITISH-EXPERIENCE]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:17:06.791084"
+        },
+        {
+          "speaker": "Robert TRANSMISSION",
+          "content": "[Erreur technique pour Robert TRANSMISSION]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:17:07.293625"
+        },
+        {
+          "speaker": "Robert TRANSMISSION",
+          "content": "[Erreur technique pour Robert TRANSMISSION]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:17:07.796599"
+        }
+      ]
+    }
+  ],
+  "final_consensus": {
+    "consensus_points": [],
+    "final_positions": {},
+    "key_proposals": [],
+    "consensus_score": 0.5
+  },
+  "debate_log": [],
+  "statistics": {
+    "total_turns": 50,
+    "topics_covered": 5,
+    "consensus_reached": 0,
+    "speaker_distribution": {
+      "Didier SOL": 8,
+      "Estelle TREVISAN": 6,
+      "Thomas ENERGIE": 5,
+      "Marc HYDRO": 5,
+      "Jean-Pierre CREDIT": 7,
+      "Marie-Claire COMPTA": 7,
+      "Robert TRANSMISSION": 7,
+      "James BRITISH-EXPERIENCE": 5
+    },
+    "average_agreement": 0.5
+  }
+}

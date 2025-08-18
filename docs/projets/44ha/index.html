@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Projets - Valorisation Territoriale</title>
+    <meta name="description" content="Portfolio de projets de valorisation territoriale et développement durable">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Portfolio de Projets - Valorisation Territoriale">
+    <meta property="og:description" content="Découvrez nos projets de valorisation territoriale et développement durable">
+    <meta property="og:type" content="website">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../css/main.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'><text y='32' font-size='32'>🏡</text></svg>">
+</head>
+<body>
+    <!-- Navigation breadcrumb -->
+    <nav class="breadcrumb">
+        <div class="breadcrumb-container">
+            <a href="../../index.html">🏠 Accueil</a> > 
+            <span>Projet 44 Hectares</span>
+        </div>
+    </nav>
+
+
+    <!-- Header principal -->
+    <header class="main-header">
+        <h1>🏡 Portfolio de Projets</h1>
+        <p class="subtitle">Valorisation Territoriale • Développement Durable • Innovation Rurale</p>
+        <p>🌍 Projets de transformation des territoires ruraux</p>
+    </header>
+
+    <!-- Contenu principal -->
+    <main class="container">
+        
+        <!-- Section statistiques -->
+        <div class="projects-stats">
+            <div class="stat-card">
+                <span class="stat-number" id="projects-count">1</span>
+                <span class="stat-label">Projets actifs</span>
+            </div>
+        </div>
+
+        <!-- Grille des projets -->
+        <section class="projects-section">
+            <h2>📋 Nos Projets</h2>
+            <div class="projects-grid" id="projects-container">
+                <!-- Les projets seront chargés dynamiquement -->
+            </div>
+        </section>
+
+        <!-- Section ajout de projet -->
+        <section class="add-project-section">
+            <h2>➕ Ajouter un Nouveau Projet</h2>
+            <p>Vous souhaitez ajouter un projet similaire ? Suivez notre guide de création.</p>
+            <div style="margin-top: 1rem;">
+                <button id="add-project-btn" class="btn btn-primary">
+                    📝 Guide d'ajout
+                </button>
+                <button onclick="copyTemplate()" class="btn btn-outline">
+                    📋 Copier les instructions
+                </button>
+            </div>
+        </section>
+
+        <!-- Section méthologie -->
+        <section style="background: rgba(255,255,255,0.95); padding: 2rem; border-radius: 12px; margin: 2rem 0;">
+            <h2>🛠️ Notre Méthodologie</h2>
+            <div class="cards-grid">
+                <div class="project-card">
+                    <h3>🎯 Analyse Territoriale</h3>
+                    <p>Étude approfondie des potentiels locaux, contraintes et opportunités pour chaque territoire.</p>
+                </div>
+                <div class="project-card">
+                    <h3>🤖 IA Multi-Agents</h3>
+                    <p>Débats d'experts virtuels pour analyser tous les aspects des projets de valorisation.</p>
+                </div>
+                <div class="project-card">
+                    <h3>💰 Modèles Économiques</h3>
+                    <p>Développement de stratégies de financement et de viabilité économique adaptées.</p>
+                </div>
+                <div class="project-card">
+                    <h3>🌱 Durabilité</h3>
+                    <p>Intégration systématique des enjeux environnementaux et de transition écologique.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Portfolio de Projets • Générateur multi-sites</p>
+        <p>🌱 Valorisation territoriale et développement durable</p>
+        <p style="margin-top: 1rem; opacity: 0.8;">
+            💡 Structure modulaire pour ajouter facilement de nouveaux projets
+        </p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="../../js/projects.js"></script>
+</body>
+</html>

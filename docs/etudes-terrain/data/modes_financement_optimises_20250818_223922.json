@@ -1,0 +1,136 @@
+{
+  "besoin_total": 3131000,
+  "sources": [
+    {
+      "nom": "Vente parcelles non utilisées",
+      "type": "apport",
+      "montant": 250000,
+      "pourcentage": 7.984669434685404,
+      "taux": 0.0,
+      "duree": 0,
+      "garanties_requises": [],
+      "conditions": [
+        "Évaluation terrain",
+        "Autorisations division"
+      ],
+      "probabilite_obtention": 0.9,
+      "delai_obtention": 6
+    },
+    {
+      "nom": "Économies personnelles couple",
+      "type": "apport",
+      "montant": 150000,
+      "pourcentage": 4.790801660811242,
+      "taux": 0.0,
+      "duree": 0,
+      "garanties_requises": [],
+      "conditions": [
+        "Liquidation placement",
+        "Vente résidence"
+      ],
+      "probabilite_obtention": 0.95,
+      "delai_obtention": 3
+    },
+    {
+      "nom": "Apport famille/associés",
+      "type": "apport",
+      "montant": 100000,
+      "pourcentage": 3.1938677738741617,
+      "taux": 0.0,
+      "duree": 0,
+      "garanties_requises": [],
+      "conditions": [
+        "Accord familial",
+        "Pacte d'actionnaire"
+      ],
+      "probabilite_obtention": 0.75,
+      "delai_obtention": 2
+    },
+    {
+      "nom": "FEADER développement rural",
+      "type": "subvention",
+      "montant": 120000,
+      "pourcentage": 3.832641328648994,
+      "taux": 0.0,
+      "duree": 0,
+      "garanties_requises": [],
+      "conditions": [
+        "Zone rurale",
+        "Diversification",
+        "Emplois"
+      ],
+      "probabilite_obtention": 0.65,
+      "delai_obtention": 18
+    },
+    {
+      "nom": "Région Nouvelle-Aquitaine innovation",
+      "type": "subvention",
+      "montant": 80000,
+      "pourcentage": 2.5550942190993293,
+      "taux": 0.0,
+      "duree": 0,
+      "garanties_requises": [],
+      "conditions": [
+        "Projet innovant",
+        "Transition écologique"
+      ],
+      "probabilite_obtention": 0.45,
+      "delai_obtention": 12
+    },
+    {
+      "nom": "Crédit bancaire principal",
+      "type": "emprunt",
+      "montant": 800000,
+      "pourcentage": 25.550942190993293,
+      "taux": 0.052,
+      "duree": 15,
+      "garanties_requises": [
+        "hypotheque_terrain",
+        "caution_personnelle"
+      ],
+      "conditions": [
+        "Apport 25% minimum",
+        "Garantie hypothécaire"
+      ],
+      "probabilite_obtention": 0.85,
+      "delai_obtention": 4
+    },
+    {
+      "nom": "Prêt participatif France Active",
+      "type": "emprunt",
+      "montant": 300000,
+      "pourcentage": 9.581603321622485,
+      "taux": 0.02,
+      "duree": 7,
+      "garanties_requises": [
+        "caution_morale"
+      ],
+      "conditions": [
+        "Projet ESS",
+        "Impact territorial"
+      ],
+      "probabilite_obtention": 0.7,
+      "delai_obtention": 8
+    },
+    {
+      "nom": "Business Angels agriculture",
+      "type": "investissement",
+      "montant": 150000,
+      "pourcentage": 4.790801660811242,
+      "taux": 0.15,
+      "duree": 7,
+      "garanties_requises": [
+        "pacte_actionnaire"
+      ],
+      "conditions": [
+        "Participation gestion",
+        "ROI 15%"
+      ],
+      "probabilite_obtention": 0.4,
+      "delai_obtention": 12
+    }
+  ],
+  "cout_financement_total": 823500.0,
+  "ratio_endettement": 0.3992334717342702,
+  "capacite_remboursement": 0.0
+}

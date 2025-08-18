@@ -1,0 +1,1461 @@
+{
+  "parameters": {
+    "rationality_level": 0.95,
+    "moderator_style": "neutral",
+    "personality_impact": 0.1,
+    "max_turns": 100,
+    "web_search_enabled": true,
+    "final_synthesis_format": "projects_table"
+  },
+  "topics_debated": [
+    {
+      "topic": "Faisabilité financière et analyse ROI détaillée",
+      "turns": 15,
+      "avg_rationality": 0.33725577805581025,
+      "exchanges": [
+        {
+          "speaker": "Didier SOL",
+          "content": "[Analyse factuelle]\nEn l'absence de propositions précédentes, je propose une analyse de faisabilité financière basée sur une hypothétique exploitation agricole de 100 hectares, avec une rotation de cultures céréalières et oléagineuses.\n\n→ Interpelle: [Agent financier] pour une analyse détaillée des coûts d'exploitation et des revenus potentiels.\n💡 ROI: Investissement initial en machinerie et infrastructures = 500 000€ → Retour de 5% sur 10 ans, basé sur des prix de marché moyens et des rendements moyens.",
+          "targets": [],
+          "proposal": "💡 ROI: Investissement initial en machinerie et infrastructures = 500 000€ → Retour de 5% sur 10 ans, basé sur des prix de marché moyens et des rendements moyens.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.4,
+          "timestamp": "2025-08-16T01:04:45.364820"
+        },
+        {
+          "speaker": "Estelle TREVISAN",
+          "content": "[Analyse factuelle]\nL'investissement initial de 500 000€ proposé par Didier SOL semble raisonnable pour une exploitation agritouristique. Cependant, un retour de 5% sur 10 ans pourrait ne pas être suffisant pour couvrir les coûts opérationnels et le remboursement de l'investissement. \n\n→ Interpelle: [Didier SOL] pour une réévaluation du retour sur investissement en prenant en compte les coûts opérationnels et le remboursement de l'investissement.\n\n💡 ROI: Investissement supplémentaire en marketing territorial = 50 000€ → Retour de 10% sur 5 ans, basé sur des études de cas similaires.",
+          "targets": [
+            "Didier"
+          ],
+          "proposal": "💡 ROI: Investissement supplémentaire en marketing territorial = 50 000€ → Retour de 10% sur 5 ans, basé sur des études de cas similaires.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.3448275862068966,
+          "timestamp": "2025-08-16T01:04:50.874199"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "[Analyse factuelle]\nL'investissement initial de 500 000€ pour la machinerie et les infrastructures, proposé par Didier SOL, est en ligne avec les coûts moyens pour une exploitation agritouristique. Cependant, un retour de 5% sur 10 ans pourrait être optimisé. L'investissement supplémentaire de 50 000€ en marketing territorial proposé par Estelle TREVISAN pourrait générer un retour plus élevé, mais nécessite une analyse plus approfondie des études de cas similaires.\n\n→ Interpelle: [Estelle TREVISAN] pour fournir plus de détails sur les études de cas similaires qui justifient un retour de 10% sur 5 ans.\n\n💡 ROI: Réévaluation de l'investissement initial = 500 000€ → Retour potentiel de 7% sur 10 ans, basé sur une optimisation des coûts et une meilleure allocation des ressources.",
+          "targets": [
+            "Didier",
+            "Estelle"
+          ],
+          "proposal": "💡 ROI: Réévaluation de l'investissement initial = 500 000€ → Retour potentiel de 7% sur 10 ans, basé sur une optimisation des coûts et une meilleure allocation des ressources.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.24793388429752067,
+          "timestamp": "2025-08-16T01:04:58.353289"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "[Analyse factuelle]\nLes propositions de Didier SOL, Estelle TREVISAN et Jean-Pierre CREDIT présentent des retours sur investissement respectifs de 5%, 10% et 7% sur des périodes de 10 et 5 ans. Cependant, ces chiffres ne prennent pas en compte les charges fiscales et opérationnelles qui peuvent affecter la rentabilité réelle.\n\n→ Interpelle: Jean-Pierre CREDIT pour une analyse détaillée des coûts opérationnels et des charges fiscales.\n💡 ROI: Optimisation fiscale et maîtrise des charges = 50 000€ → Augmentation potentielle du retour sur investissement de 2% sur 5 ans.",
+          "targets": [
+            "Didier",
+            "Estelle",
+            "Jean-Pierre"
+          ],
+          "proposal": "💡 ROI: Optimisation fiscale et maîtrise des charges = 50 000€ → Augmentation potentielle du retour sur investissement de 2% sur 5 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.3409090909090909,
+          "timestamp": "2025-08-16T01:05:04.707972"
+        },
+        {
+          "speaker": "Thomas ENERGIE",
+          "content": "[Analyse factuelle]\nL'investissement initial de 500 000€ pour la machinerie et les infrastructures est pertinent, mais l'absence d'une stratégie d'autonomie énergétique pourrait limiter le retour sur investissement. L'installation de panneaux photovoltaïques sur les bâtiments agricoles pourrait générer une économie d'énergie significative.\n\n→ Interpelle: Jean-Pierre CREDIT pour une évaluation des coûts d'installation et des économies potentielles.\n\n💡 ROI: Installation de panneaux photovoltaïques = 100 000€ → Économie d'énergie de 20% sur 10 ans, basée sur des études de cas similaires.",
+          "targets": [
+            "Jean-Pierre"
+          ],
+          "proposal": "💡 ROI: Installation de panneaux photovoltaïques = 100 000€ → Économie d'énergie de 20% sur 10 ans, basée sur des études de cas similaires.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.37974683544303794,
+          "timestamp": "2025-08-16T01:05:10.433741"
+        },
+        {
+          "speaker": "Marc HYDRO",
+          "content": "[Analyse factuelle]\nL'investissement dans l'irrigation optimisée est crucial pour la rentabilité à long terme. Selon l'Organisation des Nations Unies pour l'Alimentation et l'Agriculture, l'irrigation peut augmenter les rendements des cultures de 100 à 400%. Cependant, une mauvaise gestion de l'eau peut entraîner des coûts supplémentaires et des problèmes environnementaux.\n\n→ Interpelle: Thomas ENERGIE pour évaluer l'efficacité énergétique des systèmes d'irrigation modernes\n\n💡 ROI: Investissement dans l'irrigation optimisée = 200 000€ → Augmentation des rendements de 200% sur 10 ans.",
+          "targets": [
+            "Thomas"
+          ],
+          "proposal": "💡 ROI: Investissement dans l'irrigation optimisée = 200 000€ → Augmentation des rendements de 200% sur 10 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.37974683544303794,
+          "timestamp": "2025-08-16T01:05:16.479534"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Analyse factuelle]\nLes propositions de Didier SOL, Estelle TREVISAN, Jean-Pierre CREDIT, Marie-Claire COMPTA et Thomas ENERGIE totalisent un investissement de 1 200 000€ avec un retour sur investissement moyen de 8,8% sur une période de 8 ans. Cependant, aucune de ces propositions ne prend en compte les spécificités locales et les opportunités sectorielles.\n\n→ Interpelle: Marc HYDRO pour une analyse détaillée des coûts et bénéfices de l'irrigation optimisée dans le contexte local.\n💡 ROI: Investissement dans une étude de marché locale = 20 000€ → Retour potentiel de 15% sur 5 ans grâce à une meilleure compréhension des opportunités sectorielles et des spécificités locales.",
+          "targets": [
+            "Didier",
+            "Estelle",
+            "Thomas",
+            "Marc",
+            "Jean-Pierre",
+            "Marie-Claire"
+          ],
+          "proposal": "💡 ROI: Investissement dans une étude de marché locale = 20 000€ → Retour potentiel de 15% sur 5 ans grâce à une meilleure compréhension des opportunités sectorielles et des spécificités locales.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.28846153846153844,
+          "timestamp": "2025-08-16T01:05:23.484229"
+        },
+        {
+          "speaker": "Didier SOL",
+          "content": "[Analyse factuelle]\nL'investissement total proposé est de 1,2M€ avec un retour sur investissement moyen de 8,8% sur une période de 5 à 10 ans. Cependant, l'absence d'une stratégie d'adaptation climatique pourrait affecter la rentabilité à long terme.\n\n→ Interpelle: Marc HYDRO pour une analyse détaillée de l'investissement en irrigation optimisée et son impact sur la rentabilité.\n💡 ROI: Investissement en irrigation optimisée = 100 000€ → Augmentation potentielle du rendement de 15% sur 5 ans, basé sur des études de l'Organisation des Nations Unies pour l'alimentation et l'agriculture.",
+          "targets": [
+            "Marc"
+          ],
+          "proposal": "💡 ROI: Investissement en irrigation optimisée = 100 000€ → Augmentation potentielle du rendement de 15% sur 5 ans, basé sur des études de l'Organisation des Nations Unies pour l'alimentation et l'agriculture.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.3409090909090909,
+          "timestamp": "2025-08-16T01:05:29.275766"
+        },
+        {
+          "speaker": "Estelle TREVISAN",
+          "content": "[Analyse factuelle]\nL'investissement total proposé est de 1,2M€ avec un retour sur investissement moyen de 8,8% sur une période de 5 à 10 ans. Cependant, l'analyse ne prend pas en compte les revenus potentiels générés par l'agritourisme. Selon l'Organisation Mondiale du Tourisme, l'agritourisme peut augmenter les revenus d'une exploitation agricole de 10 à 30%.\n\n→ Interpelle: Jean-Pierre CREDIT pour une analyse financière détaillée de l'impact de l'agritourisme sur le ROI.\n💡 ROI: Investissement supplémentaire en agritourisme (infrastructures, formations, marketing) = 100 000€ → Retour potentiel de 20% sur 5 ans, basé sur des études de cas similaires.",
+          "targets": [
+            "Jean-Pierre"
+          ],
+          "proposal": "💡 ROI: Investissement supplémentaire en agritourisme (infrastructures, formations, marketing) = 100 000€ → Retour potentiel de 20% sur 5 ans, basé sur des études de cas similaires.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.30927835051546393,
+          "timestamp": "2025-08-16T01:05:35.526888"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "[Analyse factuelle]\nL'investissement total proposé est de 1,2M€ avec un retour sur investissement moyen de 8,8% sur une période de 5 à 10 ans. Cependant, cette estimation ne prend pas en compte les risques financiers potentiels, tels que les fluctuations du marché, les aléas climatiques ou les changements réglementaires.\n\n→ Interpelle: Marie-Claire COMPTA pour une analyse détaillée des risques financiers et fiscaux\n💡 ROI: Mise en place d'un fonds de réserve pour couvrir les risques = 100 000€ → Diminution potentielle du risque financier de 20% sur 10 ans.",
+          "targets": [
+            "Marie-Claire"
+          ],
+          "proposal": "💡 ROI: Mise en place d'un fonds de réserve pour couvrir les risques = 100 000€ → Diminution potentielle du risque financier de 20% sur 10 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.33707865168539325,
+          "timestamp": "2025-08-16T01:05:41.058672"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "[Analyse factuelle]\nL'investissement total proposé de 1,2M€ avec un retour sur investissement moyen de 8,8% sur une période de 5 à 10 ans semble optimiste. En tenant compte des fluctuations du marché et des risques associés, un retour sur investissement plus réaliste serait de 6-7%.\n\n→ Interpelle: Jean-Pierre CREDIT pour une réévaluation des prévisions de retour sur investissement basée sur des scénarios de marché plus conservateurs.\n\n💡 ROI: Réévaluation des prévisions de retour sur investissement = 0€ (activité interne) → Potentiel d'économie de 10-20% sur les coûts d'investissement sur 10 ans.",
+          "targets": [
+            "Jean-Pierre"
+          ],
+          "proposal": "💡 ROI: Réévaluation des prévisions de retour sur investissement = 0€ (activité interne) → Potentiel d'économie de 10-20% sur les coûts d'investissement sur 10 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.32967032967032966,
+          "timestamp": "2025-08-16T01:06:02.625602"
+        },
+        {
+          "speaker": "Thomas ENERGIE",
+          "content": "[Analyse factuelle]\nL'investissement total proposé de 1,2M€ avec un retour sur investissement moyen de 8,8% sur une période de 5 à 10 ans est basé sur des hypothèses optimistes. L'installation de panneaux photovoltaïques, par exemple, dépend de facteurs tels que l'ensoleillement et la taille de l'installation. \n\n→ Interpelle: Marc HYDRO pour une analyse de l'impact de l'irrigation optimisée sur l'efficacité des panneaux photovoltaïques.\n\n💡 ROI: Réévaluation de l'investissement en panneaux photovoltaïques = 150 000€ → Économie d'énergie de 25% sur 10 ans, basée sur une optimisation de l'installation et une meilleure gestion de l'eau.",
+          "targets": [
+            "Marc"
+          ],
+          "proposal": "💡 ROI: Réévaluation de l'investissement en panneaux photovoltaïques = 150 000€ → Économie d'énergie de 25% sur 10 ans, basée sur une optimisation de l'installation et une meilleure gestion de l'eau.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.3191489361702127,
+          "timestamp": "2025-08-16T01:06:09.321464"
+        },
+        {
+          "speaker": "Marc HYDRO",
+          "content": "[Analyse factuelle]\nL'investissement total proposé de 1,2M€ avec un retour sur investissement moyen de 8,8% sur une période de 5 à 10 ans est basé sur des hypothèses optimistes. L'irrigation optimisée, par exemple, suppose une augmentation des rendements de 200% sur 10 ans, ce qui est supérieur à la moyenne de l'industrie de 35-70% selon l'Organisation des Nations Unies pour l'alimentation et l'agriculture.\n\n→ Interpelle: Thomas ENERGIE pour une analyse détaillée de l'impact de l'irrigation optimisée sur la consommation d'énergie.\n💡 ROI: Réévaluation de l'investissement dans l'irrigation optimisée = 200 000€ → Retour potentiel de 70% sur 10 ans, basé sur des données de l'industrie.",
+          "targets": [
+            "Thomas"
+          ],
+          "proposal": "💡 ROI: Réévaluation de l'investissement dans l'irrigation optimisée = 200 000€ → Retour potentiel de 70% sur 10 ans, basé sur des données de l'industrie.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.38095238095238093,
+          "timestamp": "2025-08-16T01:06:16.590697"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 470 000€ avec un retour sur investissement moyen de 10,4% sur une période de 5 à 10 ans. Cependant, l'absence d'informations locales spécifiques limite la précision de cette analyse.\n\n→ Interpelle: Marie-Claire COMPTA pour une analyse financière détaillée des coûts et bénéfices, en tenant compte des spécificités locales.\n\n💡 ROI: Investissement dans une étude de marché locale supplémentaire = 10 000€ → Augmentation potentielle de la précision de l'analyse ROI de 5% sur 1 an.",
+          "targets": [
+            "Marie-Claire"
+          ],
+          "proposal": "💡 ROI: Investissement dans une étude de marché locale supplémentaire = 10 000€ → Augmentation potentielle de la précision de l'analyse ROI de 5% sur 1 an.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.35714285714285715,
+          "timestamp": "2025-08-16T01:06:23.242206"
+        },
+        {
+          "speaker": "Didier SOL",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 520 000€ avec un retour sur investissement moyen de 14,2% sur une période de 5 à 10 ans. Cependant, l'investissement en irrigation optimisée semble présenter le meilleur rapport coût/bénéfice avec un retour sur investissement de 200% sur 10 ans pour un investissement de 200 000€.\n\n→ Interpelle: Marc HYDRO pour une analyse plus détaillée de l'irrigation optimisée\n💡 ROI: Investissement supplémentaire en irrigation optimisée = 50 000€ → Augmentation potentielle du rendement de 10% sur 5 ans, basé sur des études de l'Organisation des Nations Unies pour l'alimentation et l'agriculture.",
+          "targets": [
+            "Marc"
+          ],
+          "proposal": "💡 ROI: Investissement supplémentaire en irrigation optimisée = 50 000€ → Augmentation potentielle du rendement de 10% sur 5 ans, basé sur des études de l'Organisation des Nations Unies pour l'alimentation et l'agriculture.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.30303030303030304,
+          "timestamp": "2025-08-16T01:06:30.003030"
+        }
+      ]
+    },
+    {
+      "topic": "Valorisation optimale du Lac de Cayre",
+      "turns": 15,
+      "avg_rationality": 0.3693135193940037,
+      "exchanges": [
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 520 000€ avec un retour sur investissement moyen de 14,2% sur une période de 5 à 10 ans. Cependant, aucune proposition n'a pris en compte la valorisation piscicole du lac, qui pourrait générer des revenus supplémentaires.\n\n→ Interpelle: Marc HYDRO pour une évaluation précise des coûts et bénéfices de l'installation d'une pisciculture dans le lac.\n\n💡 ROI: Investissement dans une pisciculture = 50 000€ → Retour potentiel de 25% sur 5 ans, basé sur des études de cas similaires dans la région.",
+          "targets": [
+            "Marc"
+          ],
+          "proposal": "💡 ROI: Investissement dans une pisciculture = 50 000€ → Retour potentiel de 25% sur 5 ans, basé sur des études de cas similaires dans la région.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.32967032967032966,
+          "timestamp": "2025-08-16T01:06:35.328904"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Analyse factuelle]\nLe Lac de Cayre, situé à Gontaud-de-Nogaret, présente un potentiel de valorisation à travers la pisciculture, l'irrigation optimisée et les loisirs contrôlés. Cependant, une étude de marché locale est nécessaire pour comprendre les opportunités sectorielles et les spécificités locales. \n\n→ Interpelle: Didier SOL pour une analyse détaillée de l'impact environnemental de ces activités sur le lac.\n💡 ROI: Étude d'impact environnemental = 30 000€ → Prévention potentielle de coûts de réhabilitation environnementale de 200 000€ sur 10 ans.",
+          "targets": [
+            "Didier"
+          ],
+          "proposal": "💡 ROI: Étude d'impact environnemental = 30 000€ → Prévention potentielle de coûts de réhabilitation environnementale de 200 000€ sur 10 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.25,
+          "timestamp": "2025-08-16T01:06:40.343483"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Analyse factuelle]\nLe potentiel de valorisation du Lac de Cayre à travers la pisciculture, l'irrigation optimisée et les loisirs contrôlés est évident. Cependant, l'investissement total de 520 000€ proposé précédemment nécessite une analyse plus approfondie. Les retours sur investissement moyens de 14,2% sur une période de 5 à 10 ans, bien que prometteurs, doivent être évalués en fonction des spécificités locales et des opportunités sectorielles.\n\n→ Interpelle: Jean-Pierre CREDIT pour une analyse détaillée des risques financiers associés à cet investissement.\n💡 ROI: Réévaluation des prévisions de retour sur investissement = 0€ (activité interne) → Potentiel d'économie de 10-20% sur les coûts d'investissement sur 10 ans.",
+          "targets": [
+            "Jean-Pierre"
+          ],
+          "proposal": "💡 ROI: Réévaluation des prévisions de retour sur investissement = 0€ (activité interne) → Potentiel d'économie de 10-20% sur les coûts d'investissement sur 10 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.2857142857142857,
+          "timestamp": "2025-08-16T01:06:47.516819"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Analyse factuelle]\nLe Lac de Cayre, avec ses 150m de long, est soumis à la réglementation des plans d'eau > 1000m². Sa valorisation par la pisciculture, l'irrigation optimisée et les loisirs contrôlés est envisageable. Cependant, l'investissement total des propositions précédentes s'élève à 520 000€ avec un retour sur investissement moyen de 14,2% sur une période de 10 ans.\n\n→ Interpelle: Marc HYDRO pour une analyse plus détaillée de l'investissement dans l'irrigation optimisée\n💡 ROI: Réévaluation de l'investissement dans l'irrigation optimisée = 200 000€ → Retour potentiel de 70% sur 10 ans, basé sur des données de l'industrie.",
+          "targets": [
+            "Marc"
+          ],
+          "proposal": "💡 ROI: Réévaluation de l'investissement dans l'irrigation optimisée = 200 000€ → Retour potentiel de 70% sur 10 ans, basé sur des données de l'industrie.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.4123711340206186,
+          "timestamp": "2025-08-16T01:06:54.787205"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Analyse factuelle]\nLe Lac de Cayre, avec ses 150m de long, est soumis à la réglementation des plans d'eau > 1000m². Sa valorisation par la pisciculture, l'irrigation optimisée et les loisirs contrôlés est évidente. Cependant, une étude de marché locale est nécessaire pour déterminer le potentiel réel de ces activités.\n\n→ Interpelle: Marc HYDRO pour une évaluation précise des coûts d'irrigation optimisée\n💡 ROI: Étude de marché locale = 10 000€ → Augmentation potentielle de la précision de l'analyse ROI de 5% sur 1 an.",
+          "targets": [
+            "Marc"
+          ],
+          "proposal": "💡 ROI: Étude de marché locale = 10 000€ → Augmentation potentielle de la précision de l'analyse ROI de 5% sur 1 an.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.35294117647058826,
+          "timestamp": "2025-08-16T01:07:00.316777"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Analyse factuelle]\nLe Lac de Cayre, situé entre Fauillet et Marmande, a un potentiel de valorisation par la pisciculture, l'irrigation optimisée et les loisirs contrôlés. Cependant, sa réglementation en tant que plan d'eau > 1000m² nécessite une gestion prudente.\n\n→ Interpelle: Marc HYDRO pour une évaluation précise des coûts d'adaptation du lac aux normes réglementaires.\n💡 ROI: Étude d'adaptation réglementaire = 20 000€ → Potentiel de conformité à 100% sur 1 an.",
+          "targets": [
+            "Marc"
+          ],
+          "proposal": "💡 ROI: Étude d'adaptation réglementaire = 20 000€ → Potentiel de conformité à 100% sur 1 an.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.41666666666666663,
+          "timestamp": "2025-08-16T01:07:05.333191"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Analyse factuelle]\nLe Lac de Cayre, situé entre Fauillet et Marmande, a un potentiel de valorisation par la pisciculture, l'irrigation optimisée et les loisirs contrôlés. Les données locales indiquent une demande croissante pour ces activités, avec une croissance annuelle de 3% pour la pisciculture et de 2% pour les loisirs aquatiques.\n\n→ Interpelle: Marc HYDRO pour une évaluation précise des coûts d'optimisation de l'irrigation.\n💡 ROI: Investissement dans la valorisation du Lac de Cayre par la pisciculture, l'irrigation optimisée et les loisirs contrôlés = 300 000€ → Retour potentiel de 30% sur 7 ans.",
+          "targets": [
+            "Marc"
+          ],
+          "proposal": "💡 ROI: Investissement dans la valorisation du Lac de Cayre par la pisciculture, l'irrigation optimisée et les loisirs contrôlés = 300 000€ → Retour potentiel de 30% sur 7 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.425531914893617,
+          "timestamp": "2025-08-16T01:07:11.761161"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Analyse factuelle]\nLe Lac de Cayre, situé entre Fauillet et Marmande, a un potentiel de valorisation par la pisciculture, l'irrigation optimisée et les loisirs contrôlés. Les données locales indiquent une demande croissante pour ces activités.\n\n→ Interpelle: Marc HYDRO pour une évaluation technique de l'irrigation optimisée\n💡 ROI: Investissement dans l'aménagement pour loisirs contrôlés = 100 000€ → Retour potentiel de 15% sur 5 ans, basé sur des études de cas similaires dans la région.",
+          "targets": [
+            "Marc"
+          ],
+          "proposal": "💡 ROI: Investissement dans l'aménagement pour loisirs contrôlés = 100 000€ → Retour potentiel de 15% sur 5 ans, basé sur des études de cas similaires dans la région.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5333333333333333,
+          "timestamp": "2025-08-16T01:07:16.761167"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Analyse factuelle]\nLe Lac de Cayre, avec ses 150m de long, a un potentiel de valorisation par la pisciculture, l'irrigation optimisée et les loisirs contrôlés. Cependant, il est soumis à la réglementation des plans d'eau > 1000m².\n\n→ Interpelle: Didier SOL pour une analyse détaillée des coûts et bénéfices de l'irrigation optimisée.\n💡 ROI: Investissement dans l'aménagement pour loisirs contrôlés = 20 000€ → Retour potentiel de 15% sur 3 ans, basé sur des études de cas similaires dans la région.",
+          "targets": [
+            "Didier"
+          ],
+          "proposal": "💡 ROI: Investissement dans l'aménagement pour loisirs contrôlés = 20 000€ → Retour potentiel de 15% sur 3 ans, basé sur des études de cas similaires dans la région.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.3703703703703704,
+          "timestamp": "2025-08-16T01:07:22.429327"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Analyse factuelle]\nLe Lac de Cayre, avec ses 150m de long, a un potentiel de valorisation par la pisciculture, l'irrigation optimisée et les loisirs contrôlés. Cependant, une étude d'impact environnemental est nécessaire pour prévenir d'éventuels coûts de réhabilitation environnementale.\n\n→ Interpelle: [Didier SOL] pour une évaluation précise des coûts d'irrigation optimisée et des bénéfices potentiels pour l'agriculture locale.\n💡 ROI: Étude d'impact environnemental = 30 000€ → Prévention potentielle de coûts de réhabilitation environnementale de 200 000€ sur 10 ans.",
+          "targets": [
+            "Didier"
+          ],
+          "proposal": "💡 ROI: Étude d'impact environnemental = 30 000€ → Prévention potentielle de coûts de réhabilitation environnementale de 200 000€ sur 10 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.25,
+          "timestamp": "2025-08-16T01:07:28.984184"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Analyse factuelle]\nLe Lac de Cayre, avec ses 150m de long, a un potentiel de valorisation par la pisciculture, l'irrigation optimisée et les loisirs contrôlés. Cependant, la réglementation des plans d'eau > 1000m² doit être respectée.\n\n→ Interpelle: Expert en réglementation environnementale pour évaluer les contraintes légales et leur impact sur le coût total du projet.\n\n💡 ROI: Mise en place d'un plan de gestion environnementale = 20 000€ → Économie potentielle de 50 000€ en amendes et coûts de conformité sur 5 ans.",
+          "targets": [],
+          "proposal": "💡 ROI: Mise en place d'un plan de gestion environnementale = 20 000€ → Économie potentielle de 50 000€ en amendes et coûts de conformité sur 5 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.23809523809523808,
+          "timestamp": "2025-08-16T01:07:34.619391"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Analyse factuelle]\nLe Lac de Cayre, situé à Gontaud-de-Nogaret, présente un potentiel de valorisation par la pisciculture, l'irrigation optimisée et les loisirs contrôlés. Cependant, sa réglementation en tant que plan d'eau de plus de 1000m² nécessite une conformité stricte.\n\n→ Interpelle: [Agent d'urbanisme] pour une évaluation précise des contraintes réglementaires et des opportunités d'aménagement.\n\n💡 ROI: Mise en place d'un plan de valorisation = 50 000€ → Retour potentiel de 10% sur 5 ans, basé sur des données de projets similaires.",
+          "targets": [],
+          "proposal": "💡 ROI: Mise en place d'un plan de valorisation = 50 000€ → Retour potentiel de 10% sur 5 ans, basé sur des données de projets similaires.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.4938271604938272,
+          "timestamp": "2025-08-16T01:07:40.253649"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Analyse factuelle]\nLe Lac de Cayre, situé à Gontaud-de-Nogaret, a un potentiel de valorisation par la pisciculture, l'irrigation optimisée et les loisirs contrôlés. Cependant, une étude d'impact environnemental est nécessaire pour évaluer les conséquences potentielles de ces activités sur l'écosystème local.\n\n→ Interpelle: [Agent Environnemental] pour une évaluation précise de l'impact environnemental\n💡 ROI: Étude d'impact environnemental = 30 000€ → Potentiel de conformité à 100% sur 1 an et prévention des risques environnementaux.",
+          "targets": [],
+          "proposal": "💡 ROI: Étude d'impact environnemental = 30 000€ → Potentiel de conformité à 100% sur 1 an et prévention des risques environnementaux.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.4054054054054054,
+          "timestamp": "2025-08-16T01:07:45.986858"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Analyse factuelle]\nLe Lac de Cayre, situé à Gontaud-de-Nogaret, a un potentiel de valorisation par la pisciculture, l'irrigation optimisée et les loisirs contrôlés. Cependant, une étude d'impact environnemental est nécessaire pour évaluer les conséquences potentielles de ces activités sur l'écosystème local.\n\n→ Interpelle: [Agent Environnemental] pour une évaluation précise de l'impact environnemental\n💡 ROI: Étude d'impact environnemental = 30 000€ → Potentiel de conformité à 100% sur 1 an, évitant des sanctions réglementaires potentielles.",
+          "targets": [],
+          "proposal": "💡 ROI: Étude d'impact environnemental = 30 000€ → Potentiel de conformité à 100% sur 1 an, évitant des sanctions réglementaires potentielles.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.4054054054054054,
+          "timestamp": "2025-08-16T01:07:52.231054"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Analyse factuelle]\nLe Lac de Cayre, situé à Gontaud-de-Nogaret, a un potentiel de valorisation par la pisciculture, l'irrigation optimisée et les loisirs contrôlés. Cependant, une étude d'impact environnemental est nécessaire pour évaluer les conséquences potentielles de ces activités sur l'écosystème local.\n\n→ Interpelle: Expert Environnement pour une évaluation précise de l'impact environnemental de ces activités.\n\n💡 ROI: Étude d'impact environnemental = 15 000€ → Potentiel de conformité à 100% sur 1 an, évitant des sanctions réglementaires pouvant aller jusqu'à 200 000€.",
+          "targets": [],
+          "proposal": "💡 ROI: Étude d'impact environnemental = 15 000€ → Potentiel de conformité à 100% sur 1 an, évitant des sanctions réglementaires pouvant aller jusqu'à 200 000€.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.3703703703703704,
+          "timestamp": "2025-08-16T01:07:58.580874"
+        }
+      ]
+    },
+    {
+      "topic": "Stratégie agritourisme clientèle internationale",
+      "turns": 15,
+      "avg_rationality": 0.38680218309901876,
+      "exchanges": [
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "[Analyse factuelle]\nLes propositions de Philippe GONTAUD présentent des retours sur investissement intéressants, mais nécessitent une analyse de risque plus approfondie. Les coûts initiaux sont élevés et les retours sont étalés sur plusieurs années, ce qui peut présenter un risque financier pour l'exploitation.\n\n→ Interpelle: Philippe GONTAUD pour une analyse de risque plus détaillée sur ses propositions.\n\n💡 ROI: Analyse de risque détaillée = 10 000€ → Potentiel de prévention de pertes financières de 200 000€ sur 10 ans.",
+          "targets": [
+            "Philippe"
+          ],
+          "proposal": "💡 ROI: Analyse de risque détaillée = 10 000€ → Potentiel de prévention de pertes financières de 200 000€ sur 10 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.2531645569620253,
+          "timestamp": "2025-08-16T01:08:03.491385"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "[Analyse factuelle]\nLes propositions de Philippe GONTAUD présentent des retours sur investissement intéressants, mais nécessitent une analyse de risque plus approfondie. Les coûts initiaux sont élevés et le retour sur investissement est étalé sur plusieurs années. De plus, l'impact fiscal de ces investissements doit être pris en compte.\n\n→ Interpelle: Jean-Pierre CREDIT pour une analyse de risque détaillée\n💡 ROI: Audit fiscal et financier = 10 000€ → Économie potentielle de 50 000€ en impôts et charges sur 5 ans.",
+          "targets": [
+            "Jean-Pierre",
+            "Philippe"
+          ],
+          "proposal": "💡 ROI: Audit fiscal et financier = 10 000€ → Économie potentielle de 50 000€ en impôts et charges sur 5 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.25,
+          "timestamp": "2025-08-16T01:08:08.737685"
+        },
+        {
+          "speaker": "Thomas ENERGIE",
+          "content": "[Analyse factuelle]\nL'agritourisme peut bénéficier de l'installation de panneaux photovoltaïques pour une autonomie énergétique. Selon l'ADEME, une installation photovoltaïque de 9kWc coûte environ 13 500€ et peut produire 10 000 kWh/an, couvrant les besoins énergétiques d'un site d'agritourisme moyen. \n\n→ Interpelle: Marie-Claire COMPTA pour une analyse financière détaillée de l'investissement en énergie solaire.\n\n💡 ROI: Installation photovoltaïque = 13 500€ → Économie annuelle de 1 500€ (tarif moyen de l'électricité à 0.15€/kWh) sur 10 ans.",
+          "targets": [
+            "Marie-Claire"
+          ],
+          "proposal": "💡 ROI: Installation photovoltaïque = 13 500€ → Économie annuelle de 1 500€ (tarif moyen de l'électricité à 0.15€/kWh) sur 10 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.26666666666666666,
+          "timestamp": "2025-08-16T01:08:14.655773"
+        },
+        {
+          "speaker": "Marc HYDRO",
+          "content": "[Analyse factuelle]\nL'agritourisme nécessite une gestion optimale de l'eau pour l'irrigation des cultures et l'entretien des espaces verts. Selon l'Organisation des Nations Unies pour l'alimentation et l'agriculture (FAO), une gestion efficace de l'eau peut augmenter les rendements agricoles de 20% à 100%.\n\n→ Interpelle: Thomas ENERGIE pour évaluer la possibilité d'installer un système d'irrigation alimenté par l'énergie solaire.\n💡 ROI: Installation d'un système d'irrigation optimisé = 15 000€ → Augmentation potentielle des rendements de 20% sur 2 ans.",
+          "targets": [
+            "Thomas"
+          ],
+          "proposal": "💡 ROI: Installation d'un système d'irrigation optimisé = 15 000€ → Augmentation potentielle des rendements de 20% sur 2 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.38461538461538464,
+          "timestamp": "2025-08-16T01:08:24.182595"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Analyse factuelle]\nSelon l'Organisation Mondiale du Tourisme, la clientèle internationale représente 57% des touristes en France. L'agritourisme, en mettant en avant les spécificités locales, peut attirer cette clientèle en quête d'authenticité.\n\n→ Interpelle: Thomas ENERGIE pour évaluer l'impact d'une autonomie énergétique sur l'attractivité du territoire pour une clientèle internationale.\n\n💡 ROI: Campagne de promotion internationale = 100 000€ → Augmentation potentielle de 10% de la clientèle internationale sur 3 ans, basée sur des données de l'OMT.",
+          "targets": [
+            "Thomas"
+          ],
+          "proposal": "💡 ROI: Campagne de promotion internationale = 100 000€ → Augmentation potentielle de 10% de la clientèle internationale sur 3 ans, basée sur des données de l'OMT.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5263157894736842,
+          "timestamp": "2025-08-16T01:08:32.781037"
+        },
+        {
+          "speaker": "Didier SOL",
+          "content": "[Analyse factuelle]\nL'agritourisme peut bénéficier de la diversification des cultures pour attirer une clientèle internationale. Selon l'INSEE, la diversification des cultures peut augmenter les revenus d'une exploitation agricole de 20% en moyenne. \n\n→ Interpelle: Philippe GONTAUD pour une étude de marché sur les préférences de la clientèle internationale en matière de diversité de cultures.\n💡 ROI: Étude de marché = 10 000€ → Augmentation potentielle des revenus de 20% sur 3 ans.",
+          "targets": [
+            "Philippe"
+          ],
+          "proposal": "💡 ROI: Étude de marché = 10 000€ → Augmentation potentielle des revenus de 20% sur 3 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.41666666666666663,
+          "timestamp": "2025-08-16T01:08:38.271211"
+        },
+        {
+          "speaker": "Estelle TREVISAN",
+          "content": "[Analyse factuelle]\nSelon l'Organisation Mondiale du Tourisme, la clientèle internationale représente 57% des touristes en France. L'agritourisme, en valorisant les spécificités locales, peut attirer cette clientèle en quête d'authenticité. L'INSEE indique que la diversification des cultures peut renforcer l'attractivité de l'agritourisme.\n\n→ Interpelle: Didier SOL pour son expertise en diversification des cultures\n💡 ROI: Campagne de marketing ciblée sur la clientèle internationale = 20 000€ → Retour potentiel de 15% sur 3 ans, basé sur des données de projets similaires.",
+          "targets": [
+            "Didier"
+          ],
+          "proposal": "💡 ROI: Campagne de marketing ciblée sur la clientèle internationale = 20 000€ → Retour potentiel de 15% sur 3 ans, basé sur des données de projets similaires.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T01:08:45.058876"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "[Analyse factuelle]\nSelon l'Organisation Mondiale du Tourisme, la clientèle internationale représente 57% des touristes en France. L'agritourisme, en diversifiant ses offres, peut attirer cette clientèle. Cependant, cela nécessite des investissements importants pour la mise en conformité des infrastructures, l'adaptation des offres et la promotion à l'international.\n\n→ Interpelle: Marie-Claire COMPTA pour une analyse détaillée des coûts d'investissement et des retours potentiels.\n\n💡 ROI: Investissement en infrastructures et promotion internationale = 200 000€ → Augmentation potentielle de 30% des revenus sur 5 ans.",
+          "targets": [
+            "Marie-Claire"
+          ],
+          "proposal": "💡 ROI: Investissement en infrastructures et promotion internationale = 200 000€ → Augmentation potentielle de 30% des revenus sur 5 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.3658536585365854,
+          "timestamp": "2025-08-16T01:08:51.312406"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "[Analyse factuelle]\nSelon l'Organisation Mondiale du Tourisme, la clientèle internationale représente 57% des touristes en France. L'agritourisme, en diversifiant son offre, peut attirer cette clientèle. Cependant, cela implique des coûts supplémentaires en termes de marketing, de conformité aux normes internationales et de services adaptés à une clientèle étrangère.\n\n→ Interpelle: Thomas ENERGIE pour une analyse des coûts énergétiques liés à l'extension des services (chauffage, électricité, eau) pour accueillir une clientèle internationale.\n💡 ROI: Campagne de marketing international = 20 000€ → Augmentation potentielle de 15% des revenus touristiques sur 3 ans, soit environ 30 000€.",
+          "targets": [
+            "Thomas"
+          ],
+          "proposal": "💡 ROI: Campagne de marketing international = 20 000€ → Augmentation potentielle de 15% des revenus touristiques sur 3 ans, soit environ 30 000€.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.3157894736842105,
+          "timestamp": "2025-08-16T01:08:59.809110"
+        },
+        {
+          "speaker": "Thomas ENERGIE",
+          "content": "[Analyse factuelle]\nSelon l'Agence Internationale de l'Énergie, l'énergie solaire photovoltaïque pourrait couvrir 27% de la demande mondiale d'électricité d'ici 2050. Dans le contexte de l'agritourisme, l'installation de panneaux photovoltaïques sur les bâtiments agricoles pourrait non seulement réduire les coûts énergétiques, mais aussi attirer une clientèle internationale soucieuse de l'environnement.\n\n→ Interpelle: Marc HYDRO pour évaluer l'impact de l'installation de panneaux photovoltaïques sur le système d'irrigation.\n\n💡 ROI: Installation de panneaux photovoltaïques = 20 000€ → Économie annuelle de 2 000€ (tarif moyen de l'électricité à 0.15€/kWh) sur 10 ans, soit un retour sur investissement de 100% en 10 ans.",
+          "targets": [
+            "Marc"
+          ],
+          "proposal": "💡 ROI: Installation de panneaux photovoltaïques = 20 000€ → Économie annuelle de 2 000€ (tarif moyen de l'électricité à 0.15€/kWh) sur 10 ans, soit un retour sur investissement de 100% en 10 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.3,
+          "rationality_score": 0.30303030303030304,
+          "timestamp": "2025-08-16T01:09:06.568565"
+        },
+        {
+          "speaker": "Marc HYDRO",
+          "content": "[Analyse factuelle]\nSelon l'Organisation des Nations Unies pour l'alimentation et l'agriculture (FAO), l'irrigation peut augmenter les rendements agricoles de 100 à 400%. Cela peut améliorer l'attractivité des exploitations agritouristiques en offrant une production plus abondante et diversifiée.\n\n→ Interpelle: Thomas ENERGIE pour évaluer la possibilité d'alimenter un système d'irrigation optimisé par l'énergie solaire photovoltaïque.\n\n💡 ROI: Installation d'un système d'irrigation optimisé = 20 000€ → Augmentation potentielle des rendements de 100% sur 3 ans.",
+          "targets": [
+            "Thomas"
+          ],
+          "proposal": "💡 ROI: Installation d'un système d'irrigation optimisé = 20 000€ → Augmentation potentielle des rendements de 100% sur 3 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.4054054054054054,
+          "timestamp": "2025-08-16T01:09:16.399921"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Analyse factuelle]\nSelon l'Organisation Mondiale du Tourisme, la France est la première destination touristique mondiale avec 89 millions de visiteurs internationaux en 2018. L'agritourisme, en particulier, a connu une croissance de 5% par an en moyenne sur les 5 dernières années.\n\n→ Interpelle: Thomas ENERGIE pour évaluer l'impact environnemental d'une augmentation de la clientèle internationale et les coûts associés à une éventuelle mise à niveau des installations pour une consommation d'énergie plus verte.\n\n💡 ROI: Campagne de promotion internationale renforcée = 150 000€ → Augmentation potentielle de 15% de la clientèle internationale sur 3 ans, basée sur des données de l'OMT.",
+          "targets": [
+            "Thomas"
+          ],
+          "proposal": "💡 ROI: Campagne de promotion internationale renforcée = 150 000€ → Augmentation potentielle de 15% de la clientèle internationale sur 3 ans, basée sur des données de l'OMT.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.39603960396039606,
+          "timestamp": "2025-08-16T01:09:24.278641"
+        },
+        {
+          "speaker": "Didier SOL",
+          "content": "[Analyse factuelle]\nSelon l'Organisation Mondiale du Tourisme, la France est la première destination touristique mondiale avec 89 millions de visiteurs en 2018. Cependant, l'agritourisme n'attire qu'une petite fraction de ces visiteurs. Une stratégie ciblée pourrait augmenter cette part.\n\n→ Interpelle: Philippe GONTAUD pour son expertise en marketing touristique\n💡 ROI: Développement d'un plan d'agritourisme ciblé = 50 000€ → Augmentation potentielle de 15% de la clientèle internationale sur 3 ans, basée sur des données de l'OMT.",
+          "targets": [
+            "Philippe"
+          ],
+          "proposal": "💡 ROI: Développement d'un plan d'agritourisme ciblé = 50 000€ → Augmentation potentielle de 15% de la clientèle internationale sur 3 ans, basée sur des données de l'OMT.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5263157894736842,
+          "timestamp": "2025-08-16T01:09:30.636584"
+        },
+        {
+          "speaker": "Estelle TREVISAN",
+          "content": "[Analyse factuelle]\nSelon l'Organisation Mondiale du Tourisme, la France est la première destination touristique mondiale avec 89 millions de visiteurs en 2018. Cependant, seulement 10% de ces visiteurs ont participé à des activités agritouristiques. \n\n→ Interpelle: Philippe GONTAUD pour son expertise en promotion internationale\n💡 ROI: Développement d'un programme d'agritourisme ciblé sur la clientèle internationale = 50 000€ → Augmentation potentielle de 15% de la clientèle internationale sur 3 ans, basée sur des données de l'OMT.",
+          "targets": [
+            "Philippe"
+          ],
+          "proposal": "💡 ROI: Développement d'un programme d'agritourisme ciblé sur la clientèle internationale = 50 000€ → Augmentation potentielle de 15% de la clientèle internationale sur 3 ans, basée sur des données de l'OMT.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5263157894736842,
+          "timestamp": "2025-08-16T01:09:37.194050"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "[Analyse factuelle]\nLes propositions précédentes suggèrent un investissement total de 350 000€ pour une augmentation potentielle des revenus de 30% à 80% sur 3 à 5 ans. Cependant, ces chiffres sont basés sur des hypothèses optimistes et ne prennent pas en compte les risques financiers et opérationnels.\n\n→ Interpelle: Marie-Claire COMPTA pour une analyse détaillée des coûts et des bénéfices potentiels\n💡 ROI: Audit des risques financiers et opérationnels = 15 000€ → Réduction potentielle des pertes de 20% sur 3 ans.",
+          "targets": [
+            "Marie-Claire"
+          ],
+          "proposal": "💡 ROI: Audit des risques financiers et opérationnels = 15 000€ → Réduction potentielle des pertes de 20% sur 3 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.3658536585365854,
+          "timestamp": "2025-08-16T01:09:45.993339"
+        }
+      ]
+    },
+    {
+      "topic": "Transition énergétique et autonomie exploitation",
+      "turns": 15,
+      "avg_rationality": 0.3420995521305828,
+      "exchanges": [
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "[Analyse factuelle]\nLes propositions précédentes suggèrent un investissement total de 350 000€ pour une augmentation potentielle des revenus de 30% à 5 ans. Cependant, l'investissement en panneaux photovoltaïques présente un ROI de 100% en 10 ans, ce qui est plus long que les autres propositions. De plus, l'augmentation des revenus touristiques est basée sur des données de l'Organisation Mondiale du Tourisme, qui peuvent varier en fonction de facteurs externes.\n\n→ Interpelle: Thomas ENERGIE pour une analyse plus détaillée des coûts et bénéfices de l'installation de panneaux photovoltaïques, en tenant compte des subventions possibles et des économies sur les charges énergétiques.\n\n💡 ROI: Audit énergétique = 5 000€ → Économie potentielle de 10% sur les charges énergétiques annuelles (environ 2 000€/an) sur 5 ans, soit un retour sur investissement de 200% en 5 ans.",
+          "targets": [
+            "Thomas"
+          ],
+          "proposal": "💡 ROI: Audit énergétique = 5 000€ → Économie potentielle de 10% sur les charges énergétiques annuelles (environ 2 000€/an) sur 5 ans, soit un retour sur investissement de 200% en 5 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.3007518796992481,
+          "timestamp": "2025-08-16T01:09:54.489346"
+        },
+        {
+          "speaker": "Thomas ENERGIE",
+          "content": "[Analyse factuelle]\nL'investissement total proposé est de 350 000€ pour une augmentation potentielle des revenus de 30% à 50% sur 3 à 5 ans. Cependant, l'investissement dans l'énergie renouvelable, spécifiquement le photovoltaïque, offre un retour sur investissement de 100% en 10 ans, avec des économies annuelles continues par la suite.\n\n→ Interpelle: Marc HYDRO pour une analyse combinée de l'efficacité de l'irrigation et de l'énergie solaire\n💡 ROI: Investissement supplémentaire dans le photovoltaïque pour l'irrigation = 10 000€ → Économie annuelle de 1 000€ (tarif moyen de l'électricité à 0.15€/kWh) sur 10 ans, soit un retour sur investissement de 100% en 10 ans.",
+          "targets": [
+            "Marc"
+          ],
+          "proposal": "💡 ROI: Investissement supplémentaire dans le photovoltaïque pour l'irrigation = 10 000€ → Économie annuelle de 1 000€ (tarif moyen de l'électricité à 0.15€/kWh) sur 10 ans, soit un retour sur investissement de 100% en 10 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.2912621359223301,
+          "timestamp": "2025-08-16T01:10:01.817320"
+        },
+        {
+          "speaker": "Marc HYDRO",
+          "content": "[Analyse factuelle]\nL'investissement total proposé est de 410 000€, incluant mon système d'irrigation optimisé. Les retours sur investissement varient de 15% à 100% sur des périodes de 3 à 10 ans. Cependant, l'augmentation des rendements agricoles par l'irrigation optimisée n'a pas été quantifiée.\n\n→ Interpelle: Thomas ENERGIE pour évaluer l'impact de l'irrigation optimisée sur la production d'énergie renouvelable.\n💡 ROI: Audit de l'efficacité de l'irrigation = 5 000€ → Augmentation potentielle de 10% de l'efficacité énergétique sur 3 ans.",
+          "targets": [
+            "Thomas"
+          ],
+          "proposal": "💡 ROI: Audit de l'efficacité de l'irrigation = 5 000€ → Augmentation potentielle de 10% de l'efficacité énergétique sur 3 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.37974683544303794,
+          "timestamp": "2025-08-16T01:10:08.418092"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 410 000€. Les retours sur investissement varient de 15% à 100% sur une période de 3 à 10 ans. Cependant, l'absence d'informations locales spécifiques limite l'exactitude de ces estimations.\n\n→ Interpelle: [Agent Local Data] pour obtenir des données précises sur le territoire et le secteur d'activité concerné.\n\n💡 ROI: Réalisation d'une étude de marché locale = 10 000€ → Augmentation de la précision des estimations de ROI de 20% sur 1 mois.",
+          "targets": [],
+          "proposal": "💡 ROI: Réalisation d'une étude de marché locale = 10 000€ → Augmentation de la précision des estimations de ROI de 20% sur 1 mois.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.4938271604938272,
+          "timestamp": "2025-08-16T01:10:14.156918"
+        },
+        {
+          "speaker": "Didier SOL",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 410 000€. Les retours sur investissement varient de 15% à 100% sur une période de 3 à 10 ans. Cependant, ces chiffres ne prennent pas en compte les coûts d'entretien et de maintenance des installations, qui peuvent représenter jusqu'à 2% du coût initial par an pour les panneaux photovoltaïques et jusqu'à 5% pour les systèmes d'irrigation.\n\n→ Interpelle: Thomas ENERGIE pour une estimation précise des coûts d'entretien des panneaux photovoltaïques et Marc HYDRO pour une estimation des coûts d'entretien des systèmes d'irrigation.\n\n💡 ROI: Prise en compte des coûts d'entretien dans le calcul du retour sur investissement = 0€ → Réduction potentielle de l'erreur d'estimation du retour sur investissement de 2% à 5% sur 3 à 10 ans.",
+          "targets": [
+            "Thomas",
+            "Marc"
+          ],
+          "proposal": "💡 ROI: Prise en compte des coûts d'entretien dans le calcul du retour sur investissement = 0€ → Réduction potentielle de l'erreur d'estimation du retour sur investissement de 2% à 5% sur 3 à 10 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.3,
+          "rationality_score": 0.2362204724409449,
+          "timestamp": "2025-08-16T01:10:23.998405"
+        },
+        {
+          "speaker": "Estelle TREVISAN",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 410 000€. Les retours sur investissement varient de 15% à 100% sur une période de 3 ans. Cependant, l'impact sur l'autonomie énergétique des exploitations n'a pas été quantifié.\n\n→ Interpelle: Marc HYDRO pour une évaluation précise de l'impact énergétique de son système d'irrigation optimisé.\n\n💡 ROI: Étude d'impact énergétique = 5 000€ → Potentiel d'économies d'énergie à quantifier sur 3 ans.",
+          "targets": [
+            "Marc"
+          ],
+          "proposal": "💡 ROI: Étude d'impact énergétique = 5 000€ → Potentiel d'économies d'énergie à quantifier sur 3 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.42857142857142855,
+          "timestamp": "2025-08-16T01:10:29.504916"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 270 000€. Les retours sur investissement varient de 15% à 200% sur des périodes de 3 à 5 ans. Cependant, ces chiffres ne prennent pas en compte les risques financiers et opérationnels associés à chaque proposition.\n\n→ Interpelle: Marie-Claire COMPTA pour une analyse détaillée des coûts cachés et des risques financiers potentiels.\n\n💡 ROI: Mise en place d'un fonds de réserve pour couvrir les risques financiers = 50 000€ → Réduction potentielle des pertes de 30% sur 3 ans.",
+          "targets": [
+            "Marie-Claire"
+          ],
+          "proposal": "💡 ROI: Mise en place d'un fonds de réserve pour couvrir les risques financiers = 50 000€ → Réduction potentielle des pertes de 30% sur 3 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.3409090909090909,
+          "timestamp": "2025-08-16T01:10:35.866710"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 130 000€. Les retours sur investissement varient de 15% à 200% sur des périodes de 3 à 10 ans. Cependant, l'investissement dans le photovoltaïque pour l'irrigation présente un ROI de 100% sur 10 ans, ce qui est moins rentable à court terme que l'audit énergétique (ROI de 200% sur 5 ans) ou l'agritourisme (ROI de 15% sur 3 ans).\n\n→ Interpelle: Thomas ENERGIE pour une analyse plus détaillée des coûts et bénéfices du photovoltaïque pour l'irrigation.\n💡 ROI: Réévaluation du plan d'investissement en photovoltaïque = 0€ → Potentiel d'augmentation du ROI sur 10 ans.",
+          "targets": [
+            "Thomas"
+          ],
+          "proposal": "💡 ROI: Réévaluation du plan d'investissement en photovoltaïque = 0€ → Potentiel d'augmentation du ROI sur 10 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.2912621359223301,
+          "timestamp": "2025-08-16T01:10:42.206445"
+        },
+        {
+          "speaker": "Thomas ENERGIE",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 85 000€. Les retours sur investissement varient de 15% à 200% sur des périodes de 3 à 10 ans. L'investissement le plus rentable est l'audit énergétique proposé par Marie-Claire COMPTA avec un ROI de 200% sur 5 ans.\n\n→ Interpelle: Jean-Pierre CREDIT pour une analyse détaillée des risques financiers associés à ces investissements.\n💡 ROI: Installation d'un système de méthanisation = 250 000€ → Économie annuelle de 25 000€ (tarif moyen du gaz à 0.065€/kWh) sur 10 ans, soit un retour sur investissement de 100% en 10 ans.",
+          "targets": [
+            "Jean-Pierre",
+            "Marie-Claire"
+          ],
+          "proposal": "💡 ROI: Installation d'un système de méthanisation = 250 000€ → Économie annuelle de 25 000€ (tarif moyen du gaz à 0.065€/kWh) sur 10 ans, soit un retour sur investissement de 100% en 10 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.30927835051546393,
+          "timestamp": "2025-08-16T01:10:49.073179"
+        },
+        {
+          "speaker": "Marc HYDRO",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 45 000€. Les retours sur investissement varient de 15% à 200% sur des périodes allant de 1 mois à 10 ans. L'investissement le plus rentable à court terme est l'audit énergétique proposé par Marie-Claire COMPTA avec un ROI de 200% en 5 ans. Cependant, l'investissement le plus rentable à long terme est l'investissement supplémentaire dans le photovoltaïque pour l'irrigation proposé par Thomas ENERGIE avec un ROI de 100% en 10 ans.\n\n→ Interpelle: Thomas ENERGIE pour une analyse plus détaillée de l'investissement dans le photovoltaïque pour l'irrigation.\n💡 ROI: Investissement dans un système d'irrigation plus efficace = 20 000€ → Économie annuelle de 2 000€ (en supposant une amélioration de 20% de l'efficacité énergétique) sur 10 ans, soit un retour sur investissement de 100% en 10 ans.",
+          "targets": [
+            "Thomas",
+            "Marie-Claire"
+          ],
+          "proposal": "💡 ROI: Investissement dans un système d'irrigation plus efficace = 20 000€ → Économie annuelle de 2 000€ (en supposant une amélioration de 20% de l'efficacité énergétique) sur 10 ans, soit un retour sur investissement de 100% en 10 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.22058823529411764,
+          "timestamp": "2025-08-16T01:10:57.467916"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 130 000€. Les retours sur investissement varient de 15% à 200% sur des périodes de 1 à 10 ans. Cependant, l'absence d'informations locales précises peut entraîner une marge d'erreur dans ces estimations.\n\n→ Interpelle: Marie-Claire COMPTA pour une analyse financière détaillée des propositions\n💡 ROI: Investissement dans une étude de marché locale détaillée = 10 000€ → Augmentation de la précision des estimations de ROI de 20% sur 1 mois.",
+          "targets": [
+            "Marie-Claire"
+          ],
+          "proposal": "💡 ROI: Investissement dans une étude de marché locale détaillée = 10 000€ → Augmentation de la précision des estimations de ROI de 20% sur 1 mois.",
+          "emotion": "rationnel",
+          "agreement_level": 0.3,
+          "rationality_score": 0.37974683544303794,
+          "timestamp": "2025-08-16T01:11:04.536233"
+        },
+        {
+          "speaker": "Didier SOL",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 30 000€. Les retours sur investissement varient de 10% à 100% sur des périodes de 1 à 10 ans. Cependant, l'absence d'une analyse détaillée des coûts d'entretien peut entraîner une surestimation du retour sur investissement.\n\n→ Interpelle: Thomas ENERGIE pour une analyse détaillée des coûts d'entretien du photovoltaïque sur 10 ans.\n\n💡 ROI: Analyse détaillée des coûts d'entretien du photovoltaïque = 1 000€ → Réduction potentielle de l'erreur d'estimation du retour sur investissement de 2% à 5% sur 10 ans.",
+          "targets": [
+            "Thomas"
+          ],
+          "proposal": "💡 ROI: Analyse détaillée des coûts d'entretien du photovoltaïque = 1 000€ → Réduction potentielle de l'erreur d'estimation du retour sur investissement de 2% à 5% sur 10 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.3,
+          "rationality_score": 0.33707865168539325,
+          "timestamp": "2025-08-16T01:11:11.845842"
+        },
+        {
+          "speaker": "Estelle TREVISAN",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 70 000€. Les retours sur investissement varient de 2% à 30% sur des périodes de 1 mois à 10 ans. Cependant, aucune proposition ne prend en compte l'aspect marketing territorial et l'impact sur l'attractivité touristique de la région.\n\n→ Interpelle: Jean-Pierre CREDIT pour une analyse financière de l'impact du marketing territorial sur l'attractivité touristique\n💡 ROI: Étude d'impact du marketing territorial = 10 000€ → Augmentation potentielle de 15% de l'attractivité touristique sur 3 ans.",
+          "targets": [
+            "Jean-Pierre"
+          ],
+          "proposal": "💡 ROI: Étude d'impact du marketing territorial = 10 000€ → Augmentation potentielle de 15% de l'attractivité touristique sur 3 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.35714285714285715,
+          "timestamp": "2025-08-16T01:11:18.304271"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 65 000€. Les retours sur investissement varient de 2% à 30% sur des périodes allant de 1 mois à 10 ans. Cependant, l'analyse des risques financiers n'a pas été suffisamment prise en compte.\n\n→ Interpelle: Marie-Claire COMPTA pour une analyse détaillée des flux de trésorerie sur 10 ans\n💡 ROI: Évaluation des risques financiers = 10 000€ → Réduction potentielle des pertes de 10% sur 10 ans.",
+          "targets": [
+            "Marie-Claire"
+          ],
+          "proposal": "💡 ROI: Évaluation des risques financiers = 10 000€ → Réduction potentielle des pertes de 10% sur 10 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.39473684210526316,
+          "timestamp": "2025-08-16T01:11:25.016461"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 305 000€. Les retours sur investissement varient de 2% à 100% sur des périodes de 3 à 10 ans. Cependant, les coûts d'entretien et les risques financiers ne sont pas suffisamment pris en compte.\n\n→ Interpelle: Jean-Pierre CREDIT pour une évaluation plus précise des risques financiers liés à ces investissements.\n💡 ROI: Audit financier détaillé = 10 000€ → Potentiel d'économies par anticipation des risques de 5% à 10% sur 3 ans.",
+          "targets": [
+            "Jean-Pierre"
+          ],
+          "proposal": "💡 ROI: Audit financier détaillé = 10 000€ → Potentiel d'économies par anticipation des risques de 5% à 10% sur 3 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.3703703703703704,
+          "timestamp": "2025-08-16T01:11:31.467890"
+        }
+      ]
+    },
+    {
+      "topic": "Optimisation fiscale et montage juridique",
+      "turns": 15,
+      "avg_rationality": 0.37518925041500606,
+      "exchanges": [
+        {
+          "speaker": "Thomas ENERGIE",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 325 000€. Les retours sur investissement varient de 2% à 100% sur des périodes de 3 à 10 ans. L'optimisation fiscale et le montage juridique peuvent réduire les coûts initiaux et améliorer le ROI.\n\n→ Interpelle: Marie-Claire COMPTA pour une analyse détaillée des avantages fiscaux liés aux investissements en énergies renouvelables.\n💡 ROI: Consultation d'un expert en fiscalité des énergies renouvelables = 3 000€ → Potentiel d'économies fiscales à quantifier sur 5 ans.",
+          "targets": [
+            "Marie-Claire"
+          ],
+          "proposal": "💡 ROI: Consultation d'un expert en fiscalité des énergies renouvelables = 3 000€ → Potentiel d'économies fiscales à quantifier sur 5 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.3658536585365854,
+          "timestamp": "2025-08-16T01:11:39.149209"
+        },
+        {
+          "speaker": "Marc HYDRO",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 330 000€. Les retours sur investissement varient de 2% à 100% sur des périodes allant de 1 mois à 10 ans. Les économies annuelles estimées sont de 27 000€.\n\n→ Interpelle: Jean-Pierre CREDIT pour une analyse détaillée des flux de trésorerie sur 10 ans.\n💡 ROI: Réévaluation du plan d'investissement en ressources hydrauliques = 0€ → Potentiel d'augmentation du ROI sur 10 ans.",
+          "targets": [
+            "Jean-Pierre"
+          ],
+          "proposal": "💡 ROI: Réévaluation du plan d'investissement en ressources hydrauliques = 0€ → Potentiel d'augmentation du ROI sur 10 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.41666666666666663,
+          "timestamp": "2025-08-16T01:11:45.188600"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 281 000€. Les retours sur investissement varient de 2% à 100% sur des périodes de 1 à 10 ans. Cependant, aucune proposition n'a pris en compte l'optimisation fiscale et le montage juridique qui pourraient améliorer le ROI.\n\n→ Interpelle: Marie-Claire COMPTA pour une analyse détaillée des avantages fiscaux liés à ces investissements.\n💡 ROI: Consultation d'un expert en optimisation fiscale et montage juridique = 5 000€ → Potentiel d'augmentation du ROI de 10% sur 1 an.",
+          "targets": [
+            "Marie-Claire"
+          ],
+          "proposal": "💡 ROI: Consultation d'un expert en optimisation fiscale et montage juridique = 5 000€ → Potentiel d'augmentation du ROI de 10% sur 1 an.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.35294117647058826,
+          "timestamp": "2025-08-16T01:11:51.427940"
+        },
+        {
+          "speaker": "Didier SOL",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 291 000€. Les retours sur investissement varient de 2% à 100% sur des périodes allant de 1 mois à 10 ans. Cependant, aucune proposition n'a abordé l'optimisation fiscale et le montage juridique, qui peuvent influencer significativement le ROI.\n\n→ Interpelle: [Estelle TREVISAN] pour son expertise en droit fiscal et juridique\n💡 ROI: Étude d'optimisation fiscale et montage juridique = 5 000€ → Potentiel d'économie fiscale de 10% à 20% sur 5 ans.",
+          "targets": [
+            "Estelle"
+          ],
+          "proposal": "💡 ROI: Étude d'optimisation fiscale et montage juridique = 5 000€ → Potentiel d'économie fiscale de 10% à 20% sur 5 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.3703703703703704,
+          "timestamp": "2025-08-16T01:11:57.785141"
+        },
+        {
+          "speaker": "Estelle TREVISAN",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 51 000€. Les retours sur investissement varient de 2% à 100% sur des périodes allant de 1 mois à 10 ans. Cependant, aucune proposition n'a abordé l'optimisation fiscale et le montage juridique, qui peuvent avoir un impact significatif sur le ROI.\n\n→ Interpelle: Jean-Pierre CREDIT pour son expertise en finance et droit\n💡 ROI: Audit fiscal et juridique = 5 000€ → Potentiel d'économie fiscale de 10% sur 1 an.",
+          "targets": [
+            "Jean-Pierre"
+          ],
+          "proposal": "💡 ROI: Audit fiscal et juridique = 5 000€ → Potentiel d'économie fiscale de 10% sur 1 an.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.37974683544303794,
+          "timestamp": "2025-08-16T01:12:03.721645"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 41 000€. Les retours sur investissement varient de 2% à 20% sur des périodes allant de 1 mois à 10 ans. Cependant, l'optimisation fiscale et le montage juridique n'ont pas été abordés en détail, ce qui pourrait affecter le ROI.\n\n→ Interpelle: Marie-Claire COMPTA pour une analyse détaillée des implications fiscales et juridiques\n💡 ROI: Étude détaillée des implications fiscales et juridiques = 5 000€ → Potentiel d'économies fiscales de 10% à 15% sur 3 ans.",
+          "targets": [
+            "Marie-Claire"
+          ],
+          "proposal": "💡 ROI: Étude détaillée des implications fiscales et juridiques = 5 000€ → Potentiel d'économies fiscales de 10% à 15% sur 3 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.35294117647058826,
+          "timestamp": "2025-08-16T01:12:09.165085"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 34 000€. Les retours sur investissement varient de 2% à 15% sur des périodes de 3 à 10 ans. L'optimisation fiscale et le montage juridique peuvent augmenter ces retours sur investissement.\n\n→ Interpelle: Jean-Pierre CREDIT pour une évaluation des risques financiers liés à l'optimisation fiscale et au montage juridique.\n💡 ROI: Consultation d'un expert en fiscalité = 5 000€ → Potentiel d'économies fiscales de 10% à 20% sur 5 ans.",
+          "targets": [
+            "Jean-Pierre"
+          ],
+          "proposal": "💡 ROI: Consultation d'un expert en fiscalité = 5 000€ → Potentiel d'économies fiscales de 10% à 20% sur 5 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.37974683544303794,
+          "timestamp": "2025-08-16T01:12:15.808624"
+        },
+        {
+          "speaker": "Thomas ENERGIE",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 33 000€. Les retours sur investissement varient de 5% à 15% sur des périodes de 3 à 10 ans. Cependant, l'optimisation fiscale et le montage juridique des projets d'énergies renouvelables peuvent augmenter significativement le ROI.\n\n→ Interpelle: Jean-Pierre CREDIT pour une évaluation des risques financiers liés à l'optimisation fiscale et au montage juridique.\n\n💡 ROI: Consultation d'un expert en fiscalité des énergies renouvelables = 3 000€ → Potentiel d'économies fiscales de 20% sur 5 ans.",
+          "targets": [
+            "Jean-Pierre"
+          ],
+          "proposal": "💡 ROI: Consultation d'un expert en fiscalité des énergies renouvelables = 3 000€ → Potentiel d'économies fiscales de 20% sur 5 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.35714285714285715,
+          "timestamp": "2025-08-16T01:12:23.306632"
+        },
+        {
+          "speaker": "Marc HYDRO",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 28 000€. Les retours sur investissement varient de 5% à 10% sur des périodes de 1 à 10 ans. Cependant, aucune proposition n'a directement abordé l'optimisation de la gestion des ressources hydrauliques, qui pourrait générer des économies significatives.\n\n→ Interpelle: Thomas ENERGIE pour évaluer l'impact fiscal des investissements en énergies renouvelables liées à l'eau\n💡 ROI: Consultation d'un expert en gestion des ressources hydrauliques = 5 000€ → Potentiel d'économies de 15% sur 5 ans.",
+          "targets": [
+            "Thomas"
+          ],
+          "proposal": "💡 ROI: Consultation d'un expert en gestion des ressources hydrauliques = 5 000€ → Potentiel d'économies de 15% sur 5 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.35714285714285715,
+          "timestamp": "2025-08-16T01:12:29.633008"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 23 000€. Les retours sur investissement varient de 5% à 20% sur des périodes de 1 à 5 ans. Cependant, aucune donnée locale spécifique n'a été fournie pour étayer ces affirmations.\n\n→ Interpelle: Marie-Claire COMPTA pour une analyse détaillée des implications fiscales locales\n💡 ROI: Étude d'impact local = 2 000€ → Potentiel d'optimisation fiscale de 5% à 15% sur 3 ans.",
+          "targets": [
+            "Marie-Claire"
+          ],
+          "proposal": "💡 ROI: Étude d'impact local = 2 000€ → Potentiel d'optimisation fiscale de 5% à 15% sur 3 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.4225352112676057,
+          "timestamp": "2025-08-16T01:12:36.774589"
+        },
+        {
+          "speaker": "Didier SOL",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 18 000€. Les retours sur investissement varient de 5% à 20% sur des périodes allant de 1 à 10 ans. Cependant, l'optimisation fiscale et le montage juridique nécessitent une expertise spécifique pour garantir la conformité et maximiser les économies potentielles.\n\n→ Interpelle: Philippe GONTAUD pour son expertise en optimisation fiscale et montage juridique\n💡 ROI: Consultation d'un expert en optimisation fiscale et montage juridique = 5 000€ → Potentiel d'augmentation du ROI de 10% à 20% sur 5 ans.",
+          "targets": [
+            "Philippe"
+          ],
+          "proposal": "💡 ROI: Consultation d'un expert en optimisation fiscale et montage juridique = 5 000€ → Potentiel d'augmentation du ROI de 10% à 20% sur 5 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.3409090909090909,
+          "timestamp": "2025-08-16T01:12:43.152244"
+        },
+        {
+          "speaker": "Estelle TREVISAN",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 20 000€. Les retours sur investissement varient de 10% à 20% sur des périodes de 1 à 5 ans. Cela représente un potentiel d'économie fiscale de 2 000€ à 4 000€ par an.\n\n→ Interpelle: Jean-Pierre CREDIT pour une analyse détaillée des implications fiscales et juridiques\n💡 ROI: Consultation d'un expert en optimisation fiscale et montage juridique = 5 000€ → Potentiel d'augmentation du ROI de 10% à 20% sur 1 an.",
+          "targets": [
+            "Jean-Pierre"
+          ],
+          "proposal": "💡 ROI: Consultation d'un expert en optimisation fiscale et montage juridique = 5 000€ → Potentiel d'augmentation du ROI de 10% à 20% sur 1 an.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.3703703703703704,
+          "timestamp": "2025-08-16T01:12:49.801429"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 25 000€. Les retours sur investissement varient de 10% à 20% sur des périodes de 1 à 5 ans. Cela représente une économie potentielle de 2 500€ à 5 000€ par an.\n\n→ Interpelle: Marie-Claire COMPTA pour une analyse détaillée des implications fiscales et juridiques\n💡 ROI: Étude détaillée des implications fiscales et juridiques = 5 000€ → Potentiel d'économies fiscales de 10% à 20% sur 3 ans.",
+          "targets": [
+            "Marie-Claire"
+          ],
+          "proposal": "💡 ROI: Étude détaillée des implications fiscales et juridiques = 5 000€ → Potentiel d'économies fiscales de 10% à 20% sur 3 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.38961038961038963,
+          "timestamp": "2025-08-16T01:12:56.663052"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 23 000€. Les retours sur investissement varient de 10% à 20% sur des périodes de 1 à 5 ans.\n\n→ Interpelle: Thomas ENERGIE pour une analyse détaillée des implications fiscales et juridiques dans le domaine des énergies renouvelables.\n💡 ROI: Consultation d'un expert en fiscalité des énergies renouvelables = 3 000€ → Potentiel d'économies fiscales de 20% sur 5 ans.",
+          "targets": [
+            "Thomas"
+          ],
+          "proposal": "💡 ROI: Consultation d'un expert en fiscalité des énergies renouvelables = 3 000€ → Potentiel d'économies fiscales de 20% sur 5 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.43478260869565216,
+          "timestamp": "2025-08-16T01:13:03.218719"
+        },
+        {
+          "speaker": "Thomas ENERGIE",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 23 000€. Les retours sur investissement varient de 10% à 20% sur des périodes de 1 à 5 ans. Cependant, l'optimisation fiscale ne doit pas être la seule considération. L'investissement dans les énergies renouvelables peut également générer des économies significatives.\n\n→ Interpelle: Marc HYDRO pour une analyse comparative des coûts et bénéfices de l'investissement dans les énergies renouvelables versus l'optimisation fiscale.\n\n💡 ROI: Investissement dans un système photovoltaïque agricole = 20 000€ → Économies d'énergie de 30% sur 5 ans.",
+          "targets": [
+            "Marc"
+          ],
+          "proposal": "💡 ROI: Investissement dans un système photovoltaïque agricole = 20 000€ → Économies d'énergie de 30% sur 5 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.33707865168539325,
+          "timestamp": "2025-08-16T01:13:10.286069"
+        }
+      ]
+    },
+    {
+      "topic": "Plan transmission et acceptation territoriale",
+      "turns": 15,
+      "avg_rationality": 0.3739368203697255,
+      "exchanges": [
+        {
+          "speaker": "Marc HYDRO",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 20 000€. Les retours sur investissement varient de 10% à 20% sur des périodes de 3 à 5 ans. Cependant, aucune proposition n'a pris en compte la gestion des ressources hydrauliques, un facteur clé dans l'acceptation territoriale d'un plan de transmission.\n\n→ Interpelle: Thomas ENERGIE pour une évaluation de l'impact de la gestion de l'eau sur l'efficacité énergétique\n💡 ROI: Étude d'impact hydraulique = 5 000€ → Potentiel d'économies de 15% sur 5 ans.",
+          "targets": [
+            "Thomas"
+          ],
+          "proposal": "💡 ROI: Étude d'impact hydraulique = 5 000€ → Potentiel d'économies de 15% sur 5 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.36144578313253006,
+          "timestamp": "2025-08-16T01:13:17.254414"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 20 000€. Les retours sur investissement varient de 10% à 20% sur des périodes de 3 à 5 ans. Cependant, aucune proposition n'a pris en compte l'acceptation territoriale du plan de transmission, un facteur crucial pour sa réussite.\n\n→ Interpelle: Didier SOL pour son expertise en optimisation fiscale et montage juridique, qui pourrait inclure une analyse de l'acceptation territoriale.\n💡 ROI: Étude d'acceptation territoriale = 3 000€ → Potentiel d'éviter des coûts imprévus et d'accélérer le processus de transmission de 20% sur 3 ans.",
+          "targets": [
+            "Didier"
+          ],
+          "proposal": "💡 ROI: Étude d'acceptation territoriale = 3 000€ → Potentiel d'éviter des coûts imprévus et d'accélérer le processus de transmission de 20% sur 3 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.3225806451612903,
+          "timestamp": "2025-08-16T01:13:24.207023"
+        },
+        {
+          "speaker": "Didier SOL",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 20 000€. Les retours sur investissement varient de 10% à 20% sur des périodes de 1 à 5 ans. Cependant, aucune proposition n'a abordé directement la question de la transmission de l'exploitation et de l'acceptation territoriale.\n\n→ Interpelle: Estelle TREVISAN pour son expertise en optimisation fiscale et montage juridique\n💡 ROI: Consultation d'un expert en gestion de la transmission d'exploitation = 5 000€ → Potentiel d'augmentation du ROI de 15% à 25% sur 5 ans.",
+          "targets": [
+            "Estelle"
+          ],
+          "proposal": "💡 ROI: Consultation d'un expert en gestion de la transmission d'exploitation = 5 000€ → Potentiel d'augmentation du ROI de 15% à 25% sur 5 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.35714285714285715,
+          "timestamp": "2025-08-16T01:13:30.967458"
+        },
+        {
+          "speaker": "Estelle TREVISAN",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 22 000€. Les retours sur investissement varient de 10% à 20% sur des périodes de 1 à 5 ans. Cependant, aucune proposition n'a abordé la valorisation territoriale par le biais de l'agritourisme, un secteur en croissance de 16% par an en moyenne depuis 2015.\n\n→ Interpelle: Jean-Pierre CREDIT pour une analyse financière de l'investissement dans l'agritourisme\n💡 ROI: Étude de faisabilité pour le développement de l'agritourisme = 3 000€ → Potentiel d'augmentation du ROI de 16% sur 3 ans.",
+          "targets": [
+            "Jean-Pierre"
+          ],
+          "proposal": "💡 ROI: Étude de faisabilité pour le développement de l'agritourisme = 3 000€ → Potentiel d'augmentation du ROI de 16% sur 3 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.3409090909090909,
+          "timestamp": "2025-08-16T01:13:38.284615"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 20 000€. Les retours sur investissement varient de 10% à 20% sur des périodes de 1 à 5 ans. Cela représente un potentiel de gain de 2 000€ à 4 000€ par an.\n\n→ Interpelle: Marie-Claire COMPTA pour une analyse détaillée des implications fiscales et juridiques\n💡 ROI: Audit financier détaillé = 3 000€ → Potentiel d'économies fiscales supplémentaires de 5% sur 3 ans.",
+          "targets": [
+            "Marie-Claire"
+          ],
+          "proposal": "💡 ROI: Audit financier détaillé = 3 000€ → Potentiel d'économies fiscales supplémentaires de 5% sur 3 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.4109589041095891,
+          "timestamp": "2025-08-16T01:13:43.971650"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 38 000€. Les retours sur investissement varient de 10% à 30% sur des périodes de 1 à 5 ans. Cela représente un potentiel d'économies et de revenus supplémentaires significatif.\n\n→ Interpelle: Thomas ENERGIE pour une analyse détaillée des économies d'énergie potentielles\n💡 ROI: Audit énergétique = 2 000€ → Économies d'énergie de 10% à 30% sur 3 ans.",
+          "targets": [
+            "Thomas"
+          ],
+          "proposal": "💡 ROI: Audit énergétique = 2 000€ → Économies d'énergie de 10% à 30% sur 3 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.44776119402985076,
+          "timestamp": "2025-08-16T01:13:50.111260"
+        },
+        {
+          "speaker": "Thomas ENERGIE",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 38 000€. Les retours sur investissement varient de 10% à 30% sur des périodes de 1 à 5 ans. Cependant, l'investissement dans un système photovoltaïque agricole présente le plus grand potentiel d'économies d'énergie à long terme.\n\n→ Interpelle: Marc HYDRO pour une analyse de l'impact hydraulique du système photovoltaïque agricole sur le territoire\n💡 ROI: Étude d'impact hydraulique = 5 000€ → Potentiel d'économies de 15% sur 5 ans.",
+          "targets": [
+            "Marc"
+          ],
+          "proposal": "💡 ROI: Étude d'impact hydraulique = 5 000€ → Potentiel d'économies de 15% sur 5 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.38461538461538464,
+          "timestamp": "2025-08-16T01:13:57.285183"
+        },
+        {
+          "speaker": "Marc HYDRO",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 36 000€. Les retours sur investissement varient de 10% à 30% sur des périodes de 3 à 5 ans. Cependant, aucune proposition n'a pris en compte l'aspect de la gestion de l'eau, qui est crucial dans le contexte agricole.\n\n→ Interpelle: Thomas ENERGIE pour une évaluation de l'impact énergétique de la gestion de l'eau\n💡 ROI: Audit de la gestion de l'eau = 4 000€ → Potentiel d'économies de 20% sur 5 ans grâce à une irrigation optimisée.",
+          "targets": [
+            "Thomas"
+          ],
+          "proposal": "💡 ROI: Audit de la gestion de l'eau = 4 000€ → Potentiel d'économies de 20% sur 5 ans grâce à une irrigation optimisée.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.3448275862068966,
+          "timestamp": "2025-08-16T01:14:03.267004"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 36 000€. Les retours sur investissement varient de 15% à 30% sur des périodes de 3 à 5 ans. L'acceptation territoriale est un facteur clé pour la réussite de la transmission.\n\n→ Interpelle: Didier SOL pour une évaluation précise des coûts de non-acceptation territoriale.\n💡 ROI: Étude d'acceptation territoriale supplémentaire = 2 000€ → Potentiel d'éviter des coûts imprévus et d'accélérer le processus de transmission de 25% sur 3 ans.",
+          "targets": [
+            "Didier"
+          ],
+          "proposal": "💡 ROI: Étude d'acceptation territoriale supplémentaire = 2 000€ → Potentiel d'éviter des coûts imprévus et d'accélérer le processus de transmission de 25% sur 3 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.3,
+          "rationality_score": 0.37974683544303794,
+          "timestamp": "2025-08-16T01:14:09.984947"
+        },
+        {
+          "speaker": "Didier SOL",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 36 000€. Les retours sur investissement varient de 15% à 30% sur des périodes de 3 à 5 ans. Cependant, l'acceptation territoriale et la transmission d'exploitation n'ont pas été suffisamment prises en compte dans ces calculs.\n\n→ Interpelle: Philippe GONTAUD pour une analyse plus approfondie de l'acceptation territoriale et de la transmission d'exploitation.\n💡 ROI: Étude approfondie sur l'acceptation territoriale et la transmission d'exploitation = 7 000€ → Potentiel d'éviter des coûts imprévus et d'accélérer le processus de transmission de 30% sur 3 ans.",
+          "targets": [
+            "Philippe"
+          ],
+          "proposal": "💡 ROI: Étude approfondie sur l'acceptation territoriale et la transmission d'exploitation = 7 000€ → Potentiel d'éviter des coûts imprévus et d'accélérer le processus de transmission de 30% sur 3 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.3225806451612903,
+          "timestamp": "2025-08-16T01:14:19.610771"
+        },
+        {
+          "speaker": "Estelle TREVISAN",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 19 000€. Les retours sur investissement varient de 5% à 25% sur des périodes de 3 à 5 ans. Cela représente un potentiel d'économies et de gains significatifs pour le territoire.\n\n→ Interpelle: Jean-Pierre CREDIT pour une analyse financière détaillée de ces investissements.\n💡 ROI: Mise en place d'un plan de financement détaillé = 2 000€ → Potentiel d'optimisation des investissements de 10% sur 3 ans.",
+          "targets": [
+            "Jean-Pierre"
+          ],
+          "proposal": "💡 ROI: Mise en place d'un plan de financement détaillé = 2 000€ → Potentiel d'optimisation des investissements de 10% sur 3 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.4,
+          "timestamp": "2025-08-16T01:14:25.853540"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 16 000€. Les retours sur investissement varient de 5% à 30% sur des périodes de 3 à 5 ans. Cependant, l'analyse des risques n'a pas été suffisamment prise en compte.\n\n→ Interpelle: Marie-Claire COMPTA pour une analyse détaillée des risques financiers associés à chaque proposition.\n💡 ROI: Évaluation des risques financiers = 2 000€ → Potentiel de réduction des pertes financières de 10% sur 3 ans.",
+          "targets": [
+            "Marie-Claire"
+          ],
+          "proposal": "💡 ROI: Évaluation des risques financiers = 2 000€ → Potentiel de réduction des pertes financières de 10% sur 3 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.4,
+          "timestamp": "2025-08-16T01:14:33.022490"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 18 000€. Les retours sur investissement varient de 5% à 30% sur des périodes de 3 à 5 ans. Cela représente un potentiel d'économies et de revenus supplémentaires significatif.\n\n→ Interpelle: Thomas ENERGIE pour une analyse détaillée des économies d'énergie potentielles\n💡 ROI: Mise en place d'un système de comptabilité analytique = 4 000€ → Potentiel d'optimisation des coûts de 10% sur 2 ans.",
+          "targets": [
+            "Thomas"
+          ],
+          "proposal": "💡 ROI: Mise en place d'un système de comptabilité analytique = 4 000€ → Potentiel d'optimisation des coûts de 10% sur 2 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.4109589041095891,
+          "timestamp": "2025-08-16T01:14:39.575606"
+        },
+        {
+          "speaker": "Thomas ENERGIE",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 17 000€. Les retours sur investissement varient de 5% à 30% sur des périodes de 3 à 5 ans. Cependant, aucune proposition n'a abordé l'aspect de l'autonomie énergétique, qui pourrait générer des économies supplémentaires.\n\n→ Interpelle: Marie-Claire COMPTA pour une analyse détaillée des coûts et bénéfices de l'investissement dans l'autonomie énergétique.\n\n💡 ROI: Installation d'un système photovoltaïque agricole = 20 000€ → Économies d'énergie de 40% sur 5 ans.",
+          "targets": [
+            "Marie-Claire"
+          ],
+          "proposal": "💡 ROI: Installation d'un système photovoltaïque agricole = 20 000€ → Économies d'énergie de 40% sur 5 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.38461538461538464,
+          "timestamp": "2025-08-16T01:14:45.467235"
+        },
+        {
+          "speaker": "Marc HYDRO",
+          "content": "[Analyse factuelle]\nLes propositions précédentes totalisent un investissement de 16 000€. Les retours sur investissement varient de 5% à 30% sur des périodes de 3 à 5 ans. Cependant, l'analyse des coûts ne prend pas en compte les économies potentielles liées à une meilleure gestion de l'eau et de l'irrigation.\n\n→ Interpelle: Thomas ENERGIE pour une évaluation précise des économies d'énergie liées à une gestion optimisée de l'eau.\n💡 ROI: Mise en place d'un système d'irrigation optimisé = 6 000€ → Économies d'eau de 25% sur 5 ans.",
+          "targets": [
+            "Thomas"
+          ],
+          "proposal": "💡 ROI: Mise en place d'un système d'irrigation optimisé = 6 000€ → Économies d'eau de 25% sur 5 ans.",
+          "emotion": "rationnel",
+          "agreement_level": 0.5,
+          "rationality_score": 0.3409090909090909,
+          "timestamp": "2025-08-16T01:14:52.295955"
+        }
+      ]
+    }
+  ],
+  "final_projects": {
+    "Didier SOL": [
+      {
+        "title": "Installation d'une exploitation maraîchère biologique",
+        "description": "Ce projet consiste à convertir 20Ha de terres agricoles en une exploitation maraîchère biologique. Il comprend l'achat de matériel, la formation à l'agriculture biologique et la mise en place d'un système d'irrigation efficace.",
+        "budget": 150000500002000080000,
+        "roi_percentage": 15.0,
+        "timeline_months": 12,
+        "risk_level": "Medium",
+        "comments": "La réussite de ce projet dépend de la capacité à produire des produits biologiques de haute qualité et à les commercialiser efficacement."
+      },
+      {
+        "title": "Création d'un parc éolien",
+        "description": "Ce projet consiste à installer 10 éoliennes sur 10Ha de terres. Il comprend l'achat des éoliennes, leur installation et leur maintenance.",
+        "budget": 20000001500000400000100000,
+        "roi_percentage": 10.0,
+        "timeline_months": 24,
+        "risk_level": "High",
+        "comments": "La réussite de ce projet dépend de la capacité à obtenir les autorisations nécessaires et à maintenir une production d'énergie éolienne rentable."
+      },
+      {
+        "title": "Plantation de forêt pour la production de bois",
+        "description": "Ce projet consiste à planter une forêt sur 14Ha de terres pour la production de bois. Il comprend l'achat des plants, leur plantation et leur entretien.",
+        "budget": 70000200003000020000,
+        "roi_percentage": 5.0,
+        "timeline_months": 60,
+        "risk_level": "Low",
+        "comments": "La réussite de ce projet dépend de la capacité à maintenir une forêt saine et productive."
+      }
+    ],
+    "Estelle TREVISAN": [
+      {
+        "title": "\"Le Parc Agritouristique de Gontaud-de-Nogaret\"",
+        "description": "Ce projet vise à créer un parc agritouristique qui met en valeur les traditions agricoles locales, avec des ateliers éducatifs, des démonstrations de techniques agricoles et des dégustations de produits locaux. Le parc comprendra également des hébergements pour les visiteurs.",
+        "budget": 1500000,
+        "roi_percentage": 15.0,
+        "timeline_months": 24,
+        "risk_level": "Medium",
+        "comments": "Le succès de ce projet dépendra de la qualité des expériences proposées, de l'authenticité des produits et de la capacité à attirer des touristes."
+      },
+      {
+        "title": "\"Le Marché Fermier de Gontaud-de-Nogaret\"",
+        "description": "Ce projet consiste à organiser un marché fermier hebdomadaire où les producteurs locaux peuvent vendre leurs produits directement aux consommateurs. Le marché pourrait également accueillir des événements spéciaux, tels que des festivals de la récolte.",
+        "budget": 100000,
+        "roi_percentage": 10.0,
+        "timeline_months": 6,
+        "risk_level": "Low",
+        "comments": "Le succès de ce projet dépendra de la qualité des produits vendus et de la capacité à attirer à la fois des producteurs et des consommateurs."
+      },
+      {
+        "title": "\"La Route du Vin de Gontaud-de-Nogaret\"",
+        "description": "Ce projet vise à créer une route du vin qui met en valeur les vignobles locaux. Les visiteurs pourront faire des dégustations de vin, visiter les vignobles et participer à des ateliers sur la vinification.",
+        "budget": 200000,
+        "roi_percentage": 20.0,
+        "timeline_months": 12,
+        "risk_level": "Medium",
+        "comments": "Le succès de ce projet dépendra de la qualité du vin produit localement et de la capacité à attirer des amateurs de vin."
+      }
+    ],
+    "Jean-Pierre CREDIT": [
+      {
+        "title": "Installation d'un parc solaire",
+        "description": "Installation d'un parc solaire sur une partie du terrain (20Ha). Ce projet consiste à installer des panneaux solaires pour produire de l'électricité qui sera revendue à un fournisseur d'énergie.",
+        "budget": 8400000,
+        "roi_percentage": 5.0,
+        "timeline_months": 24,
+        "risk_level": "Medium",
+        "comments": "Le succès de ce projet dépend de la capacité à obtenir des subventions et des crédits avantageux, ainsi que de la conclusion d'un contrat de vente d'électricité à long terme avec un fournisseur d'énergie."
+      },
+      {
+        "title": "Création d'une ferme biologique",
+        "description": "Utilisation de 15Ha pour la création d'une ferme biologique. Ce projet consiste à cultiver des produits biologiques pour la vente directe et la distribution aux marchés locaux.",
+        "budget": 75000050000,
+        "roi_percentage": 10.0,
+        "timeline_months": 12,
+        "risk_level": "High",
+        "comments": "Le succès de ce projet dépend de la capacité à développer une marque forte et à établir des relations solides avec les distributeurs locaux."
+      },
+      {
+        "title": "Construction d'un complexe résidentiel",
+        "description": "Utilisation de 9Ha pour la construction d'un complexe résidentiel. Ce projet consiste à construire des maisons pour la vente ou la location.",
+        "budget": 182,
+        "roi_percentage": 6.0,
+        "timeline_months": 36,
+        "risk_level": "Medium",
+        "comments": "Le succès de ce projet dépend de la capacité à obtenir des financements et des permis de construire, ainsi que de la demande du marché immobilier local."
+      }
+    ],
+    "Marie-Claire COMPTA": [
+      {
+        "title": "Installation d'un parc solaire",
+        "description": "Le projet consiste à installer un parc solaire sur une partie du terrain. Cela permettrait de produire de l'électricité qui pourrait être vendue à un fournisseur d'énergie.",
+        "budget": 2000000,
+        "roi_percentage": 10.0,
+        "timeline_months": 18,
+        "risk_level": "Medium,",
+        "comments": "Le succès de ce projet dépendra de la capacité à négocier un bon prix de vente de l'électricité et à optimiser les coûts d'installation et de maintenance des panneaux solaires."
+      },
+      {
+        "title": "Création d'un camping écologique",
+        "description": "Le projet consiste à créer un camping écologique avec des installations respectueuses de l'environnement (toilettes sèches, énergie solaire, etc.).",
+        "budget": 500000,
+        "roi_percentage": 15.0,
+        "timeline_months": 24,
+        "risk_level": "Medium,",
+        "comments": "Le succès de ce projet dépendra de la capacité à créer un camping attractif et à le promouvoir efficacement."
+      },
+      {
+        "title": "Plantation de noyers pour la production de noix",
+        "description": "Le projet consiste à planter des noyers sur une partie du terrain pour produire des noix qui pourraient être vendues sur le marché local ou à des transformateurs.",
+        "budget": 100000,
+        "roi_percentage": 8.0,
+        "timeline_months": 7,
+        "risk_level": "High,",
+        "comments": "Le succès de ce projet dépendra de la capacité à maintenir les arbres en bonne santé et à vendre les noix à un bon prix."
+      }
+    ],
+    "Thomas ENERGIE": [
+      {
+        "title": "Installation de panneaux photovoltaïques sur les toits de bâtiments agricoles",
+        "description": "Ce projet consiste à installer des panneaux photovoltaïques sur les toits des bâtiments agricoles existants. Cela permettra de produire de l'électricité pour les besoins de la ferme et de vendre l'excédent au réseau.",
+        "budget": 5000001000050,
+        "roi_percentage": 10.0,
+        "timeline_months": 12,
+        "risk_level": "Medium",
+        "comments": "Le succès de ce projet dépend de l'orientation et de l'inclinaison des toits, ainsi que de l'ensoleillement de la région."
+      },
+      {
+        "title": "Installation d'une unité de méthanisation",
+        "description": "Ce projet consiste à installer une unité de méthanisation pour transformer les déchets organiques de la ferme en biogaz. Le biogaz peut être utilisé pour produire de l'électricité et de la chaleur.",
+        "budget": 1500000,
+        "roi_percentage": 8.0,
+        "timeline_months": 24,
+        "risk_level": "High",
+        "comments": "Le succès de ce projet dépend de la gestion des déchets organiques et de la maintenance de l'unité de méthanisation."
+      },
+      {
+        "title": "Plantation de cultures énergétiques",
+        "description": "Ce projet consiste à planter des cultures énergétiques (comme le miscanthus) sur une partie des terres. Ces cultures peuvent être utilisées comme biomasse pour produire de l'énergie.",
+        "budget": 10000010,
+        "roi_percentage": 5.0,
+        "timeline_months": 36,
+        "risk_level": "Medium",
+        "comments": "Le succès de ce projet dépend de la sélection des bonnes espèces de plantes et de la gestion de la culture."
+      }
+    ],
+    "Marc HYDRO": [],
+    "Philippe GONTAUD": []
+  },
+  "debate_log": [],
+  "statistics": {
+    "total_turns": 90,
+    "avg_global_rationality": 0.3640995172440245,
+    "rationality_by_agent": {
+      "Didier SOL": 0.3592021761626993,
+      "Estelle TREVISAN": 0.395716230863283,
+      "Jean-Pierre CREDIT": 0.35082189211118464,
+      "Marie-Claire COMPTA": 0.3520002565939736,
+      "Thomas ENERGIE": 0.33622174221305634,
+      "Marc HYDRO": 0.36109518738285507,
+      "Philippe GONTAUD": 0.37836161776911675
+    },
+    "speaker_distribution": {
+      "Didier SOL": 11,
+      "Estelle TREVISAN": 10,
+      "Jean-Pierre CREDIT": 11,
+      "Marie-Claire COMPTA": 11,
+      "Thomas ENERGIE": 11,
+      "Marc HYDRO": 11,
+      "Philippe GONTAUD": 25
+    },
+    "moderator_interventions": 0,
+    "parameters_impact": {
+      "rationality_achieved": 0.3640995172440245,
+      "personality_suppression": 0.9
+    }
+  },
+  "final_synthesis": [
+    {
+      "expert": "Estelle TREVISAN",
+      "title": "\"La Route du Vin de Gontaud-de-Nogaret\"",
+      "budget": 200000,
+      "roi": 20.0,
+      "risk": "Medium",
+      "timeline": 12,
+      "description": "Ce projet vise à créer une route du vin qui met en valeur les vignobles locaux. Les visiteurs pourront faire des dégustations de vin, visiter les vignobles et participer à des ateliers sur la vinification.",
+      "comments": "Le succès de ce projet dépendra de la qualité du vin produit localement et de la capacité à attirer des amateurs de vin."
+    },
+    {
+      "expert": "Didier SOL",
+      "title": "Installation d'une exploitation maraîchère biologique",
+      "budget": 150000500002000080000,
+      "roi": 15.0,
+      "risk": "Medium",
+      "timeline": 12,
+      "description": "Ce projet consiste à convertir 20Ha de terres agricoles en une exploitation maraîchère biologique. Il comprend l'achat de matériel, la formation à l'agriculture biologique et la mise en place d'un système d'irrigation efficace.",
+      "comments": "La réussite de ce projet dépend de la capacité à produire des produits biologiques de haute qualité et à les commercialiser efficacement."
+    },
+    {
+      "expert": "Estelle TREVISAN",
+      "title": "\"Le Parc Agritouristique de Gontaud-de-Nogaret\"",
+      "budget": 1500000,
+      "roi": 15.0,
+      "risk": "Medium",
+      "timeline": 24,
+      "description": "Ce projet vise à créer un parc agritouristique qui met en valeur les traditions agricoles locales, avec des ateliers éducatifs, des démonstrations de techniques agricoles et des dégustations de produits locaux. Le parc comprendra également des hébergements pour les visiteurs.",
+      "comments": "Le succès de ce projet dépendra de la qualité des expériences proposées, de l'authenticité des produits et de la capacité à attirer des touristes."
+    },
+    {
+      "expert": "Marie-Claire COMPTA",
+      "title": "Création d'un camping écologique",
+      "budget": 500000,
+      "roi": 15.0,
+      "risk": "Medium,",
+      "timeline": 24,
+      "description": "Le projet consiste à créer un camping écologique avec des installations respectueuses de l'environnement (toilettes sèches, énergie solaire, etc.).",
+      "comments": "Le succès de ce projet dépendra de la capacité à créer un camping attractif et à le promouvoir efficacement."
+    },
+    {
+      "expert": "Didier SOL",
+      "title": "Création d'un parc éolien",
+      "budget": 20000001500000400000100000,
+      "roi": 10.0,
+      "risk": "High",
+      "timeline": 24,
+      "description": "Ce projet consiste à installer 10 éoliennes sur 10Ha de terres. Il comprend l'achat des éoliennes, leur installation et leur maintenance.",
+      "comments": "La réussite de ce projet dépend de la capacité à obtenir les autorisations nécessaires et à maintenir une production d'énergie éolienne rentable."
+    },
+    {
+      "expert": "Estelle TREVISAN",
+      "title": "\"Le Marché Fermier de Gontaud-de-Nogaret\"",
+      "budget": 100000,
+      "roi": 10.0,
+      "risk": "Low",
+      "timeline": 6,
+      "description": "Ce projet consiste à organiser un marché fermier hebdomadaire où les producteurs locaux peuvent vendre leurs produits directement aux consommateurs. Le marché pourrait également accueillir des événements spéciaux, tels que des festivals de la récolte.",
+      "comments": "Le succès de ce projet dépendra de la qualité des produits vendus et de la capacité à attirer à la fois des producteurs et des consommateurs."
+    },
+    {
+      "expert": "Jean-Pierre CREDIT",
+      "title": "Création d'une ferme biologique",
+      "budget": 75000050000,
+      "roi": 10.0,
+      "risk": "High",
+      "timeline": 12,
+      "description": "Utilisation de 15Ha pour la création d'une ferme biologique. Ce projet consiste à cultiver des produits biologiques pour la vente directe et la distribution aux marchés locaux.",
+      "comments": "Le succès de ce projet dépend de la capacité à développer une marque forte et à établir des relations solides avec les distributeurs locaux."
+    },
+    {
+      "expert": "Marie-Claire COMPTA",
+      "title": "Installation d'un parc solaire",
+      "budget": 2000000,
+      "roi": 10.0,
+      "risk": "Medium,",
+      "timeline": 18,
+      "description": "Le projet consiste à installer un parc solaire sur une partie du terrain. Cela permettrait de produire de l'électricité qui pourrait être vendue à un fournisseur d'énergie.",
+      "comments": "Le succès de ce projet dépendra de la capacité à négocier un bon prix de vente de l'électricité et à optimiser les coûts d'installation et de maintenance des panneaux solaires."
+    },
+    {
+      "expert": "Thomas ENERGIE",
+      "title": "Installation de panneaux photovoltaïques sur les toits de bâtiments agricoles",
+      "budget": 5000001000050,
+      "roi": 10.0,
+      "risk": "Medium",
+      "timeline": 12,
+      "description": "Ce projet consiste à installer des panneaux photovoltaïques sur les toits des bâtiments agricoles existants. Cela permettra de produire de l'électricité pour les besoins de la ferme et de vendre l'excédent au réseau.",
+      "comments": "Le succès de ce projet dépend de l'orientation et de l'inclinaison des toits, ainsi que de l'ensoleillement de la région."
+    },
+    {
+      "expert": "Marie-Claire COMPTA",
+      "title": "Plantation de noyers pour la production de noix",
+      "budget": 100000,
+      "roi": 8.0,
+      "risk": "High,",
+      "timeline": 7,
+      "description": "Le projet consiste à planter des noyers sur une partie du terrain pour produire des noix qui pourraient être vendues sur le marché local ou à des transformateurs.",
+      "comments": "Le succès de ce projet dépendra de la capacité à maintenir les arbres en bonne santé et à vendre les noix à un bon prix."
+    },
+    {
+      "expert": "Thomas ENERGIE",
+      "title": "Installation d'une unité de méthanisation",
+      "budget": 1500000,
+      "roi": 8.0,
+      "risk": "High",
+      "timeline": 24,
+      "description": "Ce projet consiste à installer une unité de méthanisation pour transformer les déchets organiques de la ferme en biogaz. Le biogaz peut être utilisé pour produire de l'électricité et de la chaleur.",
+      "comments": "Le succès de ce projet dépend de la gestion des déchets organiques et de la maintenance de l'unité de méthanisation."
+    },
+    {
+      "expert": "Jean-Pierre CREDIT",
+      "title": "Construction d'un complexe résidentiel",
+      "budget": 182,
+      "roi": 6.0,
+      "risk": "Medium",
+      "timeline": 36,
+      "description": "Utilisation de 9Ha pour la construction d'un complexe résidentiel. Ce projet consiste à construire des maisons pour la vente ou la location.",
+      "comments": "Le succès de ce projet dépend de la capacité à obtenir des financements et des permis de construire, ainsi que de la demande du marché immobilier local."
+    },
+    {
+      "expert": "Didier SOL",
+      "title": "Plantation de forêt pour la production de bois",
+      "budget": 70000200003000020000,
+      "roi": 5.0,
+      "risk": "Low",
+      "timeline": 60,
+      "description": "Ce projet consiste à planter une forêt sur 14Ha de terres pour la production de bois. Il comprend l'achat des plants, leur plantation et leur entretien.",
+      "comments": "La réussite de ce projet dépend de la capacité à maintenir une forêt saine et productive."
+    },
+    {
+      "expert": "Jean-Pierre CREDIT",
+      "title": "Installation d'un parc solaire",
+      "budget": 8400000,
+      "roi": 5.0,
+      "risk": "Medium",
+      "timeline": 24,
+      "description": "Installation d'un parc solaire sur une partie du terrain (20Ha). Ce projet consiste à installer des panneaux solaires pour produire de l'électricité qui sera revendue à un fournisseur d'énergie.",
+      "comments": "Le succès de ce projet dépend de la capacité à obtenir des subventions et des crédits avantageux, ainsi que de la conclusion d'un contrat de vente d'électricité à long terme avec un fournisseur d'énergie."
+    },
+    {
+      "expert": "Thomas ENERGIE",
+      "title": "Plantation de cultures énergétiques",
+      "budget": 10000010,
+      "roi": 5.0,
+      "risk": "Medium",
+      "timeline": 36,
+      "description": "Ce projet consiste à planter des cultures énergétiques (comme le miscanthus) sur une partie des terres. Ces cultures peuvent être utilisées comme biomasse pour produire de l'énergie.",
+      "comments": "Le succès de ce projet dépend de la sélection des bonnes espèces de plantes et de la gestion de la culture."
+    }
+  ]
+}

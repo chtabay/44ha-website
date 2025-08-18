@@ -1,0 +1,21 @@
+{
+  "projects": [
+    {
+      "id": "projet-44ha",
+      "title": "Projet 44 Hectares",
+      "location": "Fauillet/Gontaud-de-Nogaret (47)",
+      "description": "Valorisation durable d'une exploitation agricole familiale : agritourisme, énergies renouvelables et transmission générationnelle.",
+      "icon": "🌾",
+      "surface": "44 ha",
+      "planEau": "150m",
+      "status": "progress",
+      "url": "projets/44ha/index.html",
+      "type": "agritourisme"
+    }
+  ],
+  "metadata": {
+    "created": "2025-08-19T00:07:07.192596",
+    "version": "1.0",
+    "description": "Configuration des projets multi-sites"
+  }
+}

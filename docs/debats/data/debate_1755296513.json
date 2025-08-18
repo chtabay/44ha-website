@@ -1,0 +1,667 @@
+{
+  "topics_debated": [
+    {
+      "topic": "Faisabilité financière et montage de financement",
+      "turns": 10,
+      "consensus_reached": false,
+      "exchanges": [
+        {
+          "speaker": "Didier SOL",
+          "content": "Face au défi de la transition agricole, il est crucial d'assurer la faisabilité financière de nos exploitations. Il faut des mesures concrètes pour encourager et faciliter l'accessibilité aux financements. \n\n→ Interpelle: Chloé, comment assurer l'attractivité des financements pour nos agriculteurs?\n\n💡 Propose: J'encourage la mise en place d'un fonds d'investissement de 5 millions d'euros pour soutenir les exploitations agricoles locales dans leur transition écologique.",
+          "targets": [],
+          "proposal": "💡 Propose: J'encourage la mise en place d'un fonds d'investissement de 5 millions d'euros pour soutenir les exploitations agricoles locales dans leur transition écologique.",
+          "emotion": "questionnement",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:17:36.491687"
+        },
+        {
+          "speaker": "Estelle TREVISAN",
+          "content": "La faisabilité financière est une étape cruciale pour tout projet touristique. Nous devons prendre en compte les coûts d'investissement, d'exploitation et de promotion.\n→ Interpelle: Didier\n💡 Propose: Réaliser un audit financier de chaque projet pour établir un plan de financement précis et optimisé, budget estimé à 5000€ par projet.",
+          "targets": [
+            "Didier"
+          ],
+          "proposal": "💡 Propose: Réaliser un audit financier de chaque projet pour établir un plan de financement précis et optimisé, budget estimé à 5000€ par projet.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:17:40.996815"
+        },
+        {
+          "speaker": "Thomas ENERGIE",
+          "content": "Le financement de la transition énergétique agricole est réalisable! Les coûts initiaux sont élevés mais les retours sur investissement à long terme sont significatifs. C'est mon expérience de 10 ans dans ce domaine qui me le confirme. \n→ Interpelle: Didier SOL\n💡 Propose: Réalisons une analyse de rentabilité sur 20 ans pour un projet photovoltaïque d'une ferme de taille moyenne avec un budget initial de 300 000 €.",
+          "targets": [
+            "Didier"
+          ],
+          "proposal": "💡 Propose: Réalisons une analyse de rentabilité sur 20 ans pour un projet photovoltaïque d'une ferme de taille moyenne avec un budget initial de 300 000 €.",
+          "emotion": "conviction",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:17:45.366395"
+        },
+        {
+          "speaker": "Marc HYDRO",
+          "content": "Le financement de l'irrigation optimisée est totalement réaliste. L'investissement initial peut sembler conséquent, mais les économies sur l'eau et les rendements accrus le compenseront largement. C'est une opportunité à saisir pour notre agriculture durable.\n→ Interpelle: Thomas ENERGIE\n💡 Propose: Prévoir 30% du budget de transition énergétique pour l'optimisation des systèmes d'irrigation.",
+          "targets": [
+            "Thomas"
+          ],
+          "proposal": "💡 Propose: Prévoir 30% du budget de transition énergétique pour l'optimisation des systèmes d'irrigation.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:17:50.770831"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "L'investissement initial est certes parfois haut, mais ne perdons pas de vue la capacité de remboursement à long terme des exploitations. Thomas, Marc, n'oubliez pas le contexte agricole actuel, entre fluctuations des cours et aléas climatiques. Attention à l'excès d'optimisme ! \n→ Interpelle: Thomas ENERGIE, Marc HYDRO\n💡 Propose: Organisons une session d'analyse de risque détaillée pour ces projets, budget 10k€.",
+          "targets": [
+            "Thomas",
+            "Marc"
+          ],
+          "proposal": "💡 Propose: Organisons une session d'analyse de risque détaillée pour ces projets, budget 10k€.",
+          "emotion": "conviction",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:17:57.823922"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "Attention à ne pas se laisser éblouir par les promesses de rentabilité à long terme! Les coûts initiaux sont souvent sous-estimés alors que les imprévus sont fréquents.\n→ Interpelle: Thomas ENERGIE, Marc HYDRO\n💡 Propose: Faisons un audit financier précis de chaque projet, incluant un budget de 20% pour les imprévus.",
+          "targets": [
+            "Thomas",
+            "Marc"
+          ],
+          "proposal": "💡 Propose: Faisons un audit financier précis de chaque projet, incluant un budget de 20% pour les imprévus.",
+          "emotion": "conviction",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:18:02.375911"
+        },
+        {
+          "speaker": "Robert TRANSMISSION",
+          "content": "La transmission et le financement de l'exploitation sont liés. Jean-Pierre, nous devons penser à une solution durable qui prend en compte la capacité de remboursement des futurs exploitants.\n→ Interpelle: Jean-Pierre CREDIT\n💡 Propose: Prévoir un budget pour une étude de faisabilité financière à 2000€.",
+          "targets": [
+            "Jean-Pierre"
+          ],
+          "proposal": "💡 Propose: Prévoir un budget pour une étude de faisabilité financière à 2000€.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:18:06.492467"
+        },
+        {
+          "speaker": "James BRITISH-EXPERIENCE",
+          "content": "Marie-Claire, bien sûr, nous devons être vigilants avec les coûts. Mais n'oublions pas l'attrait irrésistible de la France rurale pour le marché britannique haut de gamme : authentique, hautement premium, c'est là que réside la vraie rentabilité à long terme.\n→ Interpelle: Marie-Claire COMPTA\n💡 Propose: Allouons 15% de plus à la recherche de financements externes pour protéger nos intérêts initiaux.",
+          "targets": [
+            "Marie-Claire"
+          ],
+          "proposal": "💡 Propose: Allouons 15% de plus à la recherche de financements externes pour protéger nos intérêts initiaux.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:18:11.999033"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "Robert, il est essentiel de ne pas se laisser séduire par de belles promesses. Nous devons être réalistes sur le coût de transmission et le retour sur investissement. \n→ Interpelle: Robert\n💡 Propose: Mandatons un auditeur externe pour une analyse détaillée des flux financiers et un examen rigoureux du business plan avant toute décision. Budget estimé: 7k€.",
+          "targets": [
+            "Robert"
+          ],
+          "proposal": "💡 Propose: Mandatons un auditeur externe pour une analyse détaillée des flux financiers et un examen rigoureux du business plan avant toute décision. Budget estimé: 7k€.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:18:16.578751"
+        },
+        {
+          "speaker": "Robert TRANSMISSION",
+          "content": "Je partage ton souci, Marie-Claire, de ne pas se laisser bercer par des promesses illusoires. L'enjeu financier est crucial. Cependant, il faut garder à l'esprit que la transmission familiale est aussi une priorité. \n→ Interpelle: James\n💡 Propose: Faisons appel à un expert financier pour une évaluation détaillée du projet, budget estimé à 5000€.",
+          "targets": [
+            "Marie-Claire",
+            "James"
+          ],
+          "proposal": "💡 Propose: Faisons appel à un expert financier pour une évaluation détaillée du projet, budget estimé à 5000€.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:18:21.341528"
+        }
+      ]
+    },
+    {
+      "topic": "Priorités d'investissement et optimisation fiscale",
+      "turns": 10,
+      "consensus_reached": false,
+      "exchanges": [
+        {
+          "speaker": "Didier SOL",
+          "content": "Le pragmatisme est essentiel dans nos choix d'investissement. Robert, ne sous-estimons pas les risques financiers liés à des projets trop ambitieux. \n→ Interpelle: Robert\n💡 Propose: Mise en place d'un audit financier de 10k€ pour chaque projet pour bien cerner les risques.",
+          "targets": [
+            "Robert"
+          ],
+          "proposal": "💡 Propose: Mise en place d'un audit financier de 10k€ pour chaque projet pour bien cerner les risques.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:18:25.318463"
+        },
+        {
+          "speaker": "Estelle TREVISAN",
+          "content": "Nous devons investir dans le tourisme rural et l'agritourisme, car ils sont des leviers de croissance essentiels pour notre territoire. Didier, nous devons optimiser notre fiscalité pour encourager et soutenir ces secteurs. Le potentiel est énorme, ne le négligeons pas!\n→ Interpelle: Didier\n💡 Propose: Créer un fonds d'investissement dédié à l'agritourisme avec un budget de 5M€.",
+          "targets": [
+            "Didier"
+          ],
+          "proposal": "💡 Propose: Créer un fonds d'investissement dédié à l'agritourisme avec un budget de 5M€.",
+          "emotion": "conviction",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:18:29.720630"
+        },
+        {
+          "speaker": "Thomas ENERGIE",
+          "content": "Didier, Estelle, ne perdons pas de vue l'importance de l'autonomie énergétique. Investir dans le photovoltaïque agricole offre des rendements à long terme et des avantages fiscaux significatifs. Je ressens une urgence à agir pour l'avenir de nos exploitations.\n→ Interpelle: Didier SOL, Estelle TREVISAN\n💡 Propose: Allouer 50% des investissements dans le photovoltaïque agricole, optimisant ainsi les coûts et bénéficiant des avantages fiscaux à long terme.",
+          "targets": [
+            "Didier",
+            "Estelle"
+          ],
+          "proposal": "💡 Propose: Allouer 50% des investissements dans le photovoltaïque agricole, optimisant ainsi les coûts et bénéficiant des avantages fiscaux à long terme.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:18:35.971930"
+        },
+        {
+          "speaker": "Marc HYDRO",
+          "content": "N'oublions pas l'importance de l'eau, Estelle, Thomas ! Les investissements en systèmes d'irrigation optimisés sont cruciaux pour soutenir à la fois l'agritourisme et l'autonomie énergétique. Je suis convaincu que l'efficience de l'eau est notre avenir.\n→ Interpelle: Thomas, Estelle\n💡 Propose: Investir 30% du budget dans l'optimisation de l'irrigation et la gestion des ressources hydrauliques.",
+          "targets": [
+            "Estelle",
+            "Thomas"
+          ],
+          "proposal": "💡 Propose: Investir 30% du budget dans l'optimisation de l'irrigation et la gestion des ressources hydrauliques.",
+          "emotion": "conviction",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:18:41.304239"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "N'oublions pas la rentabilité, Thomas, Marc, Estelle. Autonomie énergétique, tourisme, irrigation, tout cela implique des investissements conséquents. Chacun de ces projets doit être étudié précisément pour en estimer le retour sur investissement. \n→ Interpelle: Thomas, Marc, Estelle\n💡 Propose: Étudier chaque projet d'investissement à l'aide d'un analyseur de rentabilité pour un budget de 50k euros.",
+          "targets": [
+            "Estelle",
+            "Thomas",
+            "Marc"
+          ],
+          "proposal": "💡 Propose: Étudier chaque projet d'investissement à l'aide d'un analyseur de rentabilité pour un budget de 50k euros.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:18:46.873469"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "Je comprends les attraits de l'autonomie énergétique, l'irrigation et le tourisme, mais attention à la rentabilité réelle. Jean-Pierre, il faut absolument intégrer la fiscalité exploitation dans notre analyse. \n→ Interpelle: Jean-Pierre\n💡 Propose: Un audit fiscal des investissements proposés, coût estimé à 3 000 euros.",
+          "targets": [
+            "Jean-Pierre"
+          ],
+          "proposal": "💡 Propose: Un audit fiscal des investissements proposés, coût estimé à 3 000 euros.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:18:51.139468"
+        },
+        {
+          "speaker": "Robert TRANSMISSION",
+          "content": "Il est impératif de ne pas perdre de vue l'importance de la transmission familiale pour assurer la pérennité du projet, Marc, Jean-Pierre, Marie-Claire. Les investissements doivent aussi être pensés à long terme. \n→ Interpelle: Thomas\n💡 Propose: Réunir une enveloppe de 20 000 € pour la mise en place d'un plan de succession solide et durable.",
+          "targets": [
+            "Thomas",
+            "Marc",
+            "Jean-Pierre",
+            "Marie-Claire"
+          ],
+          "proposal": "💡 Propose: Réunir une enveloppe de 20 000 € pour la mise en place d'un plan de succession solide et durable.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:18:56.055179"
+        },
+        {
+          "speaker": "James BRITISH-EXPERIENCE",
+          "content": "Je comprends vos perspectives, mais n'oublions pas la valeur de l'expérience de voyage authentique pour la clientèle britannique, Marie-Claire et Robert. Ils cherchent à vivre la vraie France et sont prêts à payer pour cela. \n→ Interpelle: Marie-Claire, Robert\n💡 Propose: Investir 30% du budget dans le développement de forfaits touristiques premium, comprenant des visites de vignobles, des cours de cuisine française et des séjours en châteaux ruraux.",
+          "targets": [
+            "Marie-Claire",
+            "Robert"
+          ],
+          "proposal": "💡 Propose: Investir 30% du budget dans le développement de forfaits touristiques premium, comprenant des visites de vignobles, des cours de cuisine française et des séjours en châteaux ruraux.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:19:01.779177"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "L'optimisation fiscale est primordiale, sans négliger la réalité de la rentabilité. Attention à l'attrait du tourisme, Robert, sans une étude de marché rigoureuse, c'est un investissement risqué. \n→ Interpelle: Robert TRANSMISSION\n💡 Propose: Réaliser une étude de marché approfondie pour le tourisme, budget prévisionnel de 3000€.",
+          "targets": [
+            "Robert"
+          ],
+          "proposal": "💡 Propose: Réaliser une étude de marché approfondie pour le tourisme, budget prévisionnel de 3000€.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:19:06.587582"
+        },
+        {
+          "speaker": "Robert TRANSMISSION",
+          "content": "Je suis convaincu que nous devons équilibrer l'optimisation fiscale avec le respect des enjeux de succession familiale. James, les expériences authentiques perdurent avec une transmission familiale soignée. Marie-Claire, attention à ne pas sacrifier la pérennité du projet au profit de gains fiscaux à court terme.\n→ Interpelle: James, Marie-Claire\n💡 Propose: Investir 20% du budget dans un conseil juridique spécialisé en succession pour assurer la pérennité et l'acceptation locale du projet.",
+          "targets": [
+            "Marie-Claire",
+            "James"
+          ],
+          "proposal": "💡 Propose: Investir 20% du budget dans un conseil juridique spécialisé en succession pour assurer la pérennité et l'acceptation locale du projet.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:19:12.764600"
+        }
+      ]
+    },
+    {
+      "topic": "Gestion hydraulique et adaptation climatique",
+      "turns": 10,
+      "consensus_reached": false,
+      "exchanges": [
+        {
+          "speaker": "Didier SOL",
+          "content": "L'eau est vitale pour nos exploitations. Sans une bonne gestion hydraulique, nos terres souffrent et nos récoltes périclitent. Cette question est d'autant plus urgente avec le changement climatique. \n→ Interpelle: Marie-Claire \n💡 Propose: Investissons 500 000€ dans des projets pilotes de retenues d'eau sur nos exploitations.",
+          "targets": [
+            "Marie-Claire"
+          ],
+          "proposal": "💡 Propose: Investissons 500 000€ dans des projets pilotes de retenues d'eau sur nos exploitations.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:19:17.350003"
+        },
+        {
+          "speaker": "Estelle TREVISAN",
+          "content": "La gestion de l'eau est cruciale, certes, mais n'oublions pas de viser une approche globale, intégrant le tourisme et la préservation de nos paysages. Didier, considérons aussi l'impact de l'agritourisme sur nos exploitations. \n→ Interpelle: Didier SOL\n💡 Propose: Organiser une table ronde dédiée à l'agritourisme avec un budget prévisionnel de 10.000€ pour faire émerger des propositions concrètes.",
+          "targets": [
+            "Didier"
+          ],
+          "proposal": "💡 Propose: Organiser une table ronde dédiée à l'agritourisme avec un budget prévisionnel de 10.000€ pour faire émerger des propositions concrètes.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:19:22.775991"
+        },
+        {
+          "speaker": "Thomas ENERGIE",
+          "content": "La gestion de l'eau est essentielle, Didier, mais il faut aussi penser à la manière dont nous produisons notre énergie. Je suis convaincu que la transition énergétique est un enjeu majeur pour l'agriculture. \n→ Interpelle: Didier SOL\n💡 Propose: Investir 20% du budget dans des solutions d'énergie renouvelable pour chaque exploitation agricole. Cela réduira leur dépendance aux énergies fossiles, tout en diminuant leur facture énergétique sur le long terme.",
+          "targets": [
+            "Didier"
+          ],
+          "proposal": "💡 Propose: Investir 20% du budget dans des solutions d'énergie renouvelable pour chaque exploitation agricole. Cela réduira leur dépendance aux énergies fossiles, tout en diminuant leur facture énergétique sur le long terme.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:19:27.580758"
+        },
+        {
+          "speaker": "Marc HYDRO",
+          "content": "L'eau est notre bien le plus précieux, sans elle, pas de vie ni d'agriculture. Sa gestion doit être optimisée et respectueuse des réglementations en vigueur. \n→ Interpelle: Didier SOL \n💡 Propose: Investir 5M€ dans un programme de recherche pour améliorer les techniques d'irrigation et réduire de 20% la consommation d'eau agricole d'ici 5 ans.",
+          "targets": [
+            "Didier"
+          ],
+          "proposal": "💡 Propose: Investir 5M€ dans un programme de recherche pour améliorer les techniques d'irrigation et réduire de 20% la consommation d'eau agricole d'ici 5 ans.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:19:32.401270"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "La gestion hydraulique est fondamentale, mais ne doit pas menacer la viabilité financière des exploitations. Thomas, une transition énergétique coûteuse peut être risquée pour nos agriculteurs.\n→ Interpelle: Thomas ENERGIE\n💡 Propose: Étudier un plan de soutien financier pour accompagner les exploitations dans cette transition, avec un budget initial de 10 millions d'euros.",
+          "targets": [
+            "Thomas"
+          ],
+          "proposal": "💡 Propose: Étudier un plan de soutien financier pour accompagner les exploitations dans cette transition, avec un budget initial de 10 millions d'euros.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:19:37.518044"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "Gestion hydraulique et adaptation climatique sont incontournables, mais ne perdons pas de vue l'équilibre financier des exploitations. Jean-Pierre, je partage ta préoccupation. \n→ Interpelle: Jean-Pierre CREDIT\n💡 Propose : Mettons en place des outils de pilotage financiers adaptés, pour un investissement moyen de 500€ par exploitation.",
+          "targets": [
+            "Jean-Pierre"
+          ],
+          "proposal": "💡 Propose : Mettons en place des outils de pilotage financiers adaptés, pour un investissement moyen de 500€ par exploitation.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:19:41.783724"
+        },
+        {
+          "speaker": "Robert TRANSMISSION",
+          "content": "Je suis d'accord Marc, l'eau est la clé. L'adaptation climatique demande des modifications notables dans nos exploitations. Jean-Pierre, il est essentiel de garder la viabilité économique en tête!\n→ Interpelle: Marie-Claire \n💡 Propose: Créons un fonds de 5M€ pour aider les agriculteurs à adopter de nouveaux systèmes d'irrigation plus résilients.",
+          "targets": [
+            "Marc",
+            "Jean-Pierre",
+            "Marie-Claire"
+          ],
+          "proposal": "💡 Propose: Créons un fonds de 5M€ pour aider les agriculteurs à adopter de nouveaux systèmes d'irrigation plus résilients.",
+          "emotion": "conviction",
+          "agreement_level": 0.7,
+          "timestamp": "2025-08-16T00:19:45.198493"
+        },
+        {
+          "speaker": "James BRITISH-EXPERIENCE",
+          "content": "Les visiteurs britanniques sont sensibles à la préservation de l'environnement, ils aiment la France rurale et ses paysages préservés. Robert, n'est-ce pas là une opportunité de valoriser nos efforts en matière de gestion hydraulique et d'adaptation climatique ?\n→ Interpelle: Robert TRANSMISSION\n💡 Propose: Investir 20K£ dans une communication ciblée UK sur nos actions responsables.",
+          "targets": [
+            "Robert"
+          ],
+          "proposal": "💡 Propose: Investir 20K£ dans une communication ciblée UK sur nos actions responsables.",
+          "emotion": "questionnement",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:19:50.113158"
+        },
+        {
+          "speaker": "Robert TRANSMISSION",
+          "content": "La gestion hydraulique et l'adaptation climatique sont des sujets fondamentaux pour la pérennité de nos exploitations. Je suis très inquiet de voir comment le changement climatique affecte nos pratiques agricoles.\n→ Interpelle: Marie-Claire\n💡 Propose: Je propose d'investir 1M€ dans un programme de formation pour nos agriculteurs, pour leur apprendre à gérer l'eau de manière plus efficace et à adapter leurs pratiques aux réalités du changement climatique.",
+          "targets": [
+            "Marie-Claire"
+          ],
+          "proposal": "💡 Propose: Je propose d'investir 1M€ dans un programme de formation pour nos agriculteurs, pour leur apprendre à gérer l'eau de manière plus efficace et à adapter leurs pratiques aux réalités du changement climatique.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:19:56.364468"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "L'adaptation climatique est une nécessité, je suis d'accord, mais ne perdons pas de vue le coût de ces adaptations Robert! Il faut dimensionner avec rigueur les investissements dans la gestion hydraulique pour ne pas grever la rentabilité des exploitations.\n→ Interpelle: Robert TRANSMISSION\n💡 Propose: Réaliser une étude de coût-bénéfice avant tout investissement en matériel hydraulique, budget prévisionnel 5 000€.",
+          "targets": [
+            "Robert"
+          ],
+          "proposal": "💡 Propose: Réaliser une étude de coût-bénéfice avant tout investissement en matériel hydraulique, budget prévisionnel 5 000€.",
+          "emotion": "conviction",
+          "agreement_level": 0.7,
+          "timestamp": "2025-08-16T00:20:01.068256"
+        }
+      ]
+    },
+    {
+      "topic": "Développement touristique et valorisation territoriale",
+      "turns": 10,
+      "consensus_reached": false,
+      "exchanges": [
+        {
+          "speaker": "Didier SOL",
+          "content": "L'agriculture est le poumon de notre territoire, elle participe à son attractivité touristique. Le tourisme vert, c'est aussi l'opportunité d'éduquer les visiteurs sur l'importance de l'adaptation climatique.\n→ Interpelle: James\n💡 Propose: Créons une route touristique \"agriculture et climat\" avec un budget de 50 000€ pour mettre en valeur nos exploitations agricoles innovantes.",
+          "targets": [
+            "James"
+          ],
+          "proposal": "💡 Propose: Créons une route touristique \"agriculture et climat\" avec un budget de 50 000€ pour mettre en valeur nos exploitations agricoles innovantes.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:20:06.400254"
+        },
+        {
+          "speaker": "Estelle TREVISAN",
+          "content": "Le développement touristique est un levier de croissance à ne pas négliger. Les richesses naturelles de Lot-et-Garonne, comme son agriculture, sont une source d'attractivité indéniable. Didier, tes idées sur l'agritourisme sont inspirantes! \n→ Interpelle: Didier\n💡 Propose: Créons ensemble un plan d'action pour développer un agritourisme qualitatif sur notre territoire, avec un budget initial de 50 000€.",
+          "targets": [
+            "Didier"
+          ],
+          "proposal": "💡 Propose: Créons ensemble un plan d'action pour développer un agritourisme qualitatif sur notre territoire, avec un budget initial de 50 000€.",
+          "emotion": "conviction",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:20:11.303357"
+        },
+        {
+          "speaker": "Thomas ENERGIE",
+          "content": "Le tourisme durable est une opportunité, mais il doit être énergétiquement responsable. Les exploitations agricoles peuvent devenir des sites touristiques écoresponsables grâce à l'énergie photovoltaïque. Didier, notre territoire peut montrer l'exemple de l'autonomie énergétique.\n→ Interpelle: Didier SOL\n💡 Propose: Installer des panneaux solaires sur 20% des fermes du territoire pour un budget de 5M€ sur 5 ans.",
+          "targets": [
+            "Didier"
+          ],
+          "proposal": "💡 Propose: Installer des panneaux solaires sur 20% des fermes du territoire pour un budget de 5M€ sur 5 ans.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:20:16.128879"
+        },
+        {
+          "speaker": "Marc HYDRO",
+          "content": "Le développement touristique est en effet une opportunité, mais n'oublions pas l'importance cruciale de la gestion de l'eau dans ce contexte. Des infrastructures adéquates et une irrigation optimisée sont indispensables pour préserver nos ressources hydriques. \n\n→ Interpelle: Didier SOL\n💡 Propose: L'investissement de 300 000 euros dans l'amélioration des systèmes d'irrigation agricole pour économiser l'eau et assurer une gestion durable de nos ressources.",
+          "targets": [
+            "Didier"
+          ],
+          "proposal": "💡 Propose: L'investissement de 300 000 euros dans l'amélioration des systèmes d'irrigation agricole pour économiser l'eau et assurer une gestion durable de nos ressources.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:20:21.250554"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "Le tourisme est une belle opportunité, mais ne sous-estimons pas les risques financiers associés à de tels projets. Pour un développement touristique durable, il faut un bon plan de financement en place. \n→ Interpelle: Thomas ENERGIE\n💡 Propose: Une analyse financière détaillée des projets, avec un budget initial de 10 000 euros pour cette étude.",
+          "targets": [
+            "Thomas"
+          ],
+          "proposal": "💡 Propose: Une analyse financière détaillée des projets, avec un budget initial de 10 000 euros pour cette étude.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:20:26.165571"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "Le tourisme peut être une source de revenus intéressante, mais attention à la volatilité de ce marché. Jean-Pierre, combien coûtent les protections contre les risques financiers dans ce domaine?\n→ Interpelle: Jean-Pierre\n💡 Propose: Évaluation du coût des protections financières pour le tourisme",
+          "targets": [
+            "Jean-Pierre"
+          ],
+          "proposal": "💡 Propose: Évaluation du coût des protections financières pour le tourisme",
+          "emotion": "questionnement",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:20:29.741863"
+        },
+        {
+          "speaker": "Robert TRANSMISSION",
+          "content": "Le développement touristique peut être un levier de transmission familiale si bien géré. Cependant, Marie-Claire, il ne faut pas négliger les enjeux juridiques et les tensions familiales que cela peut engendrer. \n→ Interpelle: Marie-Claire\n💡 Propose: D'allouer 20% du budget d'investissement à l'accompagnement juridique et familial nécessaire pour une transition en douceur.",
+          "targets": [
+            "Marie-Claire"
+          ],
+          "proposal": "💡 Propose: D'allouer 20% du budget d'investissement à l'accompagnement juridique et familial nécessaire pour une transition en douceur.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:20:36.401756"
+        },
+        {
+          "speaker": "James BRITISH-EXPERIENCE",
+          "content": "Le tourisme, s'il est correctement conduit, peut être une source de richesse pour le territoire. Ne laissez pas les craintes financières freiner notre potentiel. \n→ Interpelle: Marie-Claire COMPTA\n💡 Propose: Créer une collection d'expériences touristiques haut de gamme en collaboration avec les artisans locaux pour attirer la clientèle britannique. Budget préliminaire : 150 000€.",
+          "targets": [
+            "Marie-Claire"
+          ],
+          "proposal": "💡 Propose: Créer une collection d'expériences touristiques haut de gamme en collaboration avec les artisans locaux pour attirer la clientèle britannique. Budget préliminaire : 150 000€.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:20:41.739933"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "Le développement touristique peut certes générer des revenus, mais ces derniers peuvent être fluctuants et incertains. \n→ Interpelle: Robert, James\n💡 Propose: Avant de s'engager dans ce secteur, réalisons une étude de marché précise et une analyse financière approfondie pour estimer les revenus potentiels et les coûts associés, budget prévisionnel de 5 000€.",
+          "targets": [
+            "Robert",
+            "James"
+          ],
+          "proposal": "💡 Propose: Avant de s'engager dans ce secteur, réalisons une étude de marché précise et une analyse financière approfondie pour estimer les revenus potentiels et les coûts associés, budget prévisionnel de 5 000€.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:20:47.154555"
+        },
+        {
+          "speaker": "Robert TRANSMISSION",
+          "content": "La transmission familiale dans le domaine du tourisme repose sur la solidité des statuts juridiques. C'est un enjeu crucial à ne pas négliger.\n→ Interpelle: James BRITISH-EXPERIENCE, vous avez une expérience avérée dans le tourisme, qu'en pensez-vous ?\n💡 Propose: Organiser des ateliers de formation sur les statuts juridiques pour les entrepreneurs du secteur touristique, budget estimé à 15 000 €.",
+          "targets": [
+            "James"
+          ],
+          "proposal": "💡 Propose: Organiser des ateliers de formation sur les statuts juridiques pour les entrepreneurs du secteur touristique, budget estimé à 15 000 €.",
+          "emotion": "questionnement",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:20:52.559365"
+        }
+      ]
+    },
+    {
+      "topic": "Plan d'action consensuel et stratégie de transmission",
+      "turns": 10,
+      "consensus_reached": false,
+      "exchanges": [
+        {
+          "speaker": "Didier SOL",
+          "content": "La transmission agricole est une affaire de passion et de durabilité, pas seulement de statut juridique. Il faut voir au-delà.\n→ Interpelle: Robert\n💡 Propose: Créer un fonds de soutien de 500 000€ pour soutenir les projets de transmission innovants et durables.",
+          "targets": [
+            "Robert"
+          ],
+          "proposal": "💡 Propose: Créer un fonds de soutien de 500 000€ pour soutenir les projets de transmission innovants et durables.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:20:56.982698"
+        },
+        {
+          "speaker": "Estelle TREVISAN",
+          "content": "La transmission touristique, c'est aussi partager une vision, un savoir-faire et une passion. Je suis convaincue qu'en unissant nos forces, nous pouvons créer une dynamique positive pour le tourisme dans le Lot-et-Garonne. \n→ Interpelle: Robert TRANSMISSION\n💡 Propose: Organisons des ateliers de partage de vision et de savoir-faire pour 20 000 euros.",
+          "targets": [
+            "Robert"
+          ],
+          "proposal": "💡 Propose: Organisons des ateliers de partage de vision et de savoir-faire pour 20 000 euros.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:21:04.148897"
+        },
+        {
+          "speaker": "Thomas ENERGIE",
+          "content": "La transmission agricole doit aussi considérer l'autonomie énergétique - c'est une opportunité financière et environnementale. Robert, ne sous-estime pas ces aspects dans tes statuts juridiques. Didier, je suis d'accord, la passion compte, mais les chiffres aussi. \n→ Interpelle: Robert TRANSMISSION, Didier SOL\n💡 Propose: Intégrer un audit énergétique (5 000 €) dans le processus de transmission pour optimiser coûts et performances.",
+          "targets": [
+            "Didier",
+            "Robert"
+          ],
+          "proposal": "💡 Propose: Intégrer un audit énergétique (5 000 €) dans le processus de transmission pour optimiser coûts et performances.",
+          "emotion": "neutre",
+          "agreement_level": 0.7,
+          "timestamp": "2025-08-16T00:21:09.889322"
+        },
+        {
+          "speaker": "Marc HYDRO",
+          "content": "La transmission agricole ne doit pas négliger l'aspect irrigation dans une époque de changements climatiques croissants. C'est une question de durabilité. Thomas, tu as parlé d'autonomie énergétique. Et si nous l'associons à une gestion optimisée de l'eau?\n→ Interpelle: Thomas ENERGIE\n💡 Propose: Étudier un plan de modernisation des systèmes d'irrigation pour 2M€ dans le cadre des transmissions agricoles.",
+          "targets": [
+            "Thomas"
+          ],
+          "proposal": "💡 Propose: Étudier un plan de modernisation des systèmes d'irrigation pour 2M€ dans le cadre des transmissions agricoles.",
+          "emotion": "questionnement",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:21:15.929005"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "La transmission d'exploitations doit être pensée avec une stratégie financière réfléchie. Marc, l'irrigation est un investissement stratégique, mais il faut envisager le retour sur investissement. \n→ Interpelle: Marc HYDRO\n💡 Propose: Établir une analyse financière approfondie pour chaque investissement dans l'irrigation, incluant les risques et les garanties.",
+          "targets": [
+            "Marc"
+          ],
+          "proposal": "💡 Propose: Établir une analyse financière approfondie pour chaque investissement dans l'irrigation, incluant les risques et les garanties.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:21:22.784456"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "La transmission réussie d'une exploitation nécessite une planification financière rigoureuse pour assurer sa rentabilité. Jean-Pierre, ne nous précipitons pas vers les prêts, regardons d'abord les actifs disponibles et les charges potentielles. Je suis très vigilante sur le risque d'endettement.\n→ Interpelle: Jean-Pierre\n💡 Propose: Un audit financier précis de l'exploitation avant toute décision de prêt.",
+          "targets": [
+            "Jean-Pierre"
+          ],
+          "proposal": "💡 Propose: Un audit financier précis de l'exploitation avant toute décision de prêt.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:21:28.117312"
+        },
+        {
+          "speaker": "Robert TRANSMISSION",
+          "content": "La transmission agricole est un sujet délicat, mêlant héritage familial et enjeux économiques. Jean-Pierre, je partage ton point de vue sur la nécessité d'une stratégie financière. \n→ Interpelle: Jean-Pierre CREDIT\n💡 Propose: Je propose l'allocation d'un budget de 5000€ pour une étude d'impact financier avant chaque transmission, garantissant une transition économiquement viable.",
+          "targets": [
+            "Jean-Pierre"
+          ],
+          "proposal": "💡 Propose: Je propose l'allocation d'un budget de 5000€ pour une étude d'impact financier avant chaque transmission, garantissant une transition économiquement viable.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:21:33.028904"
+        },
+        {
+          "speaker": "James BRITISH-EXPERIENCE",
+          "content": "La transmission d'une exploitation est une étape cruciale, particulièrement pour les lieux touristiques. Cette transition doit être fluide pour préserver l'authenticité et l'attrait du site. Robert, ta sensibilité à ce sujet est rassurante.\n→ Interpelle: Robert TRANSMISSION\n💡 Propose: Investir 10% du budget annuel dans un plan de transmission adapté aux exploitations touristiques.",
+          "targets": [
+            "Robert"
+          ],
+          "proposal": "💡 Propose: Investir 10% du budget annuel dans un plan de transmission adapté aux exploitations touristiques.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:21:39.491270"
+        },
+        {
+          "speaker": "Robert TRANSMISSION",
+          "content": "La transmission est un exercice périlleux, mêlant enjeux financiers et émotions familiales, c'est pourquoi la préparation est essentielle. James, tu connais l'importance de la continuité dans nos exploitations, n'est-ce pas ? \n→ Interpelle: James BRITISH-EXPERIENCE\n💡 Propose: Un plan d'action chiffré à 10 000€ pour accompagner les familles dans le processus de transmission, en préparant à la fois les aspects juridiques et émotionnels.",
+          "targets": [
+            "James"
+          ],
+          "proposal": "💡 Propose: Un plan d'action chiffré à 10 000€ pour accompagner les familles dans le processus de transmission, en préparant à la fois les aspects juridiques et émotionnels.",
+          "emotion": "questionnement",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:21:47.714517"
+        },
+        {
+          "speaker": "James BRITISH-EXPERIENCE",
+          "content": "Stratégie de transmission doit cibler des familles britanniques passionnées par la culture française. C'est un levier pour revitaliser le tourisme rural.\n→ Interpelle: Robert\n💡 Propose: Allouer 20% du budget à une campagne de marketing ciblée au Royaume-Uni pour promouvoir la transmission agricole en France.",
+          "targets": [
+            "Robert"
+          ],
+          "proposal": "💡 Propose: Allouer 20% du budget à une campagne de marketing ciblée au Royaume-Uni pour promouvoir la transmission agricole en France.",
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "timestamp": "2025-08-16T00:21:52.682665"
+        }
+      ]
+    }
+  ],
+  "final_consensus": {
+    "consensus_points": [],
+    "final_positions": {},
+    "key_proposals": [
+      {
+        "agent": "Didier SOL",
+        "proposal": "💡 Propose: Créer un fonds de soutien de 500 000€ pour soutenir les projets de transmission innovants et durables."
+      },
+      {
+        "agent": "Estelle TREVISAN",
+        "proposal": "💡 Propose: Organisons des ateliers de partage de vision et de savoir-faire pour 20 000 euros."
+      },
+      {
+        "agent": "Thomas ENERGIE",
+        "proposal": "💡 Propose: Intégrer un audit énergétique (5 000 €) dans le processus de transmission pour optimiser coûts et performances."
+      },
+      {
+        "agent": "Marc HYDRO",
+        "proposal": "💡 Propose: Étudier un plan de modernisation des systèmes d'irrigation pour 2M€ dans le cadre des transmissions agricoles."
+      },
+      {
+        "agent": "Jean-Pierre CREDIT",
+        "proposal": "💡 Propose: Établir une analyse financière approfondie pour chaque investissement dans l'irrigation, incluant les risques et les garanties."
+      },
+      {
+        "agent": "Marie-Claire COMPTA",
+        "proposal": "💡 Propose: Un audit financier précis de l'exploitation avant toute décision de prêt."
+      },
+      {
+        "agent": "Robert TRANSMISSION",
+        "proposal": "💡 Propose: Je propose l'allocation d'un budget de 5000€ pour une étude d'impact financier avant chaque transmission, garantissant une transition économiquement viable."
+      },
+      {
+        "agent": "James BRITISH-EXPERIENCE",
+        "proposal": "💡 Propose: Investir 10% du budget annuel dans un plan de transmission adapté aux exploitations touristiques."
+      },
+      {
+        "agent": "Robert TRANSMISSION",
+        "proposal": "💡 Propose: Un plan d'action chiffré à 10 000€ pour accompagner les familles dans le processus de transmission, en préparant à la fois les aspects juridiques et émotionnels."
+      },
+      {
+        "agent": "James BRITISH-EXPERIENCE",
+        "proposal": "💡 Propose: Allouer 20% du budget à une campagne de marketing ciblée au Royaume-Uni pour promouvoir la transmission agricole en France."
+      }
+    ],
+    "consensus_score": 0.5
+  },
+  "debate_log": [],
+  "statistics": {
+    "total_turns": 50,
+    "topics_covered": 5,
+    "consensus_reached": 0,
+    "speaker_distribution": {
+      "Didier SOL": 5,
+      "Estelle TREVISAN": 5,
+      "Thomas ENERGIE": 5,
+      "Marc HYDRO": 5,
+      "Jean-Pierre CREDIT": 5,
+      "Marie-Claire COMPTA": 9,
+      "Robert TRANSMISSION": 10,
+      "James BRITISH-EXPERIENCE": 6
+    },
+    "average_agreement": 0.5
+  }
+}

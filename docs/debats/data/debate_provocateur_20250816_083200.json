@@ -1,0 +1,1016 @@
+{
+  "parameters": {
+    "rationality_level": 0.7,
+    "moderator_style": "provocateur",
+    "personality_impact": 0.6,
+    "max_turns": 100,
+    "web_search_enabled": true,
+    "final_synthesis_format": "projects_table"
+  },
+  "topics_debated": [
+    {
+      "topic": "Faisabilité financière et analyse ROI détaillée",
+      "turns": 15,
+      "avg_rationality": 0.46875,
+      "exchanges": [
+        {
+          "type": "moderator",
+          "content": "[MODÉRATEUR] Tour 0: Trop de consensus mou ! Qui ose challenger les dernières propositions avec des FAITS contradictoires ?"
+        },
+        {
+          "speaker": "Didier SOL",
+          "content": "[Erreur technique pour Didier SOL]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:27:34.025344"
+        },
+        {
+          "speaker": "Estelle TREVISAN",
+          "content": "[Erreur technique pour Estelle TREVISAN]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:27:36.738911"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "[Erreur technique pour Jean-Pierre CREDIT]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:27:40.015041"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "[Erreur technique pour Marie-Claire COMPTA]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:27:43.103352"
+        },
+        {
+          "speaker": "Thomas ENERGIE",
+          "content": "[Erreur technique pour Thomas ENERGIE]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:27:46.152655"
+        },
+        {
+          "speaker": "Marc HYDRO",
+          "content": "[Erreur technique pour Marc HYDRO]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:27:48.899955"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Erreur technique pour Philippe GONTAUD]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:27:51.551368"
+        },
+        {
+          "speaker": "Didier SOL",
+          "content": "[Erreur technique pour Didier SOL]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:27:54.151736"
+        },
+        {
+          "speaker": "Estelle TREVISAN",
+          "content": "[Erreur technique pour Estelle TREVISAN]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:27:56.850647"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "[Erreur technique pour Jean-Pierre CREDIT]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:28:00.096483"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "[Erreur technique pour Marie-Claire COMPTA]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:28:02.879952"
+        },
+        {
+          "speaker": "Thomas ENERGIE",
+          "content": "[Erreur technique pour Thomas ENERGIE]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:28:05.313936"
+        },
+        {
+          "speaker": "Marc HYDRO",
+          "content": "[Erreur technique pour Marc HYDRO]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:28:07.962526"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Erreur technique pour Philippe GONTAUD]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:28:10.512247"
+        },
+        {
+          "speaker": "Didier SOL",
+          "content": "[Erreur technique pour Didier SOL]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:28:13.195258"
+        }
+      ]
+    },
+    {
+      "topic": "Valorisation optimale du Lac de Cayre",
+      "turns": 15,
+      "avg_rationality": 0.46875,
+      "exchanges": [
+        {
+          "type": "moderator",
+          "content": "[MODÉRATEUR] Tour 15: Trop de consensus mou ! Qui ose challenger les dernières propositions avec des FAITS contradictoires ?"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Erreur technique pour Philippe GONTAUD]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:28:15.906652"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Erreur technique pour Philippe GONTAUD]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:28:18.606196"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Erreur technique pour Philippe GONTAUD]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:28:21.122441"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Erreur technique pour Philippe GONTAUD]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:28:23.788234"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Erreur technique pour Philippe GONTAUD]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:28:26.436133"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Erreur technique pour Philippe GONTAUD]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:28:29.120796"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Erreur technique pour Philippe GONTAUD]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:28:31.752942"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Erreur technique pour Philippe GONTAUD]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:28:34.504887"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Erreur technique pour Philippe GONTAUD]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:28:37.115570"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Erreur technique pour Philippe GONTAUD]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:28:39.798104"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Erreur technique pour Philippe GONTAUD]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:28:42.301468"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Erreur technique pour Philippe GONTAUD]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:28:45.017265"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Erreur technique pour Philippe GONTAUD]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:28:47.638003"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Erreur technique pour Philippe GONTAUD]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:28:50.428955"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Erreur technique pour Philippe GONTAUD]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:28:53.153409"
+        }
+      ]
+    },
+    {
+      "topic": "Stratégie agritourisme clientèle internationale",
+      "turns": 15,
+      "avg_rationality": 0.46875,
+      "exchanges": [
+        {
+          "type": "moderator",
+          "content": "[MODÉRATEUR] Tour 30: Trop de consensus mou ! Qui ose challenger les dernières propositions avec des FAITS contradictoires ?"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "[Erreur technique pour Jean-Pierre CREDIT]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:28:55.810377"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "[Erreur technique pour Marie-Claire COMPTA]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:28:58.610907"
+        },
+        {
+          "speaker": "Thomas ENERGIE",
+          "content": "[Erreur technique pour Thomas ENERGIE]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:29:01.176571"
+        },
+        {
+          "speaker": "Marc HYDRO",
+          "content": "[Erreur technique pour Marc HYDRO]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:29:03.694340"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Erreur technique pour Philippe GONTAUD]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:29:06.426749"
+        },
+        {
+          "speaker": "Didier SOL",
+          "content": "[Erreur technique pour Didier SOL]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:29:08.997353"
+        },
+        {
+          "speaker": "Estelle TREVISAN",
+          "content": "[Erreur technique pour Estelle TREVISAN]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:29:11.675015"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "[Erreur technique pour Jean-Pierre CREDIT]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:29:14.473849"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "[Erreur technique pour Marie-Claire COMPTA]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:29:17.157274"
+        },
+        {
+          "speaker": "Thomas ENERGIE",
+          "content": "[Erreur technique pour Thomas ENERGIE]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:29:19.838805"
+        },
+        {
+          "speaker": "Marc HYDRO",
+          "content": "[Erreur technique pour Marc HYDRO]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:29:22.536340"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Erreur technique pour Philippe GONTAUD]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:29:25.132165"
+        },
+        {
+          "speaker": "Didier SOL",
+          "content": "[Erreur technique pour Didier SOL]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:29:27.866991"
+        },
+        {
+          "speaker": "Estelle TREVISAN",
+          "content": "[Erreur technique pour Estelle TREVISAN]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:29:30.497966"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "[Erreur technique pour Jean-Pierre CREDIT]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:29:33.065916"
+        }
+      ]
+    },
+    {
+      "topic": "Transition énergétique et autonomie exploitation",
+      "turns": 15,
+      "avg_rationality": 0.46875,
+      "exchanges": [
+        {
+          "type": "moderator",
+          "content": "[MODÉRATEUR] Tour 45: Trop de consensus mou ! Qui ose challenger les dernières propositions avec des FAITS contradictoires ?"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "[Erreur technique pour Marie-Claire COMPTA]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:29:35.667887"
+        },
+        {
+          "speaker": "Thomas ENERGIE",
+          "content": "[Erreur technique pour Thomas ENERGIE]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:29:38.300802"
+        },
+        {
+          "speaker": "Marc HYDRO",
+          "content": "[Erreur technique pour Marc HYDRO]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:29:40.883625"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Erreur technique pour Philippe GONTAUD]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:29:43.407042"
+        },
+        {
+          "speaker": "Didier SOL",
+          "content": "[Erreur technique pour Didier SOL]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:29:46.227008"
+        },
+        {
+          "speaker": "Estelle TREVISAN",
+          "content": "[Erreur technique pour Estelle TREVISAN]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:29:48.914384"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "[Erreur technique pour Jean-Pierre CREDIT]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:29:51.624558"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "[Erreur technique pour Marie-Claire COMPTA]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:29:54.223937"
+        },
+        {
+          "speaker": "Thomas ENERGIE",
+          "content": "[Erreur technique pour Thomas ENERGIE]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:29:56.857016"
+        },
+        {
+          "speaker": "Marc HYDRO",
+          "content": "[Erreur technique pour Marc HYDRO]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:29:59.488156"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Erreur technique pour Philippe GONTAUD]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:30:02.390181"
+        },
+        {
+          "speaker": "Didier SOL",
+          "content": "[Erreur technique pour Didier SOL]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:30:05.130881"
+        },
+        {
+          "speaker": "Estelle TREVISAN",
+          "content": "[Erreur technique pour Estelle TREVISAN]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:30:07.667192"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "[Erreur technique pour Jean-Pierre CREDIT]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:30:10.252021"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "[Erreur technique pour Marie-Claire COMPTA]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:30:12.851620"
+        }
+      ]
+    },
+    {
+      "topic": "Optimisation fiscale et montage juridique",
+      "turns": 15,
+      "avg_rationality": 0.46875,
+      "exchanges": [
+        {
+          "type": "moderator",
+          "content": "[MODÉRATEUR] Tour 60: Trop de consensus mou ! Qui ose challenger les dernières propositions avec des FAITS contradictoires ?"
+        },
+        {
+          "speaker": "Thomas ENERGIE",
+          "content": "[Erreur technique pour Thomas ENERGIE]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:30:15.387588"
+        },
+        {
+          "speaker": "Marc HYDRO",
+          "content": "[Erreur technique pour Marc HYDRO]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:30:18.079289"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Erreur technique pour Philippe GONTAUD]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:30:20.638265"
+        },
+        {
+          "speaker": "Didier SOL",
+          "content": "[Erreur technique pour Didier SOL]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:30:23.530195"
+        },
+        {
+          "speaker": "Estelle TREVISAN",
+          "content": "[Erreur technique pour Estelle TREVISAN]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:30:26.195483"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "[Erreur technique pour Jean-Pierre CREDIT]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:30:28.848723"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "[Erreur technique pour Marie-Claire COMPTA]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:30:31.402397"
+        },
+        {
+          "speaker": "Thomas ENERGIE",
+          "content": "[Erreur technique pour Thomas ENERGIE]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:30:33.960165"
+        },
+        {
+          "speaker": "Marc HYDRO",
+          "content": "[Erreur technique pour Marc HYDRO]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:30:36.745335"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Erreur technique pour Philippe GONTAUD]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:30:39.395253"
+        },
+        {
+          "speaker": "Didier SOL",
+          "content": "[Erreur technique pour Didier SOL]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:30:41.872865"
+        },
+        {
+          "speaker": "Estelle TREVISAN",
+          "content": "[Erreur technique pour Estelle TREVISAN]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:30:44.654426"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "[Erreur technique pour Jean-Pierre CREDIT]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:30:47.312001"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "[Erreur technique pour Marie-Claire COMPTA]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:30:50.006399"
+        },
+        {
+          "speaker": "Thomas ENERGIE",
+          "content": "[Erreur technique pour Thomas ENERGIE]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:30:52.701079"
+        }
+      ]
+    },
+    {
+      "topic": "Plan transmission et acceptation territoriale",
+      "turns": 15,
+      "avg_rationality": 0.46875,
+      "exchanges": [
+        {
+          "type": "moderator",
+          "content": "[MODÉRATEUR] Tour 75: Trop de consensus mou ! Qui ose challenger les dernières propositions avec des FAITS contradictoires ?"
+        },
+        {
+          "speaker": "Marc HYDRO",
+          "content": "[Erreur technique pour Marc HYDRO]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:30:55.820424"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Erreur technique pour Philippe GONTAUD]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:30:58.486590"
+        },
+        {
+          "speaker": "Didier SOL",
+          "content": "[Erreur technique pour Didier SOL]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:31:01.763623"
+        },
+        {
+          "speaker": "Estelle TREVISAN",
+          "content": "[Erreur technique pour Estelle TREVISAN]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:31:04.304365"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "[Erreur technique pour Jean-Pierre CREDIT]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:31:07.519316"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "[Erreur technique pour Marie-Claire COMPTA]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:31:10.505946"
+        },
+        {
+          "speaker": "Thomas ENERGIE",
+          "content": "[Erreur technique pour Thomas ENERGIE]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:31:13.316644"
+        },
+        {
+          "speaker": "Marc HYDRO",
+          "content": "[Erreur technique pour Marc HYDRO]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:31:15.982678"
+        },
+        {
+          "speaker": "Philippe GONTAUD",
+          "content": "[Erreur technique pour Philippe GONTAUD]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:31:18.754768"
+        },
+        {
+          "speaker": "Didier SOL",
+          "content": "[Erreur technique pour Didier SOL]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:31:21.608864"
+        },
+        {
+          "speaker": "Estelle TREVISAN",
+          "content": "[Erreur technique pour Estelle TREVISAN]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:31:24.449331"
+        },
+        {
+          "speaker": "Jean-Pierre CREDIT",
+          "content": "[Erreur technique pour Jean-Pierre CREDIT]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:31:27.048681"
+        },
+        {
+          "speaker": "Marie-Claire COMPTA",
+          "content": "[Erreur technique pour Marie-Claire COMPTA]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:31:29.691251"
+        },
+        {
+          "speaker": "Thomas ENERGIE",
+          "content": "[Erreur technique pour Thomas ENERGIE]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:31:32.213960"
+        },
+        {
+          "speaker": "Marc HYDRO",
+          "content": "[Erreur technique pour Marc HYDRO]",
+          "targets": [],
+          "proposal": null,
+          "emotion": "neutre",
+          "agreement_level": 0.5,
+          "rationality_score": 0.5,
+          "timestamp": "2025-08-16T08:31:35.901642"
+        }
+      ]
+    }
+  ],
+  "final_projects": {
+    "Didier SOL": [],
+    "Estelle TREVISAN": [],
+    "Jean-Pierre CREDIT": [],
+    "Marie-Claire COMPTA": [],
+    "Thomas ENERGIE": [],
+    "Marc HYDRO": [],
+    "Philippe GONTAUD": []
+  },
+  "debate_log": [],
+  "statistics": {
+    "total_turns": 90,
+    "avg_global_rationality": 0.5,
+    "rationality_by_agent": {
+      "Didier SOL": 0.5,
+      "Estelle TREVISAN": 0.5,
+      "Jean-Pierre CREDIT": 0.5,
+      "Marie-Claire COMPTA": 0.5,
+      "Thomas ENERGIE": 0.5,
+      "Marc HYDRO": 0.5,
+      "Philippe GONTAUD": 0.5
+    },
+    "speaker_distribution": {
+      "Didier SOL": 11,
+      "Estelle TREVISAN": 10,
+      "Jean-Pierre CREDIT": 11,
+      "Marie-Claire COMPTA": 11,
+      "Thomas ENERGIE": 11,
+      "Marc HYDRO": 11,
+      "Philippe GONTAUD": 25
+    },
+    "moderator_interventions": 6,
+    "parameters_impact": {
+      "rationality_achieved": 0.5,
+      "personality_suppression": 0.4
+    }
+  },
+  "final_synthesis": []
+}
