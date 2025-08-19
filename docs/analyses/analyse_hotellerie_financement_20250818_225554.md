@@ -214,7 +214,7 @@
 3. **Contacter crédit-bailleur** spécialisé hôtellerie
 4. **Lancer dossiers** subventions parallèlement
 
-**Votre terrain de 44Ha avec le lac de Cayre est votre TRÉSOR pour financer sans risque personnel ! 💎**
+**Votre terrain de 44Ha avec le lac privé est votre TRÉSOR pour financer sans risque personnel ! 💎**
 
 ---
 

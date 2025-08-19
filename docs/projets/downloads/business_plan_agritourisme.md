@@ -1,12 +1,12 @@
 # 🏞️ BUSINESS PLAN - PARC AGRITOURISTIQUE DE GONTAUD-DE-NOGARET
-**Valorisation 44 Hectares - Lac de Cayre, Gontaud-de-Nogaret**
+**Valorisation 44 Hectares - Lac Privé, Lot-et-Garonne**
 
 ---
 
 ## 🎯 **1. RÉSUMÉ EXÉCUTIF**
 
 ### **Vision du Projet**
-Créer un parc agritouristique authentique de 15 hectares autour du Lac de Cayre, proposant hébergements écologiques, activités agricoles participatives et expériences gastronomiques locales, ciblant une clientèle internationale en quête d'authenticité rurale française.
+Créer un parc agritouristique authentique de 15 hectares autour du Lac Privé, proposant hébergements écologiques, activités agricoles participatives et expériences gastronomiques locales, ciblant une clientèle internationale en quête d'authenticité rurale française.
 
 ### **Opportunité de Marché**
 Le marché de l'agritourisme en France croît de 5% par an avec 8,9 millions de séjours en 2023. La clientèle internationale (40% du marché) recherche des expériences authentiques combinant nature, gastronomie et culture locale. Le Sud-Ouest bénéficie d'une forte attractivité touristique (proximité Bordeaux, Toulouse).
@@ -33,10 +33,10 @@ Le marché de l'agritourisme en France croît de 5% par an avec 8,9 millions de 
 
 ### **Atouts du Terrain (44Ha)**
 - **Superficie** : 15 hectares dédiés au projet (sur 44Ha total)
-- **Répartition** : 8Ha hébergements/activités, 5Ha agriculture participative, 2Ha Lac de Cayre
-- **Lac de Cayre** : 150m, activités nautiques exclusives (canoë, pêche, baignade)
+- **Répartition** : 8Ha hébergements/activités, 5Ha agriculture participative, 2Ha Lac Privé
+- **Lac Privé** : 150m, activités nautiques exclusives (canoë, pêche, baignade)
 - **Relief** : Terrain vallonné offrant vues panoramiques
-- **Localisation** : Fauillet/Gontaud-de-Nogaret (1h de Bordeaux, 1h30 de Toulouse)
+- **Localisation** : Lot-et-Garonne (proche Gontaud-de-Nogaret) - 1h de Bordeaux, 1h30 de Toulouse
 
 ### **Environnement Économique Local**
 - **Vignobles** : Proximité Côtes de Duras et Entre-Deux-Mers
@@ -98,7 +98,7 @@ Le marché de l'agritourisme en France croît de 5% par an avec 8,9 millions de 
 - Espace commun : restaurant/boutique (200m²)
 - Panneaux photovoltaïques 50kWc pour autonomie énergétique
 
-**Zone Activités Lac de Cayre (2Ha)**
+**Zone Activités Lac Privé (2Ha)**
 - Ponton flottant et embarcadère
 - 6 canoës, matériel pêche, espace baignade surveillée
 - Sentier pédagogique autour du lac

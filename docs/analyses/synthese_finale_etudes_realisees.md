@@ -1,5 +1,5 @@
 # 🎯 SYNTHÈSE FINALE - ÉTUDES RÉALISÉES
-**Projet Composite Écosystème Lac de Cayre - Due Diligence Complète**
+**Projet Composite Écosystème Lac Privé - Due Diligence Complète**
 
 ---
 

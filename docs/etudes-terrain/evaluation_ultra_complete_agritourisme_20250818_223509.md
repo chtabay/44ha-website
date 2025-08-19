@@ -1,5 +1,5 @@
 # 🔬 ÉVALUATION ULTRA-COMPLÈTE - AGRITOURISME
-**Due Diligence Technique Approfondie - 44 Hectares Lac de Cayre**
+**Due Diligence Technique Approfondie - 44 Hectares Lac Privé**
 
 ---
 
@@ -24,7 +24,7 @@
 **Délai**: 180 jours  
 
 **Analyse technique**:
-Le site du Lac de Cayre, avec sa diversité de milieux (lac, prairies, cultures, boisements), est susceptible d'abriter une biodiversité importante. La présence probable d'espèces protégées, notamment d'avifaune aquatique, nécessite la réalisation d'un inventaire faune-flore complet. Les contraintes réglementaires Natura 2000/ZNIEFF peuvent également s'appliquer, en particulier si des zones humides sont identifiées. Le protocole d'inventaire doit respecter les périodes de reproduction des espèces concernées et inclure des mesures ERC pour minimiser l'impact du projet. Enfin, la présence d'espèces invasives peut requérir des actions de gestion spécifiques.
+Le site du Lac Privé, avec sa diversité de milieux (lac, prairies, cultures, boisements), est susceptible d'abriter une biodiversité importante. La présence probable d'espèces protégées, notamment d'avifaune aquatique, nécessite la réalisation d'un inventaire faune-flore complet. Les contraintes réglementaires Natura 2000/ZNIEFF peuvent également s'appliquer, en particulier si des zones humides sont identifiées. Le protocole d'inventaire doit respecter les périodes de reproduction des espèces concernées et inclure des mesures ERC pour minimiser l'impact du projet. Enfin, la présence d'espèces invasives peut requérir des actions de gestion spécifiques.
 
 **Contraintes critiques**:
 - Période de reproduction avifaune (mars-août)
@@ -104,22 +104,22 @@ L'analyse des sols est primordiale pour ce projet. Les sols limoneux sont géné
 **Délai**: 180 jours  
 
 **Analyse technique**:
-Le dimensionnement des réseaux d'assainissement et d'eau potable est un aspect critique du projet. Le sol limoneux, typique des terrasses alluviales de la Garonne, peut poser des problèmes de perméabilité, impactant le dimensionnement des réseaux de drainage. Le climat océanique dégradé, avec ses 700mm de précipitations annuelles, nécessite une attention particulière sur la gestion des eaux pluviales. Le lac de Cayre, en tant que réservoir d'irrigation, pourrait être utilisé pour l'approvisionnement en eau, mais nécessite une étude approfondie de sa capacité et de sa qualité. Le réseau électrique existant peut ne pas être suffisant pour les besoins du parc, une extension pourrait être nécessaire. Enfin, la biodiversité présumée du site impose des contraintes environnementales à respecter.
+Le dimensionnement des réseaux d'assainissement et d'eau potable est un aspect critique du projet. Le sol limoneux, typique des terrasses alluviales de la Garonne, peut poser des problèmes de perméabilité, impactant le dimensionnement des réseaux de drainage. Le climat océanique dégradé, avec ses 700mm de précipitations annuelles, nécessite une attention particulière sur la gestion des eaux pluviales. Le lac privé, en tant que réservoir d'irrigation, pourrait être utilisé pour l'approvisionnement en eau, mais nécessite une étude approfondie de sa capacité et de sa qualité. Le réseau électrique existant peut ne pas être suffisant pour les besoins du parc, une extension pourrait être nécessaire. Enfin, la biodiversité présumée du site impose des contraintes environnementales à respecter.
 
 **Contraintes critiques**:
 - Perméabilité du sol limoneux
 - Gestion des eaux pluviales
-- Capacité et qualité de l'eau du lac de Cayre
+- Capacité et qualité de l'eau du lac privé
 - Capacité du réseau électrique
 - Contraintes environnementales liées à la biodiversité
 
 **Recommandations**:
-- Étude hydrologique du lac de Cayre : 15 000€
+- Étude hydrologique du lac privé : 15 000€
 - Dimensionnement des réseaux d'assainissement et d'eau potable : 20 000€
 - Étude de l'extension du réseau électrique : 10 000€
 
 **Opportunités identifiées**:
-- Utilisation du lac de Cayre pour l'approvisionnement en eau
+- Utilisation du lac privé pour l'approvisionnement en eau
 - Valorisation de la biodiversité du site
 
 ---
@@ -132,7 +132,7 @@ Le dimensionnement des réseaux d'assainissement et d'eau potable est un aspect 
 **Délai**: 180 jours  
 
 **Analyse technique**:
-La mise en place d'un réseau de distribution locale et de circuits courts alimentaires pour le projet du Lac de Cayre nécessite une analyse fine des acteurs locaux et des volumes d'écoulement. L'environnement rural et l'agriculture traditionnelle favorisent l'implantation de circuits courts. Cependant, la logistique d'écoulement peut être un défi, compte tenu de l'éloignement des grands centres urbains. La coopération avec les agriculteurs locaux et les coopératives existantes est essentielle pour garantir un approvisionnement régulier en produits frais et locaux. La mise en place d'un système de distribution efficace nécessite une bonne connaissance des volumes d'écoulement et des marges de distribution. De plus, la mise en place d'un tel réseau peut nécessiter des investissements importants en termes de logistique et de gestion des stocks.
+La mise en place d'un réseau de distribution locale et de circuits courts alimentaires pour le projet du Lac Privé nécessite une analyse fine des acteurs locaux et des volumes d'écoulement. L'environnement rural et l'agriculture traditionnelle favorisent l'implantation de circuits courts. Cependant, la logistique d'écoulement peut être un défi, compte tenu de l'éloignement des grands centres urbains. La coopération avec les agriculteurs locaux et les coopératives existantes est essentielle pour garantir un approvisionnement régulier en produits frais et locaux. La mise en place d'un système de distribution efficace nécessite une bonne connaissance des volumes d'écoulement et des marges de distribution. De plus, la mise en place d'un tel réseau peut nécessiter des investissements importants en termes de logistique et de gestion des stocks.
 
 **Contraintes critiques**:
 - La distance des grands centres urbains peut augmenter les coûts de transport et de logistique
@@ -145,7 +145,7 @@ La mise en place d'un réseau de distribution locale et de circuits courts alime
 
 **Opportunités identifiées**:
 - Le développement durable et l'agriculture traditionnelle favorisent l'implantation de circuits courts
-- Possibilité de créer une marque locale forte autour des produits du Lac de Cayre
+- Possibilité de créer une marque locale forte autour des produits du Lac Privé
 
 ---
 

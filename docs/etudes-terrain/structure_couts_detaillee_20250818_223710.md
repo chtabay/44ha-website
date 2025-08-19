@@ -57,7 +57,7 @@
 - Raccordement réseau + comptage : 65,000€
 - Installation + mise en service : 40,000€
 
-### Aménagements Lac de Cayre
+### Aménagements Lac Privé
 - **Budget initial** : 150,000€
 - **Budget réel** : 195,000€
 - **Dépassement** : 30%

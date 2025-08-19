@@ -1,5 +1,5 @@
 # 🔍 SYSTÈME D'ÉVALUATION DE FAISABILITÉ DÉTAILLÉE
-**Validation critique des business plans - 44 Hectares Lac de Cayre**
+**Validation critique des business plans - 44 Hectares Lac Privé**
 
 ---
 
@@ -136,7 +136,7 @@ $ python launch_faisabilite.py
 
 🎯 ÉVALUATION FAISABILITÉ DÉTAILLÉE
 ================================================
-📍 44 Hectares - Lac de Cayre, Gontaud-de-Nogaret
+📍 44 Hectares - Lac Privé, Lot-et-Garonne
 
 🎯 PROJETS À ÉVALUER:
    1. 🏞️ Parc Agritouristique (1,5M€, ROI 15%)

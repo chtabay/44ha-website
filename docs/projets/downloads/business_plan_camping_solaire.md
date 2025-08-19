@@ -1,12 +1,12 @@
 # ⚡ BUSINESS PLAN - CAMPING ÉCOLOGIQUE + PARC SOLAIRE
-**Valorisation 44 Hectares - Lac de Cayre, Gontaud-de-Nogaret**
+**Valorisation 44 Hectares - Lac Privé, Lot-et-Garonne**
 
 ---
 
 ## 🎯 **1. RÉSUMÉ EXÉCUTIF**
 
 ### **Vision du Projet**
-Développer un éco-complexe innovant combinant un camping écologique de 30 emplacements autour du Lac de Cayre avec une ferme solaire de 200kWc, créant le premier site touristique autonome énergétiquement de la région, ciblant les familles éco-responsables et passionnés de nature.
+Développer un éco-complexe innovant combinant un camping écologique de 30 emplacements autour du Lac Privé avec une ferme solaire de 200kWc, créant le premier site touristique autonome autonome énergétiquement de la région, ciblant les familles éco-responsables et passionnés de nature.
 
 ### **Opportunité de Marché**
 Le camping représente 46% de l'hébergement touristique en France avec 7,2 milliards€ de CA. La demande pour le tourisme durable croît de 15%/an. Parallèlement, l'autoconsommation photovoltaïque bénéficie de tarifs avantageux (0,10€/kWh rachat) et de subventions attractives.
@@ -33,10 +33,10 @@ Le camping représente 46% de l'hébergement touristique en France avec 7,2 mill
 
 ### **Atouts du Terrain (44Ha)**
 - **Superficie** : 25 hectares dédiés au projet
-- **Répartition** : 10Ha camping + services, 5Ha parc solaire, 2Ha Lac de Cayre, 8Ha zone tampon/nature
-- **Lac de Cayre** : 150m, activités nautiques exclusives, plage aménagée
+- **Répartition** : 10Ha camping + services, 5Ha parc solaire, 2Ha Lac Privé, 8Ha zone tampon/nature
+- **Lac Privé** : 150m, activités nautiques exclusives, plage aménagée
 - **Relief** : Terrain vallonné offrant emplacements ombragés naturels
-- **Localisation** : Accès direct D933, 15min de l'A62
+- **Localisation** : Lot-et-Garonne (proche Gontaud-de-Nogaret) - Accès direct D933, 15min de l'A62
 
 ### **Environnement Économique Local**
 - **Concurrence** : Campings 2-3* dans rayon 30km (25€-45€/nuit)
@@ -111,7 +111,7 @@ Le camping représente 46% de l'hébergement touristique en France avec 7,2 mill
 - Revente réseau : 160 000 kWh/an (16 000€)
 - Intégration paysagère : haies arbustives, prairie fleurie
 
-**Zone Lac de Cayre (2Ha)**
+**Zone Lac Privé (2Ha)**
 - Plage aménagée 800m² (sable fin)
 - Ponton bois 50m + embarcadère
 - Location matériel : pédalos, kayaks, planches SUP

@@ -1,5 +1,5 @@
 # 🎯 CONSOLIDATION DU DÉBAT ULTRA-RATIONNEL
-**Analyse des Projets pour les 44 Hectares - Lac de Cayre**
+**Analyse des Projets pour les 44 Hectares - Lac Privé**
 
 ## 📊 ANALYSE COMPARATIVE DES PROJETS
 
@@ -36,7 +36,7 @@
 2. **Faisabilité technique** 
 3. **Impact territorial**
 4. **Délais de mise en œuvre**
-5. **Adaptation au contexte local** (44Ha + Lac de Cayre)
+5. **Adaptation au contexte local** (44Ha + Lac Privé)
 
 ### **PROJETS ÉLIMINÉS ET POURQUOI**
 
@@ -95,7 +95,7 @@
 - Contrats de rachat sécurisés
 - Maintenance préventive
 
-### **Lac de Cayre - Valorisation Transversale**
+### **Lac Privé - Valorisation Transversale**
 - Réglementation respectée
 - Activités pisciculture/loisirs
 - Irrigation optimisée

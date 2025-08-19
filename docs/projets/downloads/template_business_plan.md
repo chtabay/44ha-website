@@ -1,5 +1,5 @@
 # 📋 TEMPLATE BUSINESS PLAN STANDARDISÉ
-**Valorisation 44 Hectares - Lac de Cayre, Gontaud-de-Nogaret**
+**Valorisation 44 Hectares - Lac Privé, Lot-et-Garonne**
 
 ---
 
@@ -29,10 +29,10 @@
 
 ### **Atouts du Terrain (44Ha)**
 - **Superficie** : 44 hectares
-- **Répartition** : 2/3 cultivés (blé/maïs), 1/3 boisé + Lac de Cayre
-- **Lac de Cayre** : 150m, réservoir d'irrigation
+- **Répartition** : 2/3 cultivés (blé/maïs), 1/3 boisé + Lac Privé
+- **Lac Privé** : 150m, réservoir d'irrigation
 - **Relief** : Terrain vallonné
-- **Localisation** : Fauillet/Gontaud-de-Nogaret
+- **Localisation** : Lot-et-Garonne (proche Gontaud-de-Nogaret)
 
 ### **Environnement Économique Local**
 - **Dynamiques territoriales**

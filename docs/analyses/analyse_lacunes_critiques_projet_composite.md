@@ -5,7 +5,7 @@
 
 ## 🎯 **DIAGNOSTIC GLOBAL DES MANQUES**
 
-Après analyse approfondie des documents existants, **4 lacunes critiques** ont été identifiées dans l'évaluation du projet composite Écosystème Lac de Cayre. Ces manques représentent des **risques majeurs** pour la viabilité du projet.
+Après analyse approfondie des documents existants, **4 lacunes critiques** ont été identifiées dans l'évaluation du projet composite Écosystème Lac Privé. Ces manques représentent des **risques majeurs** pour la viabilité du projet.
 
 ---
 

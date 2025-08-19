@@ -76,4 +76,4 @@
 ---
 
 *Rapport généré par le système de débat multi-agents avancé*  
-*Expertise locale: Lac de Cayre, Gontaud-de-Nogaret*
+*Expertise locale: Lac Privé, Lot-et-Garonne*

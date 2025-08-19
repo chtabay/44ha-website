@@ -1,10 +1,10 @@
 # 🎯 RÉSUMÉ DU DÉBAT ULTRA-RATIONNEL RÉUSSI
-**Valorisation 44 Hectares - Lac de Cayre, Gontaud-de-Nogaret**
+**Valorisation 44 Hectares - Lac Privé, Lot-et-Garonne**
 
 ## 📊 **PERFORMANCE DU SYSTÈME**
 - ✅ **90 tours de débat** automatisés sans intervention
 - ✅ **Rationalité maximale** : Scores 0.2-0.5 (données factuelles pures)
-- ✅ **Expert local intégré** : Philippe GONTAUD avec références précises au Lac de Cayre
+- ✅ **Expert local intégré** : Philippe GONTAUD avec références précises au Lac Privé
 - ✅ **Interpellations expertes** : Agents s'interpellent par compétence spécifique
 - ✅ **ROI calculés** : +30 propositions chiffrées avec budgets et pourcentages
 
@@ -16,7 +16,7 @@
 - **Économies** : 1,500-25,000€/an d'électricité
 - **Avantages** : Autonomie énergétique + revente réseau
 
-### **2. VALORISATION LAC DE CAYRE**
+### **2. VALORISATION LAC PRIVÉ**
 - **Pisciculture** : 50k€, ROI 25% sur 5 ans
 - **Irrigation optimisée** : 15-20k€, +20-100% rendements
 - **Loisirs contrôlés** : 20-100k€, ROI 15% sur 3-5 ans
@@ -34,7 +34,7 @@
 ## 💡 **INNOVATIONS EXPERTES**
 
 ### **Philippe GONTAUD - Expert Local**
-- ✅ Références précises au "Lac de Cayre" (150m)
+- ✅ Références précises au "Lac Privé" (150m)
 - ✅ Connaissance réglementaire plans d'eau >1000m²
 - ✅ Demande croissance locale : +3% pisciculture, +2% loisirs aquatiques
 - ✅ Études d'impact environnemental (30k€ → évite 200k€ sanctions)
@@ -64,13 +64,13 @@
 1. **Investissements totaux proposés** : 36k-410k€ selon scénarios
 2. **ROI moyens** : 5-200% sur 1-10 ans
 3. **Économies annuelles** : 2k-27k€/an
-4. **Projets prioritaires** : Photovoltaïque + Lac de Cayre + Agritourisme
+4. **Projets prioritaires** : Photovoltaïque + Lac Privé + Agritourisme
 
 ## 🎯 **PROCHAINES ÉTAPES RECOMMANDÉES**
 
 ### **IMMÉDIAT (3 mois)**
 1. **Audit énergétique** (5k€) → économies 10-30%
-2. **Étude impact Lac de Cayre** (15-30k€) → conformité 100%
+2. **Étude impact Lac Privé** (15-30k€) → conformité 100%
 3. **Étude de marché agritourisme** (10k€) → précision +20%
 
 ### **COURT TERME (6-12 mois)**
@@ -79,7 +79,7 @@
 3. **Marketing agritourisme** (20k€) → +15% clientèle
 
 ### **MOYEN TERME (1-3 ans)**
-1. **Pisciculture Lac de Cayre** (50k€) → ROI 25%
+1. **Pisciculture Lac Privé** (50k€) → ROI 25%
 2. **Parc agritouristique** (150k€) → ROI 15%
 3. **Installation photovoltaïque étendue** (100-250k€)
 

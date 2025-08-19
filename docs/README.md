@@ -1,4 +1,4 @@
-# Projet 44 Hectares Fauillet
+# Projet 44 Hectares Lot-et-Garonne
 
 ## 🌐 Site Web
 
@@ -21,7 +21,7 @@ Valorisation terrain agricole
 - **Plan d'eau** : 150m de long
 - **Cultures actuelles** : 2/3 du terrain (blé, maïs)
 - **Espaces naturels** : 1/3 (boisements, relief)
-- **Localisation** : Fauillet/Gontaud-de-Nogaret, Lot-et-Garonne (47)
+- **Localisation** : Lot-et-Garonne (proche Gontaud-de-Nogaret), Nouvelle-Aquitaine (47)
 
 ## 🛠️ Structure du Site
 

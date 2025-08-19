@@ -1,5 +1,5 @@
 # 🚀 Guide Démarrage Interface Web Études
-**Pilotage des analyses IA - Projet 44Ha Lac de Cayre**
+**Pilotage des analyses IA - Projet 44Ha Lac Privé**
 
 ---
 

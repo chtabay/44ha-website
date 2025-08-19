@@ -1,5 +1,5 @@
 # 🌟 DEMO - RÉSULTATS DÉBAT PROJET COMPOSITE
-## Écosystème Lac de Cayre - Agritourisme + Solaire + Production
+## Écosystème Lac Privé - Agritourisme + Solaire + Production
 
 **Simulation des analyses expertes sur la faisabilité intégrée**
 
@@ -132,7 +132,7 @@
 
 ## 🚀 RECOMMANDATION FINALE
 
-**Le projet composite "Écosystème Lac de Cayre" représente une innovation territoriale de premier plan avec une faisabilité confirmée sous réserve d'un management intégré exceptionnel.**
+**Le projet composite "Écosystème Lac Privé" représente une innovation territoriale de premier plan avec une faisabilité confirmée sous réserve d'un management intégré exceptionnel.**
 
 ### **STRATÉGIE DE LANCEMENT RECOMMANDÉE**
 
