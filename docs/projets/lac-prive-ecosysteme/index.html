@@ -157,6 +157,34 @@
             transform: translateY(-2px);
         }
 
+        /* Menu hamburger mobile */
+        .nav-toggle {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+
+        .nav-toggle span {
+            width: 25px;
+            height: 3px;
+            background: var(--primary-blue);
+            margin: 3px 0;
+            transition: 0.3s;
+        }
+
+        .nav-toggle.active span:nth-child(1) {
+            transform: rotate(-45deg) translate(-5px, 6px);
+        }
+
+        .nav-toggle.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .nav-toggle.active span:nth-child(3) {
+            transform: rotate(45deg) translate(-5px, -6px);
+        }
+
         /* Container principal */
         .container {
             max-width: 1200px;
@@ -422,9 +450,25 @@
                 grid-template-columns: 1fr 1fr;
             }
             
+            .nav-toggle {
+                display: flex;
+            }
+            
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                width: 100%;
+                gap: 1rem;
+                margin-top: 1rem;
+            }
+            
+            .nav-links.active {
+                display: flex;
+            }
+            
             .nav-container {
                 flex-direction: column;
-                gap: 1rem;
+                align-items: flex-start;
             }
             
             .container {
@@ -494,13 +538,20 @@
     <!-- Navigation -->
     <nav class="nav">
         <div class="nav-container">
-            <a href="../../index.html" class="nav-link" style="background: var(--accent-gold); color: var(--primary-blue); font-weight: 600;">← Portfolio</a>
-            <a href="#vue-ensemble" class="nav-link active">🎯 Vue d'Ensemble</a>
-            <a href="#etudes" class="nav-link">📊 Études Réalisées</a>
-            <a href="#financement" class="nav-link">💰 Financement</a>
-            <a href="#projets" class="nav-link">🏗️ Projets Détaillés</a>
-            <a href="#planning" class="nav-link">📅 Planning</a>
-            <a href="#outils" class="nav-link">🤖 Outils IA</a>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav-links" id="nav-links">
+                <a href="../../index.html" class="nav-link" style="background: var(--accent-gold); color: var(--primary-blue); font-weight: 600;">← Portfolio</a>
+                <a href="#vue-ensemble" class="nav-link active">🎯 Vue d'Ensemble</a>
+                <a href="#etudes" class="nav-link">📊 Études Réalisées</a>
+                <a href="#financement" class="nav-link">💰 Financement</a>
+                <a href="#projets" class="nav-link">🏗️ Projets Détaillés</a>
+                <a href="#planning" class="nav-link">📅 Planning</a>
+                <a href="#outils" class="nav-link">🤖 Outils IA</a>
+            </div>
         </div>
     </nav>
 
@@ -523,6 +574,9 @@
                         <li>Positionnement 45-65€/nuit</li>
                         <li>Aucune concurrence directe</li>
                     </ul>
+                    <div style="margin-top: 1.5rem;">
+                        <a href="details/agritourisme.html" class="btn btn-secondary">📄 Business Plan Complet</a>
+                    </div>
                 </div>
 
                 <div class="card">
@@ -533,6 +587,9 @@
                         <li>Autoconsommation + revente</li>
                         <li>ROI énergétique: 8-10 ans</li>
                     </ul>
+                    <div style="margin-top: 1.5rem;">
+                        <a href="details/photovoltaique.html" class="btn btn-secondary">📄 Étude Technique</a>
+                    </div>
                 </div>
 
                 <div class="card">
@@ -543,6 +600,9 @@
                         <li>Élevage: volailles, ovins</li>
                         <li>Transformation: conserves, fromages</li>
                     </ul>
+                    <div style="margin-top: 1.5rem;">
+                        <a href="details/agriculture.html" class="btn btn-secondary">📄 Plan Cultural</a>
+                    </div>
                 </div>
 
                 <div class="card">
@@ -1433,25 +1493,34 @@
     </footer>
 
     <script>
-        // Navigation dynamique
+        // Menu hamburger mobile
         document.addEventListener('DOMContentLoaded', function() {
-            const navLinks = document.querySelectorAll('.nav-link');
+            const navToggle = document.getElementById('nav-toggle');
+            const navLinks = document.getElementById('nav-links');
+            
+            navToggle.addEventListener('click', function() {
+                navToggle.classList.toggle('active');
+                navLinks.classList.toggle('active');
+            });
+
+            // Navigation dynamique
+            const navLinksItems = document.querySelectorAll('.nav-link');
             const sections = document.querySelectorAll('.section');
             
             // Affiche la première section par défaut ET active le premier lien
             if (sections.length > 0) {
                 sections[0].classList.add('active');
             }
-            if (navLinks.length > 0) {
-                navLinks[0].classList.add('active');
+            if (navLinksItems.length > 0) {
+                navLinksItems[0].classList.add('active');
             }
             
-            navLinks.forEach(link => {
+            navLinksItems.forEach(link => {
                 link.addEventListener('click', function(e) {
                     e.preventDefault();
                     
                     // Supprime les classes actives
-                    navLinks.forEach(l => l.classList.remove('active'));
+                    navLinksItems.forEach(l => l.classList.remove('active'));
                     sections.forEach(s => s.classList.remove('active'));
                     
                     // Ajoute la classe active
@@ -1463,6 +1532,12 @@
                     if (targetSection) {
                         targetSection.classList.add('active');
                         window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }
+                    
+                    // Ferme le menu mobile après clic
+                    if (window.innerWidth <= 768) {
+                        navToggle.classList.remove('active');
+                        navLinks.classList.remove('active');
                     }
                 });
             });
