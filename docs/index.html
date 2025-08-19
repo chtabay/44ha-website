@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio de Projets - Valorisation Territoriale</title>
     <meta name="description" content="Portfolio de projets de valorisation territoriale, agritourisme et développement durable">
     
@@ -106,10 +106,9 @@
 
         .projects-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
             gap: 2rem;
             margin: 3rem 0;
-            max-width: 100%;
         }
 
         .project-card {
@@ -323,215 +322,24 @@
 
         @media (max-width: 768px) {
             .header h1 {
-                font-size: 2.2rem;
-            }
-            
-            .header .subtitle {
-                font-size: 1rem;
+                font-size: 2.5rem;
             }
             
             .projects-grid {
                 grid-template-columns: 1fr;
-                gap: 1.5rem;
-                margin: 2rem 0;
-            }
-            
-            .project-card {
-                padding: 1.2rem;
-                margin: 0 0.5rem;
-            }
-            
-            /* Compacter les actions sur mobile */
-            .project-actions {
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                gap: 0.5rem;
-            }
-            
-            .project-actions .btn:first-child {
-                grid-column: 1 / -1;
-            }
-            
-            .project-card h3 {
-                font-size: 1.5rem;
-            }
-            
-            .project-meta {
-                grid-template-columns: 1fr 1fr;
-                gap: 0.5rem;
-            }
-            
-            .meta-item {
-                padding: 0.4rem 0.8rem;
-                font-size: 0.8rem;
-            }
-            
-            .project-features {
-                font-size: 0.9rem;
             }
             
             .container {
-                padding: 1rem 0.5rem;
+                padding: 1rem;
+            }
+            
+            .project-actions {
+                flex-direction: column;
             }
             
             .btn {
                 text-align: center;
                 justify-content: center;
-                padding: 0.6rem 0.8rem;
-                font-size: 0.85rem;
-                white-space: nowrap;
-                overflow: hidden;
-                text-overflow: ellipsis;
-            }
-            
-            .stats {
-                grid-template-columns: repeat(2, 1fr);
-                gap: 1rem;
-            }
-            
-            .stat {
-                padding: 1.5rem 1rem;
-            }
-            
-            .stat .number {
-                font-size: 2.2rem;
-            }
-            
-            .intro {
-                margin-bottom: 2rem;
-                padding: 1.5rem;
-            }
-            
-            .intro h2 {
-                font-size: 2rem;
-            }
-            
-            .intro p {
-                font-size: 1rem;
-            }
-        }
-        
-        @media (max-width: 480px) {
-            .header h1 {
-                font-size: 1.8rem;
-            }
-            
-            .header .subtitle {
-                font-size: 0.9rem;
-            }
-            
-            .container {
-                padding: 0.5rem;
-            }
-            
-            .project-card {
-                padding: 0.8rem;
-                margin: 0;
-            }
-            
-            .project-meta {
-                grid-template-columns: 1fr;
-                gap: 0.3rem;
-            }
-            
-            .meta-item {
-                padding: 0.3rem 0.6rem;
-                font-size: 0.75rem;
-            }
-            
-            .stats {
-                grid-template-columns: 1fr;
-            }
-            
-            .project-actions {
-                gap: 0.3rem;
-                margin-top: 1rem;
-            }
-            
-            .btn {
-                padding: 0.4rem 0.5rem;
-                font-size: 0.75rem;
-                min-height: 32px;
-                line-height: 1.2;
-            }
-            
-            .btn-secondary {
-                font-size: 0.7rem;
-                padding: 0.35rem 0.4rem;
-            }
-            
-            .project-features {
-                font-size: 0.8rem;
-                margin: 0.8rem 0;
-            }
-            
-            .project-features li {
-                padding: 0.2rem 0;
-            }
-            
-            .add-project {
-                min-height: 150px;
-                font-size: 0.9rem;
-                padding: 1rem;
-            }
-            
-            .add-project .plus-icon {
-                font-size: 2.5rem;
-            }
-            
-            /* Tableau responsive */
-            table {
-                font-size: 0.7rem;
-            }
-            
-            th, td {
-                padding: 0.3rem !important;
-            }
-            
-            /* Masquer certaines colonnes sur très petit écran */
-            .desktop-only {
-                display: none;
-            }
-        }
-        
-        /* Spécifique pour mobiles réels avec densité élevée */
-        @media screen and (max-width: 414px) and (-webkit-min-device-pixel-ratio: 2) {
-            .project-actions {
-                gap: 0.2rem !important;
-            }
-            
-            .btn {
-                padding: 0.3rem 0.4rem !important;
-                font-size: 0.7rem !important;
-                min-height: 28px !important;
-            }
-            
-            .btn-secondary {
-                font-size: 0.65rem !important;
-                padding: 0.25rem 0.3rem !important;
-            }
-            
-            .project-card {
-                padding: 0.6rem !important;
-            }
-        }
-        
-        /* Pour iPhone et mobiles en portrait */
-        @media screen and (max-width: 390px) {
-            .project-actions {
-                display: flex !important;
-                flex-direction: column !important;
-                gap: 0.25rem !important;
-            }
-            
-            .project-actions .btn:first-child {
-                grid-column: unset !important;
-            }
-            
-            .btn {
-                font-size: 0.65rem !important;
-                padding: 0.25rem 0.3rem !important;
-                min-height: 24px !important;
             }
         }
     </style>
@@ -594,7 +402,7 @@
                     <a href="projets/lac-cayre-ecosysteme/index.html" class="btn btn-primary">
                         🌐 Voir le projet
                     </a>
-                    <a href="docs/web_interface_studies_20250819_003844.html" class="btn btn-secondary">
+                    <a href="web_interface_studies_20250819_003844.html" class="btn btn-secondary">
                         🤖 Nouvelles études IA
                     </a>
                     <a href="#" class="btn btn-secondary">
