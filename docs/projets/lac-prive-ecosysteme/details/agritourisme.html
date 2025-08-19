@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Plan Agritourisme - Lac de Cayre</title>
+    <meta name="description" content="Business plan détaillé du parc agritouristique autour du Lac de Cayre - Investissement 1,5M€, ROI 15%">
+    
+    <style>
+        :root {
+            --primary-blue: #1e3a5f;
+            --secondary-blue: #2c5aa0;
+            --accent-gold: #d4af37;
+            --success-green: #28a745;
+            --text-dark: #2c3e50;
+            --text-light: #6c757d;
+            --bg-light: #f8f9fa;
+            --white: #ffffff;
+            --border-light: #e9ecef;
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: var(--bg-light);
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue));
+            color: var(--white);
+            padding: 3rem 0;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .breadcrumb {
+            background: var(--white);
+            padding: 1rem 0;
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        .breadcrumb-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .breadcrumb a {
+            color: var(--primary-blue);
+            text-decoration: none;
+            margin-right: 0.5rem;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        .section {
+            background: var(--white);
+            margin: 2rem 0;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: var(--shadow-md);
+        }
+
+        .section h2 {
+            color: var(--primary-blue);
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 3px solid var(--accent-gold);
+            padding-bottom: 0.5rem;
+        }
+
+        .section h3 {
+            color: var(--secondary-blue);
+            font-size: 1.5rem;
+            margin: 2rem 0 1rem 0;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #fff3cd, #d1ecf1);
+            padding: 2rem;
+            border-radius: 10px;
+            border-left: 5px solid var(--accent-gold);
+            margin: 2rem 0;
+        }
+
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .metric-card {
+            background: var(--bg-light);
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+            border: 2px solid var(--border-light);
+        }
+
+        .metric-value {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--primary-blue);
+            display: block;
+        }
+
+        .metric-label {
+            color: var(--text-light);
+            margin-top: 0.5rem;
+        }
+
+        .table-responsive {
+            overflow-x: auto;
+            margin: 2rem 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--white);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+        }
+
+        th, td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        th {
+            background: var(--primary-blue);
+            color: var(--white);
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background: var(--bg-light);
+        }
+
+        .amount {
+            font-weight: 600;
+            color: var(--primary-blue);
+        }
+
+        ul, ol {
+            margin: 1rem 0;
+            padding-left: 2rem;
+        }
+
+        li {
+            margin: 0.5rem 0;
+        }
+
+        .cta-section {
+            background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue));
+            color: var(--white);
+            padding: 3rem;
+            border-radius: 20px;
+            text-align: center;
+            margin: 3rem 0;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: var(--accent-gold);
+            color: var(--primary-blue);
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: 600;
+            margin: 1rem;
+            transition: transform 0.3s ease;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .container {
+                padding: 2rem 1rem;
+            }
+            
+            .metrics-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1>🏞️ Business Plan Agritourisme</h1>
+        <p>Parc Agritouristique du Lac de Cayre - Gontaud-de-Nogaret</p>
+    </header>
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb">
+        <div class="breadcrumb-container">
+            <a href="../../../index.html">Portfolio</a> > 
+            <a href="../index.html">Lac de Cayre</a> > 
+            <span>Agritourisme</span>
+        </div>
+    </nav>
+
+    <!-- Contenu principal -->
+    <main class="container">
+        
+        <!-- Résumé Exécutif -->
+        <section class="section">
+            <h2>🎯 Résumé Exécutif</h2>
+            
+            <div class="highlight-box">
+                <h3>Vision du Projet</h3>
+                <p><strong>Créer un parc agritouristique authentique de 15 hectares</strong> autour du Lac de Cayre, proposant hébergements écologiques, activités agricoles participatives et expériences gastronomiques locales, ciblant une clientèle internationale en quête d'authenticité rurale française.</p>
+            </div>
+
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <span class="metric-value">1,5M€</span>
+                    <span class="metric-label">Investissement Initial</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-value">850k€</span>
+                    <span class="metric-label">CA Année 3</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-value">15%</span>
+                    <span class="metric-label">ROI sur 5 ans</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-value">24 mois</span>
+                    <span class="metric-label">Seuil de Rentabilité</span>
+                </div>
+            </div>
+
+            <h3>Proposition de Valeur Unique</h3>
+            <ul>
+                <li><strong>Lac privé de 150m</strong> pour activités nautiques exclusives</li>
+                <li><strong>Ferme pédagogique active</strong> avec cultures bio et élevage</li>
+                <li><strong>Expériences culinaires</strong> avec produits de l'exploitation</li>
+                <li><strong>Hébergements écologiques</strong> alimentés par photovoltaïque</li>
+                <li><strong>Immersion totale</strong> dans la vie agricole traditionnelle</li>
+            </ul>
+        </section>
+
+        <!-- Plan Opérationnel -->
+        <section class="section">
+            <h2>🏗️ Plan Opérationnel Détaillé</h2>
+            
+            <h3>🏠 Zone Hébergement (8 Hectares)</h3>
+            <ul>
+                <li><strong>12 chalets écologiques (4-6 personnes)</strong> : bois local, toits végétalisés</li>
+                <li><strong>1 gîte familial (8-10 personnes)</strong> : rénovation bâtiment existant</li>
+                <li><strong>Espace commun</strong> : restaurant/boutique (200m²)</li>
+                <li><strong>Panneaux photovoltaïques 50kWc</strong> pour autonomie énergétique</li>
+            </ul>
+
+            <h3>🌾 Zone Agriculture Participative (5 Hectares)</h3>
+            <ul>
+                <li><strong>Potager pédagogique (1Ha)</strong> : 40 variétés légumes bio</li>
+                <li><strong>Verger conservatoire (1,5Ha)</strong> : variétés anciennes locales</li>
+                <li><strong>Élevage (1Ha)</strong> : 20 chèvres, 50 poules, 5 moutons</li>
+                <li><strong>Cultures céréalières (1,5Ha)</strong> : blé ancien, maïs population</li>
+            </ul>
+
+            <h3>💧 Zone Lac de Cayre (2 Hectares)</h3>
+            <ul>
+                <li><strong>Activités nautiques</strong> : canoë, kayak, pédalo (location incluse)</li>
+                <li><strong>Pêche</strong> : parcours carpe, truite (avec permis journalier)</li>
+                <li><strong>Baignade surveillée</strong> : zone délimitée et sécurisée</li>
+                <li><strong>Observatoire nature</strong> : plateforme bois pour observation faune</li>
+            </ul>
+        </section>
+
+        <!-- Étude de Marché -->
+        <section class="section">
+            <h2>📊 Étude de Marché</h2>
+            
+            <h3>🎯 Segments Clientèle</h3>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Segment</th>
+                            <th>% Clientèle</th>
+                            <th>Profil</th>
+                            <th>Séjour Moyen</th>
+                            <th>Dépense/jour</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Familles CSP+ Internationales</strong></td>
+                            <td>60%</td>
+                            <td>35-55 ans, enfants 6-16 ans, >70k€/an</td>
+                            <td>5 jours</td>
+                            <td class="amount">180€</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Couples Seniors Actifs</strong></td>
+                            <td>30%</td>
+                            <td>55-70 ans, retraités aisés</td>
+                            <td>4 jours</td>
+                            <td class="amount">220€</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Groupes Corporates</strong></td>
+                            <td>10%</td>
+                            <td>Séminaires, team-building</td>
+                            <td>2 jours</td>
+                            <td class="amount">280€</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3>⚖️ Analyse Concurrentielle</h3>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Concurrent</th>
+                            <th>Localisation</th>
+                            <th>Prix/nuit</th>
+                            <th>Capacité</th>
+                            <th>Notre Avantage</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Ferme de Flaran</strong></td>
+                            <td>Gers</td>
+                            <td class="amount">180€</td>
+                            <td>50 couchages</td>
+                            <td>Lac privé unique</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Domaine de Baulieu</strong></td>
+                            <td>Gironde</td>
+                            <td class="amount">150€</td>
+                            <td>30 couchages</td>
+                            <td>Taille humaine</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Hôtels ruraux</strong></td>
+                            <td>Local</td>
+                            <td class="amount">90€</td>
+                            <td>Variable</td>
+                            <td>Expérience complète</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Modèle Économique -->
+        <section class="section">
+            <h2>💰 Modèle Économique</h2>
+            
+            <h3>📈 Projection Revenus Année 3</h3>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Source de Revenus</th>
+                            <th>Unités/an</th>
+                            <th>Prix Unitaire</th>
+                            <th>CA Annuel</th>
+                            <th>% Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Hébergements Chalets</strong></td>
+                            <td>1 800 nuitées</td>
+                            <td class="amount">180€</td>
+                            <td class="amount">324 000€</td>
+                            <td>38,1%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Gîte Familial</strong></td>
+                            <td>200 nuitées</td>
+                            <td class="amount">380€</td>
+                            <td class="amount">76 000€</td>
+                            <td>8,9%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Restauration</strong></td>
+                            <td>2 000 repas</td>
+                            <td class="amount">35€</td>
+                            <td class="amount">70 000€</td>
+                            <td>8,2%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Activités & Ateliers</strong></td>
+                            <td>1 500 participants</td>
+                            <td class="amount">25€</td>
+                            <td class="amount">37 500€</td>
+                            <td>4,4%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Boutique Produits</strong></td>
+                            <td>800 clients</td>
+                            <td class="amount">45€</td>
+                            <td class="amount">36 000€</td>
+                            <td>4,2%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Événementiel</strong></td>
+                            <td>20 événements</td>
+                            <td class="amount">3 500€</td>
+                            <td class="amount">70 000€</td>
+                            <td>8,2%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Vente Produits Agricoles</strong></td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td class="amount">236 500€</td>
+                            <td>27,8%</td>
+                        </tr>
+                        <tr style="background: var(--bg-light); font-weight: bold;">
+                            <td><strong>TOTAL CA</strong></td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td class="amount" style="color: var(--success-green);"><strong>850 000€</strong></td>
+                            <td><strong>100%</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3>💸 Structure de Coûts</h3>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Poste de Charges</th>
+                            <th>Montant Annuel</th>
+                            <th>% CA</th>
+                            <th>Détail</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Personnel</strong></td>
+                            <td class="amount">185 000€</td>
+                            <td>21,8%</td>
+                            <td>2 ETP permanents + 3 saisonniers</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Charges Exploitation</strong></td>
+                            <td class="amount">127 500€</td>
+                            <td>15,0%</td>
+                            <td>Intrants, alimentaire, entretien</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Marketing & Communication</strong></td>
+                            <td class="amount">42 500€</td>
+                            <td>5,0%</td>
+                            <td>Site web, réseaux sociaux, publicité</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Assurances & Fiscalité</strong></td>
+                            <td class="amount">68 000€</td>
+                            <td>8,0%</td>
+                            <td>RC, multirisques, taxes locales</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Énergies & Utilities</strong></td>
+                            <td class="amount">25 500€</td>
+                            <td>3,0%</td>
+                            <td>Électricité, eau, télécoms</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Maintenance & Réparations</strong></td>
+                            <td class="amount">34 000€</td>
+                            <td>4,0%</td>
+                            <td>Bâtiments, équipements, véhicules</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Amortissements</strong></td>
+                            <td class="amount">150 000€</td>
+                            <td>17,6%</td>
+                            <td>Bâtiments, équipements, aménagements</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Frais Financiers</strong></td>
+                            <td class="amount">48 000€</td>
+                            <td>5,6%</td>
+                            <td>Intérêts emprunts</td>
+                        </tr>
+                        <tr style="background: var(--bg-light); font-weight: bold;">
+                            <td><strong>TOTAL CHARGES</strong></td>
+                            <td class="amount"><strong>680 500€</strong></td>
+                            <td><strong>80,1%</strong></td>
+                            <td>-</td>
+                        </tr>
+                        <tr style="background: #e8f5e8; font-weight: bold;">
+                            <td><strong>RÉSULTAT NET</strong></td>
+                            <td class="amount" style="color: var(--success-green);"><strong>169 500€</strong></td>
+                            <td style="color: var(--success-green);"><strong>19,9%</strong></td>
+                            <td>Avant impôts</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Planning & Investissements -->
+        <section class="section">
+            <h2>📅 Planning de Réalisation</h2>
+            
+            <h3>Phase 1 : Préparation (Mois 1-6)</h3>
+            <ul>
+                <li><strong>Autorisations</strong> : Permis de construire, déclarations sanitaires</li>
+                <li><strong>Financement</strong> : Validation emprunts et subventions</li>
+                <li><strong>Études techniques</strong> : Géotechnique, réseaux, environnement</li>
+                <li><strong>Budget</strong> : 85 000€ (études, frais, autorisations)</li>
+            </ul>
+
+            <h3>Phase 2 : Infrastructure (Mois 7-18)</h3>
+            <ul>
+                <li><strong>VRD</strong> : Voiries, réseaux, assainissement</li>
+                <li><strong>Gros œuvre</strong> : Fondations, charpentes chalets</li>
+                <li><strong>Aménagement lac</strong> : Sécurisation, pontons, éclairage</li>
+                <li><strong>Budget</strong> : 950 000€ (60% investissement total)</li>
+            </ul>
+
+            <h3>Phase 3 : Équipements (Mois 19-24)</h3>
+            <ul>
+                <li><strong>Second œuvre</strong> : Isolation, plomberie, électricité</li>
+                <li><strong>Équipements</strong> : Cuisine, mobilier, bateaux</li>
+                <li><strong>Aménagements</strong> : Jardins, signalétique, photovoltaïque</li>
+                <li><strong>Budget</strong> : 465 000€ (40% investissement restant)</li>
+            </ul>
+
+            <h3>💰 Répartition Investissement Total : 1 500 000€</h3>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Poste</th>
+                            <th>Montant</th>
+                            <th>%</th>
+                            <th>Détail</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Hébergements</strong></td>
+                            <td class="amount">650 000€</td>
+                            <td>43,3%</td>
+                            <td>12 chalets + 1 gîte + restaurant</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Aménagement Lac</strong></td>
+                            <td class="amount">280 000€</td>
+                            <td>18,7%</td>
+                            <td>Sécurisation, pontons, équipements nautiques</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Agriculture & Élevage</strong></td>
+                            <td class="amount">180 000€</td>
+                            <td>12,0%</td>
+                            <td>Serres, abris animaux, matériel agricole</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Photovoltaïque</strong></td>
+                            <td class="amount">125 000€</td>
+                            <td>8,3%</td>
+                            <td>50kWc + batteries + onduleurs</td>
+                        </tr>
+                        <tr>
+                            <td><strong>VRD & Réseaux</strong></td>
+                            <td class="amount">165 000€</td>
+                            <td>11,0%</td>
+                            <td>Voiries, eau, électricité, assainissement</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Divers & Imprévus</strong></td>
+                            <td class="amount">100 000€</td>
+                            <td>6,7%</td>
+                            <td>Aléas, équipements complémentaires</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <div class="cta-section">
+            <h2>📄 Documents Complets</h2>
+            <p>Accédez à tous les documents détaillés du business plan agritourisme</p>
+            
+            <a href="../../../business-plans/business_plan_agritourisme.md" class="btn">📄 Business Plan Complet (MD)</a>
+            <a href="../index.html#projets" class="btn">⬅️ Retour Projets Détaillés</a>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Plan Photovoltaïque - Lac de Cayre</title>
+    <meta name="description" content="Installation photovoltaïque agricole 100kWc - ROI 315%, autonomie énergétique complète">
+    
+    <style>
+        :root {
+            --primary-blue: #1e3a5f;
+            --secondary-blue: #2c5aa0;
+            --accent-gold: #d4af37;
+            --success-green: #28a745;
+            --solar-orange: #ff6b35;
+            --text-dark: #2c3e50;
+            --text-light: #6c757d;
+            --bg-light: #f8f9fa;
+            --white: #ffffff;
+            --border-light: #e9ecef;
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: var(--bg-light);
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--solar-orange), #ff8c42);
+            color: var(--white);
+            padding: 3rem 0;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .breadcrumb {
+            background: var(--white);
+            padding: 1rem 0;
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        .breadcrumb-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .breadcrumb a {
+            color: var(--primary-blue);
+            text-decoration: none;
+            margin-right: 0.5rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        .section {
+            background: var(--white);
+            margin: 2rem 0;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: var(--shadow-md);
+        }
+
+        .section h2 {
+            color: var(--primary-blue);
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 3px solid var(--solar-orange);
+            padding-bottom: 0.5rem;
+        }
+
+        .section h3 {
+            color: var(--solar-orange);
+            font-size: 1.5rem;
+            margin: 2rem 0 1rem 0;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #fff3cd, #ffe0b3);
+            padding: 2rem;
+            border-radius: 10px;
+            border-left: 5px solid var(--solar-orange);
+            margin: 2rem 0;
+        }
+
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .metric-card {
+            background: var(--bg-light);
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+            border: 2px solid var(--border-light);
+        }
+
+        .metric-value {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--solar-orange);
+            display: block;
+        }
+
+        .metric-label {
+            color: var(--text-light);
+            margin-top: 0.5rem;
+        }
+
+        .table-responsive {
+            overflow-x: auto;
+            margin: 2rem 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--white);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+        }
+
+        th, td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        th {
+            background: var(--solar-orange);
+            color: var(--white);
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background: var(--bg-light);
+        }
+
+        .amount {
+            font-weight: 600;
+            color: var(--primary-blue);
+        }
+
+        .tech-specs {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .spec-card {
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            padding: 2rem;
+            border-radius: 15px;
+            border-left: 5px solid var(--solar-orange);
+        }
+
+        .cta-section {
+            background: linear-gradient(135deg, var(--solar-orange), #ff8c42);
+            color: var(--white);
+            padding: 3rem;
+            border-radius: 20px;
+            text-align: center;
+            margin: 3rem 0;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: var(--white);
+            color: var(--solar-orange);
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: 600;
+            margin: 1rem;
+            transition: transform 0.3s ease;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .container {
+                padding: 2rem 1rem;
+            }
+            
+            .metrics-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1>☀️ Business Plan Photovoltaïque</h1>
+        <p>Installation Solaire Agricole 100kWc - Agrivoltaïsme Innovant</p>
+    </header>
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb">
+        <div class="breadcrumb-container">
+            <a href="../../../index.html">Portfolio</a> > 
+            <a href="../index.html">Lac de Cayre</a> > 
+            <span>Photovoltaïque</span>
+        </div>
+    </nav>
+
+    <!-- Contenu principal -->
+    <main class="container">
+        
+        <!-- Résumé Exécutif -->
+        <section class="section">
+            <h2>🎯 Résumé Exécutif</h2>
+            
+            <div class="highlight-box">
+                <h3>Vision du Projet</h3>
+                <p><strong>Développer une installation photovoltaïque agricole de 100kWc</strong> sur 5 hectares de terrain, optimisant la production d'électricité verte pour autoconsommation et revente réseau, tout en préservant l'usage agricole par agrivoltaïsme innovant.</p>
+            </div>
+
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <span class="metric-value">100kWc</span>
+                    <span class="metric-label">Puissance installée</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-value">315%</span>
+                    <span class="metric-label">ROI sur 20 ans</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-value">15.7k€</span>
+                    <span class="metric-label">Revenus/an</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-value">7,6 ans</span>
+                    <span class="metric-label">Seuil de Rentabilité</span>
+                </div>
+            </div>
+
+            <h3>Proposition de Valeur Unique</h3>
+            <ul>
+                <li><strong>Agrivoltaïsme pionnier</strong> : Élevage ovin sous panneaux surélevés 4m</li>
+                <li><strong>Autonomie énergétique</strong> complète exploitation + habitation</li>
+                <li><strong>Double revenus</strong> : Électricité + agriculture optimisée</li>
+                <li><strong>Impact environnemental</strong> positif : -80 tonnes CO₂/an</li>
+                <li><strong>Réversibilité</strong> totale : Démontage possible sans impact sol</li>
+            </ul>
+        </section>
+
+        <!-- Spécifications Techniques -->
+        <section class="section">
+            <h2>⚙️ Spécifications Techniques</h2>
+            
+            <div class="tech-specs">
+                <div class="spec-card">
+                    <h3>📐 Configuration Installation</h3>
+                    <ul>
+                        <li><strong>Puissance totale :</strong> 100 kWc</li>
+                        <li><strong>Modules :</strong> 250 panneaux 400Wc monocristallins</li>
+                        <li><strong>Surface :</strong> 5 hectares (panneaux surélevés)</li>
+                        <li><strong>Hauteur :</strong> 4 mètres (passage tracteur)</li>
+                        <li><strong>Orientation :</strong> Sud, inclinaison 30°</li>
+                    </ul>
+                </div>
+                
+                <div class="spec-card">
+                    <h3>🔌 Équipements Électriques</h3>
+                    <ul>
+                        <li><strong>Onduleurs :</strong> 4 unités 25kW triphasés</li>
+                        <li><strong>Transformateur :</strong> HTA/BT 100 kVA</li>
+                        <li><strong>Comptage :</strong> Linky production + TURPE</li>
+                        <li><strong>Protection :</strong> Parafoudres, disjoncteurs</li>
+                        <li><strong>Monitoring :</strong> Supervision temps réel</li>
+                    </ul>
+                </div>
+                
+                <div class="spec-card">
+                    <h3>🐑 Agrivoltaïsme Intégré</h3>
+                    <ul>
+                        <li><strong>Élevage :</strong> 100 ovins sous panneaux</li>
+                        <li><strong>Pâturage :</strong> Rotation sur 5 Ha</li>
+                        <li><strong>Abris :</strong> Ombre naturelle panneaux</li>
+                        <li><strong>Alimentation :</strong> Abreuvoirs automatiques</li>
+                        <li><strong>Clôtures :</strong> Électriques mobiles</li>
+                    </ul>
+                </div>
+                
+                <div class="spec-card">
+                    <h3>⚡ Performance Énergétique</h3>
+                    <ul>
+                        <li><strong>Production :</strong> 140 MWh/an</li>
+                        <li><strong>Facteur charge :</strong> 16% (excellent)</li>
+                        <li><strong>Autoconsommation :</strong> 30 MWh/an (20%)</li>
+                        <li><strong>Injection réseau :</strong> 110 MWh/an (80%)</li>
+                        <li><strong>Disponibilité :</strong> >97% garantie</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modèle Économique -->
+        <section class="section">
+            <h2>💰 Modèle Économique Détaillé</h2>
+            
+            <h3>📈 Revenus Annuels</h3>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Source de Revenus</th>
+                            <th>Quantité</th>
+                            <th>Tarif</th>
+                            <th>Revenus/an</th>
+                            <th>% Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Vente Électricité (Injection)</strong></td>
+                            <td>110 MWh</td>
+                            <td class="amount">0,1053€/kWh</td>
+                            <td class="amount">11 583€</td>
+                            <td>73,7%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Autoconsommation (Économies)</strong></td>
+                            <td>30 MWh</td>
+                            <td class="amount">0,154€/kWh</td>
+                            <td class="amount">4 620€</td>
+                            <td>29,4%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Élevage Ovin</strong></td>
+                            <td>100 têtes</td>
+                            <td class="amount">25€/tête</td>
+                            <td class="amount">2 500€</td>
+                            <td>15,9%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Prime Autoconsommation</strong></td>
+                            <td>100 kWc</td>
+                            <td class="amount">100€/kWc</td>
+                            <td class="amount">1 000€</td>
+                            <td>6,4%</td>
+                        </tr>
+                        <tr style="background: var(--bg-light); font-weight: bold;">
+                            <td><strong>TOTAL REVENUS</strong></td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td class="amount" style="color: var(--success-green);"><strong>15 703€</strong></td>
+                            <td><strong>100%</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3>💸 Charges d'Exploitation</h3>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Poste de Charges</th>
+                            <th>Montant/an</th>
+                            <th>% Revenus</th>
+                            <th>Détail</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Maintenance Préventive</strong></td>
+                            <td class="amount">2 000€</td>
+                            <td>12,7%</td>
+                            <td>Nettoyage, vérifications annuelles</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Assurance</strong></td>
+                            <td class="amount">800€</td>
+                            <td>5,1%</td>
+                            <td>Dommages, RC, perte exploitation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Élevage Ovin</strong></td>
+                            <td class="amount">1 500€</td>
+                            <td>9,6%</td>
+                            <td>Alimentation, soins vétérinaires</td>
+                        </tr>
+                        <tr>
+                            <td><strong>TURPE & Taxes</strong></td>
+                            <td class="amount">600€</td>
+                            <td>3,8%</td>
+                            <td>Raccordement, taxes locales</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Monitoring & Gestion</strong></td>
+                            <td class="amount">300€</td>
+                            <td>1,9%</td>
+                            <td>Télésurveillance, logiciels</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Provision Réparations</strong></td>
+                            <td class="amount">1 000€</td>
+                            <td>6,4%</td>
+                            <td>Onduleurs, modules défaillants</td>
+                        </tr>
+                        <tr style="background: var(--bg-light); font-weight: bold;">
+                            <td><strong>TOTAL CHARGES</strong></td>
+                            <td class="amount"><strong>6 200€</strong></td>
+                            <td><strong>39,5%</strong></td>
+                            <td>-</td>
+                        </tr>
+                        <tr style="background: #e8f5e8; font-weight: bold;">
+                            <td><strong>RÉSULTAT NET</strong></td>
+                            <td class="amount" style="color: var(--success-green);"><strong>9 503€</strong></td>
+                            <td style="color: var(--success-green);"><strong>60,5%</strong></td>
+                            <td>Avant amortissements fiscaux</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Investissement & Financement -->
+        <section class="section">
+            <h2>🏗️ Investissement & Financement</h2>
+            
+            <h3>💰 Décomposition Investissement : 100 000€</h3>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Poste</th>
+                            <th>Montant</th>
+                            <th>%</th>
+                            <th>Détail</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Modules Photovoltaïques</strong></td>
+                            <td class="amount">35 000€</td>
+                            <td>35%</td>
+                            <td>250 panneaux 400Wc monocristallins</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Onduleurs & Électricité</strong></td>
+                            <td class="amount">20 000€</td>
+                            <td>20%</td>
+                            <td>4 onduleurs + câblage + protection</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Structure de Montage</strong></td>
+                            <td class="amount">25 000€</td>
+                            <td>25%</td>
+                            <td>Supports surélevés 4m, fondations</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Raccordement Réseau</strong></td>
+                            <td class="amount">8 000€</td>
+                            <td>8%</td>
+                            <td>Transformateur, comptage, CONSUEL</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Installation & MOD</strong></td>
+                            <td class="amount">10 000€</td>
+                            <td>10%</td>
+                            <td>Main d'œuvre, mise en service</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Études & Autorisations</strong></td>
+                            <td class="amount">2 000€</td>
+                            <td>2%</td>
+                            <td>Bureau d'études, permis, CONSUEL</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3>🏦 Plan de Financement</h3>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Source</th>
+                            <th>Montant</th>
+                            <th>%</th>
+                            <th>Conditions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Apport Personnel</strong></td>
+                            <td class="amount">30 000€</td>
+                            <td>30%</td>
+                            <td>Fonds propres disponibles</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Emprunt Bancaire</strong></td>
+                            <td class="amount">50 000€</td>
+                            <td>50%</td>
+                            <td>15 ans, 3,5%, garantie installation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Subventions ADEME</strong></td>
+                            <td class="amount">15 000€</td>
+                            <td>15%</td>
+                            <td>Aide agrivoltaïsme innovant</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Aide Région</strong></td>
+                            <td class="amount">5 000€</td>
+                            <td>5%</td>
+                            <td>Transition énergétique agriculture</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Performance & Garanties -->
+        <section class="section">
+            <h2>📊 Performance & Garanties</h2>
+            
+            <div class="tech-specs">
+                <div class="spec-card">
+                    <h3>⚡ Performance Énergétique</h3>
+                    <ul>
+                        <li><strong>Production garantie :</strong> >135 MWh/an</li>
+                        <li><strong>Dégradation annuelle :</strong> <0,5%</li>
+                        <li><strong>Rendement système :</strong> 85%</li>
+                        <li><strong>Disponibilité :</strong> 97,5%</li>
+                    </ul>
+                </div>
+                
+                <div class="spec-card">
+                    <h3>🛡️ Garanties Constructeur</h3>
+                    <ul>
+                        <li><strong>Modules :</strong> 25 ans performance</li>
+                        <li><strong>Onduleurs :</strong> 10 ans pièces/MOD</li>
+                        <li><strong>Structure :</strong> 20 ans anti-corrosion</li>
+                        <li><strong>Installation :</strong> 2 ans tous risques</li>
+                    </ul>
+                </div>
+                
+                <div class="spec-card">
+                    <h3>🌱 Impact Environnemental</h3>
+                    <ul>
+                        <li><strong>CO₂ évité :</strong> 80 tonnes/an</li>
+                        <li><strong>Retour énergétique :</strong> 2,8 ans</li>
+                        <li><strong>Recyclage :</strong> 95% matériaux</li>
+                        <li><strong>Biodiversité :</strong> Préservée sous panneaux</li>
+                    </ul>
+                </div>
+                
+                <div class="spec-card">
+                    <h3>🔧 Maintenance Préventive</h3>
+                    <ul>
+                        <li><strong>Nettoyage :</strong> 2 fois/an automatique</li>
+                        <li><strong>Monitoring :</strong> 24h/24 à distance</li>
+                        <li><strong>Contrôles :</strong> Annuels thermographie</li>
+                        <li><strong>Intervention :</strong> <24h si panne</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <div class="cta-section">
+            <h2>📄 Documentation Technique</h2>
+            <p>Accédez aux spécifications techniques complètes et études de faisabilité</p>
+            
+            <a href="../../../business-plans/business_plan_photovoltaique.md" class="btn">📄 Business Plan Complet</a>
+            <a href="../index.html#projets" class="btn">⬅️ Retour Projets Détaillés</a>
+        </div>
+    </main>
+</body>
+</html>

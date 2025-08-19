@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Plan Agriculture Diversifiée - Lac de Cayre</title>
+    <meta name="description" content="Agriculture diversifiée bio sur 29 hectares - ROI 12%, circuits courts et transformation">
+    
+    <style>
+        :root {
+            --primary-blue: #1e3a5f;
+            --secondary-blue: #2c5aa0;
+            --accent-gold: #d4af37;
+            --success-green: #28a745;
+            --agri-green: #4a7c59;
+            --text-dark: #2c3e50;
+            --text-light: #6c757d;
+            --bg-light: #f8f9fa;
+            --white: #ffffff;
+            --border-light: #e9ecef;
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: var(--bg-light);
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--agri-green), var(--success-green));
+            color: var(--white);
+            padding: 3rem 0;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .breadcrumb {
+            background: var(--white);
+            padding: 1rem 0;
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        .breadcrumb-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .breadcrumb a {
+            color: var(--primary-blue);
+            text-decoration: none;
+            margin-right: 0.5rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        .section {
+            background: var(--white);
+            margin: 2rem 0;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: var(--shadow-md);
+        }
+
+        .section h2 {
+            color: var(--primary-blue);
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 3px solid var(--agri-green);
+            padding-bottom: 0.5rem;
+        }
+
+        .section h3 {
+            color: var(--agri-green);
+            font-size: 1.5rem;
+            margin: 2rem 0 1rem 0;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #e8f5e8, #d4edda);
+            padding: 2rem;
+            border-radius: 10px;
+            border-left: 5px solid var(--agri-green);
+            margin: 2rem 0;
+        }
+
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .metric-card {
+            background: var(--bg-light);
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+            border: 2px solid var(--border-light);
+        }
+
+        .metric-value {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--agri-green);
+            display: block;
+        }
+
+        .metric-label {
+            color: var(--text-light);
+            margin-top: 0.5rem;
+        }
+
+        .table-responsive {
+            overflow-x: auto;
+            margin: 2rem 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--white);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+        }
+
+        th, td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        th {
+            background: var(--agri-green);
+            color: var(--white);
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background: var(--bg-light);
+        }
+
+        .amount {
+            font-weight: 600;
+            color: var(--primary-blue);
+        }
+
+        .production-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .production-card {
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            padding: 2rem;
+            border-radius: 15px;
+            border-left: 5px solid var(--agri-green);
+        }
+
+        .cta-section {
+            background: linear-gradient(135deg, var(--agri-green), var(--success-green));
+            color: var(--white);
+            padding: 3rem;
+            border-radius: 20px;
+            text-align: center;
+            margin: 3rem 0;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: var(--white);
+            color: var(--agri-green);
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: 600;
+            margin: 1rem;
+            transition: transform 0.3s ease;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .container {
+                padding: 2rem 1rem;
+            }
+            
+            .metrics-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1>🌾 Business Plan Agriculture Diversifiée</h1>
+        <p>Production Bio, Transformation & Circuits Courts - 29 Hectares</p>
+    </header>
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb">
+        <div class="breadcrumb-container">
+            <a href="../../../index.html">Portfolio</a> > 
+            <a href="../index.html">Lac de Cayre</a> > 
+            <span>Agriculture</span>
+        </div>
+    </nav>
+
+    <!-- Contenu principal -->
+    <main class="container">
+        
+        <!-- Résumé Exécutif -->
+        <section class="section">
+            <h2>🎯 Résumé Exécutif</h2>
+            
+            <div class="highlight-box">
+                <h3>Vision du Projet</h3>
+                <p><strong>Transformer 29 hectares de cultures traditionnelles</strong> en exploitation diversifiée bio avec transformation sur site, élevage intégré et circuits courts, créant un modèle d'agriculture durable et rentable.</p>
+            </div>
+
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <span class="metric-value">29 Ha</span>
+                    <span class="metric-label">Surface cultivée</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-value">278k€</span>
+                    <span class="metric-label">CA Année 3</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-value">12%</span>
+                    <span class="metric-label">ROI</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-value">300k€</span>
+                    <span class="metric-label">Investissement</span>
+                </div>
+            </div>
+
+            <h3>Stratégie de Diversification</h3>
+            <ul>
+                <li><strong>Cultures bio diversifiées</strong> : céréales, légumineuses, maraîchage</li>
+                <li><strong>Élevage intégré</strong> : 200 volailles + 50 ovins</li>
+                <li><strong>Transformation sur site</strong> : conserves, fromages, farines</li>
+                <li><strong>Vente directe</strong> : circuits courts + agritourisme</li>
+                <li><strong>Certification bio</strong> : valeur ajoutée premium</li>
+            </ul>
+        </section>
+
+        <!-- Plan de Production -->
+        <section class="section">
+            <h2>🌱 Plan de Production Détaillé</h2>
+            
+            <div class="production-grid">
+                <div class="production-card">
+                    <h3>🌾 Céréales & Légumineuses (18 Ha)</h3>
+                    <ul>
+                        <li><strong>Blé ancien (6 Ha)</strong> : 4,5 t/ha = 27 tonnes</li>
+                        <li><strong>Épeautre (3 Ha)</strong> : 3 t/ha = 9 tonnes</li>
+                        <li><strong>Avoine (2 Ha)</strong> : 4 t/ha = 8 tonnes</li>
+                        <li><strong>Lentilles (3 Ha)</strong> : 1,5 t/ha = 4,5 tonnes</li>
+                        <li><strong>Pois chiches (2 Ha)</strong> : 2 t/ha = 4 tonnes</li>
+                        <li><strong>Tournesol (2 Ha)</strong> : 2,5 t/ha = 5 tonnes</li>
+                    </ul>
+                </div>
+                
+                <div class="production-card">
+                    <h3>🥕 Maraîchage Diversifié (6 Ha)</h3>
+                    <ul>
+                        <li><strong>Légumes racines (2 Ha)</strong> : carottes, betteraves, navets</li>
+                        <li><strong>Légumes feuilles (1,5 Ha)</strong> : salades, épinards, choux</li>
+                        <li><strong>Légumes fruits (1,5 Ha)</strong> : tomates, courgettes, aubergines</li>
+                        <li><strong>Aromates (0,5 Ha)</strong> : basilic, thym, romarin</li>
+                        <li><strong>Légumes secs (0,5 Ha)</strong> : haricots, fèves</li>
+                    </ul>
+                </div>
+                
+                <div class="production-card">
+                    <h3>🍎 Verger & Petits Fruits (3 Ha)</h3>
+                    <ul>
+                        <li><strong>Arbres fruitiers (2 Ha)</strong> : pommes, poires, prunes</li>
+                        <li><strong>Petits fruits (0,5 Ha)</strong> : fraises, framboises</li>
+                        <li><strong>Fruits à coque (0,5 Ha)</strong> : noyers, châtaigniers</li>
+                        <li><strong>Production</strong> : 25 tonnes fruits/an</li>
+                    </ul>
+                </div>
+                
+                <div class="production-card">
+                    <h3>🐓 Élevage Intégré (2 Ha)</h3>
+                    <ul>
+                        <li><strong>Volailles (200 têtes)</strong> : poules pondeuses + poulets</li>
+                        <li><strong>Ovins (50 têtes)</strong> : brebis laitières</li>
+                        <li><strong>Production œufs</strong> : 50 000 œufs/an</li>
+                        <li><strong>Production lait</strong> : 15 000 L/an</li>
+                        <li><strong>Viande</strong> : 2 tonnes/an</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Transformation & Commercialisation -->
+        <section class="section">
+            <h2>🏭 Transformation & Commercialisation</h2>
+            
+            <h3>🥫 Atelier de Transformation (400m²)</h3>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Produit Transformé</th>
+                            <th>Matière Première</th>
+                            <th>Production/an</th>
+                            <th>Prix Vente</th>
+                            <th>CA</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Farine Artisanale</strong></td>
+                            <td>Blé ancien, épeautre</td>
+                            <td>20 tonnes</td>
+                            <td class="amount">3,50€/kg</td>
+                            <td class="amount">70 000€</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Légumineuses Séchées</strong></td>
+                            <td>Lentilles, pois chiches</td>
+                            <td>8 tonnes</td>
+                            <td class="amount">6,00€/kg</td>
+                            <td class="amount">48 000€</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Conserves Légumes</strong></td>
+                            <td>Légumes de saison</td>
+                            <td>15 000 bocaux</td>
+                            <td class="amount">4,50€/bocal</td>
+                            <td class="amount">67 500€</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Fromages de Chèvre</strong></td>
+                            <td>Lait brebis</td>
+                            <td>3 000 fromages</td>
+                            <td class="amount">8,00€/fromage</td>
+                            <td class="amount">24 000€</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Huile de Tournesol</strong></td>
+                            <td>Graines tournesol</td>
+                            <td>2 000 L</td>
+                            <td class="amount">12,00€/L</td>
+                            <td class="amount">24 000€</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Confitures & Compotes</strong></td>
+                            <td>Fruits verger</td>
+                            <td>5 000 pots</td>
+                            <td class="amount">6,50€/pot</td>
+                            <td class="amount">32 500€</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3>🛒 Canaux de Distribution</h3>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Canal</th>
+                            <th>% Ventes</th>
+                            <th>Marge</th>
+                            <th>Clientèle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Vente Directe Exploitation</strong></td>
+                            <td>40%</td>
+                            <td>90%</td>
+                            <td>Agritouristes, locaux</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Marchés Fermiers</strong></td>
+                            <td>25%</td>
+                            <td>85%</td>
+                            <td>Consommateurs urbains</td>
+                        </tr>
+                        <tr>
+                            <td><strong>AMAP & Paniers</strong></td>
+                            <td>20%</td>
+                            <td>80%</td>
+                            <td>Familles abonnées</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Restaurants Locaux</strong></td>
+                            <td>10%</td>
+                            <td>70%</td>
+                            <td>Chefs, restaurateurs</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Magasins Bio</strong></td>
+                            <td>5%</td>
+                            <td>60%</td>
+                            <td>Détaillants spécialisés</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Modèle Économique -->
+        <section class="section">
+            <h2>💰 Modèle Économique</h2>
+            
+            <h3>📈 Projection Revenus Année 3</h3>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Activité</th>
+                            <th>CA Brut</th>
+                            <th>Charges Variables</th>
+                            <th>Marge Brute</th>
+                            <th>% Marge</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Céréales & Légumineuses</strong></td>
+                            <td class="amount">95 000€</td>
+                            <td class="amount">28 500€</td>
+                            <td class="amount">66 500€</td>
+                            <td>70%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Maraîchage</strong></td>
+                            <td class="amount">85 000€</td>
+                            <td class="amount">34 000€</td>
+                            <td class="amount">51 000€</td>
+                            <td>60%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Verger & Fruits</strong></td>
+                            <td class="amount">45 000€</td>
+                            <td class="amount">13 500€</td>
+                            <td class="amount">31 500€</td>
+                            <td>70%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Élevage</strong></td>
+                            <td class="amount">38 000€</td>
+                            <td class="amount">19 000€</td>
+                            <td class="amount">19 000€</td>
+                            <td>50%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Transformation</strong></td>
+                            <td class="amount">115 000€</td>
+                            <td class="amount">46 000€</td>
+                            <td class="amount">69 000€</td>
+                            <td>60%</td>
+                        </tr>
+                        <tr style="background: var(--bg-light); font-weight: bold;">
+                            <td><strong>TOTAL</strong></td>
+                            <td class="amount" style="color: var(--success-green);"><strong>378 000€</strong></td>
+                            <td class="amount"><strong>141 000€</strong></td>
+                            <td class="amount" style="color: var(--success-green);"><strong>237 000€</strong></td>
+                            <td><strong>63%</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3>💸 Charges Fixes Annuelles</h3>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Poste</th>
+                            <th>Montant/an</th>
+                            <th>% CA</th>
+                            <th>Détail</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Personnel</strong></td>
+                            <td class="amount">85 000€</td>
+                            <td>22,5%</td>
+                            <td>1,5 ETP + charges sociales</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Certification Bio</strong></td>
+                            <td class="amount">3 500€</td>
+                            <td>0,9%</td>
+                            <td>Contrôles annuels Ecocert</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Assurances</strong></td>
+                            <td class="amount">8 000€</td>
+                            <td>2,1%</td>
+                            <td>Multirisques, RC, sanitaire</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Maintenance Matériel</strong></td>
+                            <td class="amount">12 000€</td>
+                            <td>3,2%</td>
+                            <td>Tracteurs, équipements</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Énergies</strong></td>
+                            <td class="amount">6 000€</td>
+                            <td>1,6%</td>
+                            <td>Électricité, carburant</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Amortissements</strong></td>
+                            <td class="amount">25 000€</td>
+                            <td>6,6%</td>
+                            <td>Bâtiments, matériel</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Frais Généraux</strong></td>
+                            <td class="amount">8 500€</td>
+                            <td>2,2%</td>
+                            <td>Télécoms, comptabilité</td>
+                        </tr>
+                        <tr style="background: var(--bg-light); font-weight: bold;">
+                            <td><strong>TOTAL CHARGES FIXES</strong></td>
+                            <td class="amount"><strong>148 000€</strong></td>
+                            <td><strong>39,2%</strong></td>
+                            <td>-</td>
+                        </tr>
+                        <tr style="background: #e8f5e8; font-weight: bold;">
+                            <td><strong>RÉSULTAT NET</strong></td>
+                            <td class="amount" style="color: var(--success-green);"><strong>89 000€</strong></td>
+                            <td style="color: var(--success-green);"><strong>23,5%</strong></td>
+                            <td>Avant impôts</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <div class="cta-section">
+            <h2>📄 Plan Cultural Complet</h2>
+            <p>Accédez au plan de rotation, calendrier cultural et fiches techniques</p>
+            
+            <a href="../index.html#projets" class="btn">⬅️ Retour Projets Détaillés</a>
+        </div>
+    </main>
+</body>
+</html>

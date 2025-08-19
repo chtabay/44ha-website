@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projet Écosystème Lac Privé - 44 Hectares | Valorisation Territoriale</title>
+    <title>Projet Écosystème Lac de Cayre - 44 Hectares | Gontaud-de-Nogaret</title>
     <meta name="description" content="Projet de valorisation intégrée de 44 hectares - Investissement 3,1M€, ROI 11,2%, Protection patrimoine 100%. Études approfondies complétées.">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="Projet Écosystème Lac Privé - 44 Hectares">
+    <meta property="og:title" content="Projet Écosystème Lac de Cayre - 44 Hectares">
     <meta property="og:description" content="Agritourisme premium, énergies renouvelables, agriculture durable - ROI 11,2%">
     <meta property="og:type" content="website">
     
@@ -422,30 +422,9 @@
                 grid-template-columns: 1fr 1fr;
             }
             
-            /* Navigation compacte sur mobile */
-            .nav {
-                padding: 0.5rem 0;
-            }
-            
             .nav-container {
-                padding: 0 1rem;
-                gap: 0.5rem;
-                overflow-x: auto;
-                justify-content: flex-start;
-                scrollbar-width: none;
-                -ms-overflow-style: none;
-            }
-            
-            .nav-container::-webkit-scrollbar {
-                display: none;
-            }
-            
-            .nav-link {
-                padding: 0.5rem 1rem;
-                font-size: 0.85rem;
-                white-space: nowrap;
-                min-width: auto;
-                flex-shrink: 0;
+                flex-direction: column;
+                gap: 1rem;
             }
             
             .container {
@@ -460,54 +439,6 @@
                 flex-direction: column;
                 align-items: center;
             }
-        }
-
-        /* Mobile très petit */
-        @media (max-width: 480px) {
-            .hero h1 {
-                font-size: 2rem;
-            }
-            
-            .hero .subtitle {
-                font-size: 1.1rem;
-            }
-            
-            .hero-metrics {
-                grid-template-columns: 1fr;
-                gap: 1rem;
-            }
-            
-            /* Navigation encore plus compacte */
-            .nav {
-                padding: 0.3rem 0;
-            }
-            
-            .nav-link {
-                padding: 0.4rem 0.8rem;
-                font-size: 0.75rem;
-            }
-            
-            /* Option : bouton toggle pour masquer/afficher */
-            .nav-toggle {
-                display: block;
-                background: var(--primary-blue);
-                color: var(--white);
-                border: none;
-                padding: 0.5rem 1rem;
-                margin: 0.5rem auto;
-                border-radius: 5px;
-                font-size: 0.8rem;
-                cursor: pointer;
-            }
-            
-            .nav-container.collapsed {
-                display: none;
-            }
-        }
-
-        /* Navigation toggle uniquement sur mobile */
-        .nav-toggle {
-            display: none;
         }
 
         /* Animations */
@@ -532,8 +463,8 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <h1>🌊 Projet Écosystème Lac Privé</h1>
-            <p class="subtitle">Valorisation intégrée patrimoine familial - 44 Hectares, Lot-et-Garonne</p>
+            <h1>🌊 Projet Écosystème Lac de Cayre</h1>
+            <p class="subtitle">Valorisation intégrée patrimoine familial - 44 Hectares, Gontaud-de-Nogaret</p>
             
             <div class="status-badge">
                 ✅ ÉTUDES APPROFONDIES COMPLÉTÉES
@@ -562,8 +493,8 @@
 
     <!-- Navigation -->
     <nav class="nav">
-        <button class="nav-toggle" onclick="toggleNav()">📱 Chapitres</button>
-        <div class="nav-container" id="nav-container">
+        <div class="nav-container">
+            <a href="../../index.html" class="nav-link" style="background: var(--accent-gold); color: var(--primary-blue); font-weight: 600;">← Portfolio</a>
             <a href="#vue-ensemble" class="nav-link active">🎯 Vue d'Ensemble</a>
             <a href="#etudes" class="nav-link">📊 Études Réalisées</a>
             <a href="#financement" class="nav-link">💰 Financement</a>
@@ -586,7 +517,7 @@
             <div class="cards-grid">
                 <div class="card">
                     <h3><span class="card-icon">🏞️</span>Agritourisme Premium</h3>
-                    <p>Hébergements écologiques autour du lac privé (150m), activités nautiques exclusives, ferme pédagogique active avec cultures bio et élevage.</p>
+                    <p>Hébergements écologiques autour du Lac de Cayre (150m), activités nautiques exclusives, ferme pédagogique active avec cultures bio et élevage.</p>
                     <ul style="margin-top: 1rem; padding-left: 1rem;">
                         <li>Lac privé unique dans 50km</li>
                         <li>Positionnement 45-65€/nuit</li>
@@ -950,7 +881,7 @@
                         </div>
                         <ul style="line-height: 1.8;">
                             <li><strong>Conservation nue-propriété</strong> + cession usufruit 30 ans</li>
-                            <li><strong>Protection héritiers:</strong> 100% garantie héritage</li>
+                            <li><strong>Protection filles:</strong> 100% garantie héritage</li>
                             <li><strong>Financement:</strong> 455k€ sans hypothèque</li>
                             <li><strong>Récupération automatique:</strong> Pleine propriété dans 30 ans</li>
                         </ul>
@@ -1002,7 +933,7 @@
                         <li>Restaurant terroir (produits exploitation)</li>
                     </ul>
                     <div style="margin-top: 1.5rem;">
-                        <a href="#" class="btn btn-secondary">📄 Business Plan Complet</a>
+                        <a href="details/agritourisme.html" class="btn btn-secondary">📄 Business Plan Complet</a>
                     </div>
                 </div>
 
@@ -1020,7 +951,7 @@
                         <li>Autonomie énergétique site</li>
                     </ul>
                     <div style="margin-top: 1.5rem;">
-                        <a href="#" class="btn btn-secondary">📄 Étude Technique</a>
+                        <a href="details/photovoltaique.html" class="btn btn-secondary">📄 Étude Technique</a>
                     </div>
                 </div>
 
@@ -1038,7 +969,7 @@
                         <li>Vente directe + circuits courts</li>
                     </ul>
                     <div style="margin-top: 1.5rem;">
-                        <a href="#" class="btn btn-secondary">📄 Plan Cultural</a>
+                        <a href="details/agriculture.html" class="btn btn-secondary">📄 Plan Cultural</a>
                     </div>
                 </div>
             </div>
@@ -1361,6 +1292,103 @@
                     </tbody>
                 </table>
             </div>
+            
+            <!-- Transcriptions Débats -->
+            <div class="chart-container">
+                <h3 style="color: var(--primary-blue); margin-bottom: 1.5rem;">📝 Transcriptions des Débats Multi-Agents</h3>
+                
+                <div class="cards-grid" style="margin: 0;">
+                    <div style="background: var(--bg-light); padding: 2rem; border-radius: 15px; border-left: 5px solid var(--success-green);">
+                        <h4 style="color: var(--success-green); margin-bottom: 1rem;">✅ Débat Projet Composite</h4>
+                        <p style="margin-bottom: 1rem;"><strong>Score synergies :</strong> 7,2/10</p>
+                        <p style="margin-bottom: 1rem;">Analyse des synergies entre agritourisme, photovoltaïque et agriculture. 15 experts consultés, 127 pages d'analyses.</p>
+                        <ul style="font-size: 0.9rem; margin-bottom: 1.5rem;">
+                            <li>🔄 Synergies et circularité (7,0/10)</li>
+                            <li>⚙️ Faisabilité opérationnelle (6,8/10)</li>
+                            <li>📈 Optimisation performance (7,4/10)</li>
+                            <li>⚠️ Gestion des risques (7,2/10)</li>
+                        </ul>
+                        <div style="padding: 1rem; background: var(--white); border-radius: 10px; margin-bottom: 1rem;">
+                            <strong>💡 Recommandations clés :</strong><br>
+                            • Montée en compétence progressive<br>
+                            • Embauche d'experts par domaine<br>
+                            • Formation personnel spécialisée<br>
+                            • Gestion intégrée des 3 activités
+                        </div>
+                        <a href="../../debats/debat_composite_ecosysteme_20250818_221846.md" style="background: var(--success-green); color: white; padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-weight: 600;">📄 Lire la transcription complète</a>
+                    </div>
+                    
+                    <div style="background: var(--bg-light); padding: 2rem; border-radius: 15px; border-left: 5px solid var(--accent-gold);">
+                        <h4 style="color: var(--accent-gold); margin-bottom: 1rem;">⚡ Débat Financement Sans Apport</h4>
+                        <p style="margin-bottom: 1rem;"><strong>Solutions identifiées :</strong> 8 sources</p>
+                        <p style="margin-bottom: 1rem;">Débat spécialisé sur les modes de financement sans hypothèque du terrain familial.</p>
+                        <ul style="font-size: 0.9rem; margin-bottom: 1.5rem;">
+                            <li>🏦 Financement diversifié</li>
+                            <li>🛡️ Protection patrimoine 100%</li>
+                            <li>📊 Démembrement temporaire</li>
+                            <li>💰 Apports terrain optimisés</li>
+                        </ul>
+                        <div style="padding: 1rem; background: var(--white); border-radius: 10px; margin-bottom: 1rem;">
+                            <strong>🎯 Solution retenue :</strong><br>
+                            Démembrement 30 ans (score 89%)<br>
+                            455k€ sans hypothèque<br>
+                            Récupération automatique propriété
+                        </div>
+                        <a href="../../analyses/protection_patrimoine_familial_20250818_230030.md" style="background: var(--accent-gold); color: var(--primary-blue); padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-weight: 600;">📄 Voir l'analyse détaillée</a>
+                    </div>
+                    
+                    <div style="background: var(--bg-light); padding: 2rem; border-radius: 15px; border-left: 5px solid var(--secondary-blue);">
+                        <h4 style="color: var(--secondary-blue); margin-bottom: 1rem;">📊 Débat Structure de Coûts</h4>
+                        <p style="margin-bottom: 1rem;"><strong>Révisions majeures :</strong> +979k€</p>
+                        <p style="margin-bottom: 1rem;">Analyse experte des coûts réels vs estimations initiales par domaine d'activité.</p>
+                        <ul style="font-size: 0.9rem; margin-bottom: 1.5rem;">
+                            <li>💰 Budget réel : 3,1M€ vs 2,2M€</li>
+                            <li>📈 Charges fixes : +74% révision</li>
+                            <li>🎯 ROI ajusté : 11,2% réaliste</li>
+                            <li>⚠️ Point mort : 865k€ CA</li>
+                        </ul>
+                        <div style="padding: 1rem; background: var(--white); border-radius: 10px; margin-bottom: 1rem;">
+                            <strong>🔍 Enseignement clé :</strong><br>
+                            Les estimations initiales sous-évaluaient<br>
+                            significativement la complexité réelle<br>
+                            des coûts d'exploitation
+                        </div>
+                        <a href="../../etudes-terrain/structure_couts_detaillee_20250818_223710.md" style="background: var(--secondary-blue); color: white; padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-weight: 600;">📄 Voir l'étude complète</a>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 2rem; padding: 1.5rem; background: linear-gradient(135deg, #e8f5e8, #f0f8ff); border-radius: 15px; border-left: 5px solid var(--primary-blue);">
+                    <h4 style="color: var(--primary-blue); margin-bottom: 1rem;">🤖 Méthodologie IA Multi-Agents</h4>
+                    <p style="margin-bottom: 1rem;">Chaque débat implique 15 experts IA spécialisés avec des profils distincts :</p>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 1rem 0;">
+                        <div style="background: var(--white); padding: 1rem; border-radius: 8px;">
+                            <strong>👨‍🌾 Agronome</strong><br>
+                            <small>Production, sols, biodiversité</small>
+                        </div>
+                        <div style="background: var(--white); padding: 1rem; border-radius: 8px;">
+                            <strong>🏗️ Architecte</strong><br>
+                            <small>Bâtiments, aménagements</small>
+                        </div>
+                        <div style="background: var(--white); padding: 1rem; border-radius: 8px;">
+                            <strong>💼 Financier</strong><br>
+                            <small>Modèles économiques, ROI</small>
+                        </div>
+                        <div style="background: var(--white); padding: 1rem; border-radius: 8px;">
+                            <strong>📊 Géomarketing</strong><br>
+                            <small>Zone chalandise, clientèle</small>
+                        </div>
+                        <div style="background: var(--white); padding: 1rem; border-radius: 8px;">
+                            <strong>⚡ Énergéticien</strong><br>
+                            <small>Photovoltaïque, autonomie</small>
+                        </div>
+                        <div style="background: var(--white); padding: 1rem; border-radius: 8px;">
+                            <strong>🎯 + 10 autres</strong><br>
+                            <small>Juriste, environnement, etc.</small>
+                        </div>
+                    </div>
+                    <p><strong>Processus :</strong> Débats contradictoires → Synthèse → Recommandations validées → Intégration dans business plans</p>
+                </div>
+            </div>
         </section>
 
         <!-- CTA Section -->
@@ -1371,14 +1399,20 @@
             </p>
             
             <div class="cta-buttons">
-                <a href="#" class="btn btn-primary">
-                    📄 Télécharger Business Plans Complets
+                <a href="../../business-plans/business_plan_agritourisme.md" class="btn btn-primary">
+                    📄 Business Plan Agritourisme
                 </a>
-                <a href="#" class="btn btn-secondary">
-                    🤖 Accès Outils IA
+                <a href="../../business-plans/business_plan_photovoltaique.md" class="btn btn-primary">
+                    📄 Business Plan Photovoltaïque
                 </a>
-                <a href="#" class="btn btn-secondary">
-                    📞 Contact Porteur Projet
+                <a href="../../business-plans/business_plan_camping_solaire.md" class="btn btn-primary">
+                    📄 Business Plan Agriculture
+                </a>
+                <a href="../../analyses/synthese_finale_etudes_realisees.md" class="btn btn-secondary">
+                    📊 Synthèse Études Complètes
+                </a>
+                <a href="#outils" class="btn btn-secondary">
+                    🤖 Outils IA & Débats
                 </a>
             </div>
             
@@ -1391,7 +1425,7 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2025 Projet Écosystème Lac Privé • Valorisation Territoriale, Lot-et-Garonne</p>
+        <p>&copy; 2025 Projet Écosystème Lac de Cayre • Gontaud-de-Nogaret, Lot-et-Garonne</p>
         <p>🌊 Valorisation patrimoniale durable • Agritourisme premium • Énergies renouvelables</p>
         <p style="margin-top: 1rem; opacity: 0.8;">
             Site généré automatiquement • Données issues d'études expertes validées
@@ -1399,19 +1433,18 @@
     </footer>
 
     <script>
-        // Fonction toggle pour le menu mobile
-        function toggleNav() {
-            const navContainer = document.getElementById('nav-container');
-            navContainer.classList.toggle('collapsed');
-        }
-
         // Navigation dynamique
         document.addEventListener('DOMContentLoaded', function() {
             const navLinks = document.querySelectorAll('.nav-link');
             const sections = document.querySelectorAll('.section');
             
-            // Affiche la première section par défaut
-            sections[0].classList.add('active');
+            // Affiche la première section par défaut ET active le premier lien
+            if (sections.length > 0) {
+                sections[0].classList.add('active');
+            }
+            if (navLinks.length > 0) {
+                navLinks[0].classList.add('active');
+            }
             
             navLinks.forEach(link => {
                 link.addEventListener('click', function(e) {
@@ -1429,20 +1462,7 @@
                     
                     if (targetSection) {
                         targetSection.classList.add('active');
-                        
-                        // Scroll vers la section avec offset pour la navigation sticky
-                        const navHeight = document.querySelector('.nav').offsetHeight;
-                        const targetPosition = targetSection.offsetTop - navHeight - 20;
-                        window.scrollTo({ 
-                            top: targetPosition, 
-                            behavior: 'smooth' 
-                        });
-                        
-                        // Sur mobile, ferme le menu après sélection
-                        if (window.innerWidth <= 480) {
-                            const navContainer = document.getElementById('nav-container');
-                            navContainer.classList.add('collapsed');
-                        }
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
                     }
                 });
             });
