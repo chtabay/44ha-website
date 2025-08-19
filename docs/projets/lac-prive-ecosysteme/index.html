@@ -128,6 +128,12 @@
             position: sticky;
             top: 0;
             z-index: 100;
+            transition: all 0.3s ease;
+        }
+
+        .nav.nav-hidden {
+            transform: translateY(-100%);
+            opacity: 0;
         }
 
         .nav-container {
@@ -135,19 +141,55 @@
             margin: 0 auto;
             padding: 0 2rem;
             display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 2rem;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-brand {
+            flex-shrink: 0;
+        }
+
+        .brand-link {
+            background: var(--accent-gold);
+            color: var(--primary-blue);
+            font-weight: 600;
+            padding: 0.8rem 1.5rem;
+            border-radius: 10px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .brand-link:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
         }
 
         .nav-link {
             text-decoration: none;
             color: var(--text-dark);
-            padding: 0.8rem 1.5rem;
+            padding: 0.8rem 1rem;
             border-radius: 10px;
             font-weight: 500;
             transition: all 0.3s ease;
             border: 2px solid transparent;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            white-space: nowrap;
+        }
+
+        .nav-icon {
+            font-size: 1.2rem;
+        }
+
+        .nav-text {
+            font-size: 0.9rem;
         }
 
         .nav-link:hover,
@@ -155,36 +197,6 @@
             background: var(--primary-blue);
             color: var(--white);
             transform: translateY(-2px);
-        }
-
-        /* Menu hamburger mobile */
-        .nav-toggle {
-            display: none;
-            flex-direction: column;
-            cursor: pointer;
-            padding: 0.5rem;
-            background: var(--accent-gold);
-            border-radius: 5px;
-        }
-
-        .nav-toggle span {
-            width: 25px;
-            height: 3px;
-            background: var(--primary-blue);
-            margin: 3px 0;
-            transition: 0.3s;
-        }
-
-        .nav-toggle.active span:nth-child(1) {
-            transform: rotate(-45deg) translate(-5px, 6px);
-        }
-
-        .nav-toggle.active span:nth-child(2) {
-            opacity: 0;
-        }
-
-        .nav-toggle.active span:nth-child(3) {
-            transform: rotate(45deg) translate(-5px, -6px);
         }
 
         /* Container principal */
@@ -452,25 +464,24 @@
                 grid-template-columns: 1fr 1fr;
             }
             
-            .nav-toggle {
-                display: flex;
-            }
-            
-            .nav-links {
-                display: none;
-                flex-direction: column;
-                width: 100%;
-                gap: 1rem;
-                margin-top: 1rem;
-            }
-            
-            .nav-links.active {
-                display: flex;
-            }
-            
             .nav-container {
-                flex-direction: column;
-                align-items: flex-start;
+                padding: 0 1rem;
+            }
+            
+            .nav-menu {
+                gap: 0.5rem;
+            }
+            
+            .nav-link {
+                padding: 0.6rem 0.8rem;
+            }
+            
+            .nav-text {
+                display: none;
+            }
+            
+            .nav-icon {
+                font-size: 1.4rem;
             }
             
             .container {
@@ -484,6 +495,25 @@
             .cta-buttons {
                 flex-direction: column;
                 align-items: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .nav-menu {
+                gap: 0.3rem;
+            }
+            
+            .nav-link {
+                padding: 0.5rem 0.6rem;
+            }
+            
+            .nav-icon {
+                font-size: 1.3rem;
+            }
+            
+            .brand-link {
+                padding: 0.6rem 1rem;
+                font-size: 0.9rem;
             }
         }
 
@@ -538,21 +568,36 @@
     </section>
 
     <!-- Navigation -->
-    <nav class="nav">
+    <nav class="nav" id="main-nav">
         <div class="nav-container">
-            <div class="nav-toggle" id="nav-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
+            <div class="nav-brand">
+                <a href="../../index.html" class="nav-link brand-link">← Portfolio</a>
             </div>
-            <div class="nav-links" id="nav-links">
-                <a href="../../index.html" class="nav-link" style="background: var(--accent-gold); color: var(--primary-blue); font-weight: 600;">← Portfolio</a>
-                <a href="#vue-ensemble" class="nav-link active">🎯 Vue d'Ensemble</a>
-                <a href="#etudes" class="nav-link">📊 Études Réalisées</a>
-                <a href="#financement" class="nav-link">💰 Financement</a>
-                <a href="#projets" class="nav-link">🏗️ Projets Détaillés</a>
-                <a href="#planning" class="nav-link">📅 Planning</a>
-                <a href="#outils" class="nav-link">🤖 Outils IA</a>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#vue-ensemble" class="nav-link active" data-section="vue-ensemble">
+                    <span class="nav-icon">🎯</span>
+                    <span class="nav-text">Vue d'Ensemble</span>
+                </a>
+                <a href="#etudes" class="nav-link" data-section="etudes">
+                    <span class="nav-icon">📊</span>
+                    <span class="nav-text">Études</span>
+                </a>
+                <a href="#financement" class="nav-link" data-section="financement">
+                    <span class="nav-icon">💰</span>
+                    <span class="nav-text">Financement</span>
+                </a>
+                <a href="#projets" class="nav-link" data-section="projets">
+                    <span class="nav-icon">🏗️</span>
+                    <span class="nav-text">Projets</span>
+                </a>
+                <a href="#planning" class="nav-link" data-section="planning">
+                    <span class="nav-icon">📅</span>
+                    <span class="nav-text">Planning</span>
+                </a>
+                <a href="#outils" class="nav-link" data-section="outils">
+                    <span class="nav-icon">🤖</span>
+                    <span class="nav-text">Outils IA</span>
+                </a>
             </div>
         </div>
     </nav>
@@ -1495,34 +1540,46 @@
     </footer>
 
     <script>
-        // Menu hamburger mobile
+        // Navigation intelligente avec masquage au scroll
         document.addEventListener('DOMContentLoaded', function() {
-            const navToggle = document.getElementById('nav-toggle');
-            const navLinks = document.getElementById('nav-links');
-            
-            navToggle.addEventListener('click', function() {
-                navToggle.classList.toggle('active');
-                navLinks.classList.toggle('active');
-            });
-
-            // Navigation dynamique
-            const navLinksItems = document.querySelectorAll('.nav-link');
+            const mainNav = document.getElementById('main-nav');
+            const navLinks = document.querySelectorAll('.nav-link[data-section]');
             const sections = document.querySelectorAll('.section');
             
+            let lastScrollTop = 0;
+            let scrollThreshold = 100;
+            
+            // Système de masquage au scroll
+            window.addEventListener('scroll', function() {
+                const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                
+                // Masque le menu lors du scroll vers le bas
+                if (scrollTop > lastScrollTop && scrollTop > scrollThreshold) {
+                    mainNav.classList.add('nav-hidden');
+                } 
+                // Affiche le menu lors du scroll vers le haut
+                else if (scrollTop < lastScrollTop) {
+                    mainNav.classList.remove('nav-hidden');
+                }
+                
+                lastScrollTop = scrollTop;
+            });
+            
+            // Navigation dynamique
             // Affiche la première section par défaut ET active le premier lien
             if (sections.length > 0) {
                 sections[0].classList.add('active');
             }
-            if (navLinksItems.length > 0) {
-                navLinksItems[0].classList.add('active');
+            if (navLinks.length > 0) {
+                navLinks[0].classList.add('active');
             }
             
-            navLinksItems.forEach(link => {
+            navLinks.forEach(link => {
                 link.addEventListener('click', function(e) {
                     e.preventDefault();
                     
                     // Supprime les classes actives
-                    navLinksItems.forEach(l => l.classList.remove('active'));
+                    navLinks.forEach(l => l.classList.remove('active'));
                     sections.forEach(s => s.classList.remove('active'));
                     
                     // Ajoute la classe active
@@ -1534,12 +1591,6 @@
                     if (targetSection) {
                         targetSection.classList.add('active');
                         window.scrollTo({ top: 0, behavior: 'smooth' });
-                    }
-                    
-                    // Ferme le menu mobile après clic
-                    if (window.innerWidth <= 768) {
-                        navToggle.classList.remove('active');
-                        navLinks.classList.remove('active');
                     }
                 });
             });
