@@ -1,5 +1,5 @@
-# 🌾 Projet Écosystème Lac de Cayre - 44 Hectares
-**Valorisation intégrée patrimoine familial - Gontaud-de-Nogaret**
+# 🌾 Projet Écosystème Lac Privé - 44 Hectares
+**Valorisation intégrée patrimoine familial - Lot-et-Garonne**
 
 ## 📊 **STATUT PROJET : ÉTUDES APPROFONDIES COMPLÉTÉES** ✅
 
@@ -7,7 +7,7 @@
 - **Agritourisme premium** (hébergements écologiques)
 - **Production agricole diversifiée** + transformation
 - **Installation photovoltaïque** 150kWc + stockage
-- **Valorisation Lac de Cayre** (activités nautiques)
+- **Valorisation lac privé** (activités nautiques)
 
 ### 💰 **Chiffres Clés Consolidés**
 - **Investissement total** : 3,1 M€ (budget réaliste)
@@ -21,14 +21,14 @@
 ## 🏡 **CONTEXTE & ASSETS**
 
 ### 📍 **Localisation Stratégique**
-- **Fauillet/Gontaud-de-Nogaret** (47)
-- **44 hectares vallonnés** avec **Lac de Cayre** (150m)
+- **Lot-et-Garonne** (47)
+- **44 hectares vallonnés** avec **lac privé** (150m)
 - **Axe A62** : 50 000 véhicules/jour (bassin 300k habitants/1h)
 - **Terroir Sud-Ouest** reconnu
 
 ### 🎨 **Composition Terrain**
 - **29 Ha cultivables** : Blé, maïs → reconversion polyculture bio
-- **15 Ha Lac + Bois** : Lac de Cayre + écosystème préservé
+- **15 Ha Lac + Bois** : Lac privé + écosystème préservé
 - **Relief vallonné** : Atout paysager unique
 - **Patrimoine familial** : Transmission agricole multi-générationnelle
 
