@@ -1,13 +1,9 @@
 
-// API pour les fonctionnalités études IA
+// Mock API pour les fonctionnalités avancées
 class StudyAPI {
     constructor() {
-        // Détecter l'environnement
-        this.isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
-        this.baseURL = this.isLocal ? 'http://localhost:5001/api' : '/api';
-        
-        console.log(`📡 StudyAPI initialisé - Mode: ${this.isLocal ? 'local' : 'github-pages'}`);
-        console.log(`🔗 Base URL: ${this.baseURL}`);
+        this.baseURL = '/api';
+        this.isLocal = window.location.hostname === 'localhost';
     }
     
     async launchStudy(studyKey, parameters = {}) {

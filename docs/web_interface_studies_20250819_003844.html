@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interface Études - Écosystème Lac Privé - 44Ha</title>
+    <title>Interface Études - Écosystème Lac de Cayre - 44Ha</title>
     <style>
         * {
             margin: 0;
@@ -281,7 +281,7 @@
         <!-- Header -->
         <div class="header">
             <h1>🌾 Interface Études IA</h1>
-            <p>Écosystème Lac Privé - 44Ha</p>
+            <p>Écosystème Lac de Cayre - 44Ha</p>
         </div>
         
         <!-- Project Info -->
@@ -294,7 +294,7 @@
                 </div>
                 <div class="stat-card">
                     <div class="stat-value">150m</div>
-                    <div class="stat-label">Lac Privé</div>
+                    <div class="stat-label">Lac de Cayre</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-value">3.1M€</div>
@@ -313,15 +313,8 @@
         
         <!-- Studies Section -->
         <div class="studies-section">
-            <h2>🤖 Nouvelles Études IA Disponibles</h2>
-            <p>Lancez des analyses expertes pour approfondir différents aspects du projet Écosystème Lac Privé :</p>
-            
-            <!-- Lien retour vers le projet principal -->
-            <div style="text-align: center; margin-bottom: 30px;">
-                <a href="../projets/lac-prive-ecosysteme/index.html" style="display: inline-flex; align-items: center; gap: 8px; padding: 10px 20px; background: #f8f9fa; color: #2c3e50; text-decoration: none; border-radius: 8px; border: 2px solid #e9ecef; transition: all 0.3s ease;">
-                    ← Retour au projet principal
-                </a>
-            </div>
+            <h2>🤖 Études Disponibles</h2>
+            <p>Lancez des analyses expertes pour approfondir différents aspects du projet :</p>
             
             <div class="studies-grid" id="studiesGrid">
                 <!-- Les cartes d'études seront générées ici -->
@@ -346,92 +339,114 @@
     <!-- Notification -->
     <div class="notification" id="notification"></div>
     
-    <!-- API JavaScript -->
-    <script src="study_api_20250819_003844.js"></script>
-    
     <script>
-        // Configuration études (sera chargée via API)
-        let studies = {};
-        
-        // Instance de l'API
-        const studyAPI = new StudyAPI();
+        // Configuration études
+        const studies = {
+        "faisabilite_ultra_complete": {
+                "name": "\u00c9valuation Ultra-Compl\u00e8te",
+                "description": "Due diligence technique avec experts sp\u00e9cialis\u00e9s",
+                "script": "scripts/evaluation/faisabilite_evaluation_ultra_complete.py",
+                "duration": "2-3 minutes",
+                "outputs": [
+                        "evaluation_ultra_complete_*.md",
+                        "evaluation_ultra_complete_*.json"
+                ],
+                "expert_profiles": [
+                        "C\u00e9line \u00c9COLOGIE",
+                        "Sylvie G\u00c9OMARKETING",
+                        "Fran\u00e7ois AGRIVOLTA\u00cfSME",
+                        "Paul HYDRAULIQUE",
+                        "Marc P\u00c9DOLOGIE",
+                        "Jean CIRCUITS-COURTS"
+                ],
+                "cost_estimate": "110k\u20ac \u00e9tudes terrain"
+        },
+        "structure_couts_detaillee": {
+                "name": "Analyse Co\u00fbts D\u00e9taill\u00e9e",
+                "description": "Structure co\u00fbts r\u00e9currents et non r\u00e9currents",
+                "script": "scripts/evaluation/structure_couts_detaillee_composite.py",
+                "duration": "1-2 minutes",
+                "outputs": [
+                        "structure_couts_detaillee_*.md",
+                        "structure_couts_detaillee_*.json"
+                ],
+                "expert_profiles": [
+                        "Expert Financier"
+                ],
+                "cost_estimate": "Analyse gratuite"
+        },
+        "modes_financement": {
+                "name": "Solutions Financement",
+                "description": "Modes financement optimis\u00e9s et diversifi\u00e9s",
+                "script": "scripts/evaluation/modes_financement_optimises.py",
+                "duration": "1-2 minutes",
+                "outputs": [
+                        "modes_financement_optimises_*.md",
+                        "modes_financement_optimises_*.json"
+                ],
+                "expert_profiles": [
+                        "Expert Bancaire",
+                        "Conseiller Financement"
+                ],
+                "cost_estimate": "Analyse gratuite"
+        },
+        "marche_hotellerie": {
+                "name": "\u00c9tude March\u00e9 H\u00f4tellerie",
+                "description": "Validation besoin h\u00f4telier + financement sans apport",
+                "script": "scripts/evaluation/analyse_hotellerie_et_financement_sans_apport.py",
+                "duration": "1-2 minutes",
+                "outputs": [
+                        "analyse_hotellerie_financement_*.md",
+                        "analyse_hotellerie_financement_*.json"
+                ],
+                "expert_profiles": [
+                        "Expert H\u00f4tellerie",
+                        "Expert Financement"
+                ],
+                "cost_estimate": "Analyse gratuite"
+        },
+        "protection_patrimoine": {
+                "name": "Protection Patrimoine Familial",
+                "description": "Solutions mise \u00e0 disposition terrain sans hypoth\u00e8que",
+                "script": "scripts/evaluation/analyse_terrain_sans_risque_heritage.py",
+                "duration": "1-2 minutes",
+                "outputs": [
+                        "protection_patrimoine_familial_*.md",
+                        "protection_patrimoine_familial_*.json"
+                ],
+                "expert_profiles": [
+                        "Expert Succession",
+                        "Notaire Sp\u00e9cialis\u00e9"
+                ],
+                "cost_estimate": "Analyse gratuite"
+        },
+        "debat_multi_agents": {
+                "name": "D\u00e9bat Multi-Agents",
+                "description": "D\u00e9bat contradictoire entre experts IA sp\u00e9cialis\u00e9s",
+                "script": "scripts/debats/launch_advanced_debate.py",
+                "duration": "3-5 minutes",
+                "outputs": [
+                        "debate_*.md",
+                        "debate_*.json",
+                        "projets_*.csv"
+                ],
+                "expert_profiles": [
+                        "8 experts IA sp\u00e9cialis\u00e9s"
+                ],
+                "cost_estimate": "Simulation gratuite"
+        }
+};
         
         // État de l'application
         let currentStudies = {};
         let results = [];
         
         // Initialisation
-        document.addEventListener('DOMContentLoaded', async function() {
-            await loadStudiesFromAPI();
+        document.addEventListener('DOMContentLoaded', function() {
             renderStudies();
-            await loadResults();
+            loadResults();
             setupEventListeners();
         });
-        
-        async function loadStudiesFromAPI() {
-            try {
-                if (studyAPI.isLocal) {
-                    // Charger depuis l'API locale
-                    const response = await fetch(`${studyAPI.baseURL}/studies`);
-                    const data = await response.json();
-                    studies = data.studies;
-                } else {
-                    // Mode GitHub Pages - utiliser configuration statique
-                    studies = getStaticStudies();
-                }
-                console.log('📊 Études chargées:', Object.keys(studies).length);
-            } catch (error) {
-                console.warn('⚠️ Erreur chargement API, utilisation config statique:', error);
-                studies = getStaticStudies();
-            }
-        }
-        
-        function getStaticStudies() {
-            return {
-                "faisabilite_ultra_complete": {
-                    "name": "Évaluation Ultra-Complète",
-                    "description": "Due diligence technique avec experts spécialisés",
-                    "duration": "2-3 minutes",
-                    "expert_profiles": ["Céline ÉCOLOGIE", "Sylvie GÉOMARKETING", "François AGRIVOLTAÏSME", "Paul HYDRAULIQUE", "Marc PÉDOLOGIE", "Jean CIRCUITS-COURTS"],
-                    "cost_estimate": "110k€ études terrain"
-                },
-                "structure_couts_detaillee": {
-                    "name": "Analyse Coûts Détaillée",
-                    "description": "Structure coûts récurrents et non récurrents",
-                    "duration": "1-2 minutes",
-                    "expert_profiles": ["Expert Financier"],
-                    "cost_estimate": "Analyse gratuite"
-                },
-                "modes_financement": {
-                    "name": "Solutions Financement",
-                    "description": "Modes financement optimisés et diversifiés",
-                    "duration": "1-2 minutes",
-                    "expert_profiles": ["Expert Bancaire", "Conseiller Financement"],
-                    "cost_estimate": "Analyse gratuite"
-                },
-                "marche_hotellerie": {
-                    "name": "Étude Marché Hôtellerie",
-                    "description": "Validation besoin hôtelier + financement sans apport",
-                    "duration": "1-2 minutes",
-                    "expert_profiles": ["Expert Hôtellerie", "Expert Financement"],
-                    "cost_estimate": "Analyse gratuite"
-                },
-                "protection_patrimoine": {
-                    "name": "Protection Patrimoine Familial",
-                    "description": "Solutions mise à disposition terrain sans hypothèque",
-                    "duration": "1-2 minutes",
-                    "expert_profiles": ["Expert Succession", "Notaire Spécialisé"],
-                    "cost_estimate": "Analyse gratuite"
-                },
-                "debat_multi_agents": {
-                    "name": "Débat Multi-Agents",
-                    "description": "Débat contradictoire entre experts IA spécialisés",
-                    "duration": "3-5 minutes",
-                    "expert_profiles": ["8 experts IA spécialisés"],
-                    "cost_estimate": "Simulation gratuite"
-                }
-            };
-        }
         
         function renderStudies() {
             const grid = document.getElementById('studiesGrid');
@@ -477,83 +492,19 @@
             return card;
         }
         
-        async function launchStudy(studyKey) {
+        function launchStudy(studyKey) {
             const study = studies[studyKey];
             if (!study) return;
             
-            try {
-                // Marquer comme en cours
-                currentStudies[studyKey] = 'running';
-                
-                // Mettre à jour l'interface
-                renderStudies();
-                showLoading();
-                
-                // Lancer l'étude via l'API
-                const result = await studyAPI.launchStudy(studyKey, {
-                    project_context: "Écosystème Lac Privé - 44Ha",
-                    launched_from: "web_interface"
-                });
-                
-                if (result.success) {
-                    showNotification(`🚀 Étude "${study.name}" lancée avec succès !`);
-                    
-                    // Attendre la completion
-                    await waitForStudyCompletion(studyKey, result.study_id || result.execution_id);
-                } else {
-                    throw new Error(result.error || 'Erreur inconnue');
-                }
-                
-            } catch (error) {
-                console.error('Erreur lancement étude:', error);
-                showNotification(`❌ Erreur: ${error.message}`, true);
-                currentStudies[studyKey] = 'error';
-                renderStudies();
-                hideLoading();
-            }
-        }
-        
-        async function waitForStudyCompletion(studyKey, studyId) {
-            const study = studies[studyKey];
-            const maxWaitTime = 10 * 60 * 1000; // 10 minutes max
-            const checkInterval = 5000; // Vérifier toutes les 5 secondes
-            const startTime = Date.now();
+            // Marquer comme en cours
+            currentStudies[studyKey] = 'running';
             
-            while (Date.now() - startTime < maxWaitTime) {
-                try {
-                    if (studyAPI.isLocal) {
-                        // Vérifier le statut via l'API
-                        const response = await fetch(`${studyAPI.baseURL}/studies/results`);
-                        const data = await response.json();
-                        
-                        // Chercher notre étude dans les résultats
-                        const completedStudy = data.results.find(r => 
-                            r.study_id === studyId && r.status === 'completed'
-                        );
-                        
-                        if (completedStudy) {
-                            completeStudy(studyKey, study, completedStudy);
-                            return;
-                        }
-                    } else {
-                        // Mode simulation
-                        setTimeout(() => completeStudy(studyKey, study), 2000);
-                        return;
-                    }
-                    
-                    // Attendre avant la prochaine vérification
-                    await new Promise(resolve => setTimeout(resolve, checkInterval));
-                    
-                } catch (error) {
-                    console.warn('Erreur vérification statut:', error);
-                }
-            }
-            
-            // Timeout
-            showNotification(`⏰ Délai dépassé pour l'étude "${study.name}"`, true);
-            currentStudies[studyKey] = 'timeout';
+            // Mettre à jour l'interface
             renderStudies();
-            hideLoading();
+            showLoading();
+            
+            // Simuler l'exécution de l'étude
+            simulateStudyExecution(studyKey, study);
         }
         
         function simulateStudyExecution(studyKey, study) {
