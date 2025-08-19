@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Portfolio de Projets - Valorisation Territoriale</title>
     <meta name="description" content="Portfolio de projets de valorisation territoriale, agritourisme et développement durable">
     
@@ -425,12 +425,18 @@
             }
             
             .project-card {
-                padding: 1rem;
+                padding: 0.8rem;
                 margin: 0;
             }
             
             .project-meta {
                 grid-template-columns: 1fr;
+                gap: 0.3rem;
+            }
+            
+            .meta-item {
+                padding: 0.3rem 0.6rem;
+                font-size: 0.75rem;
             }
             
             .stats {
@@ -438,40 +444,94 @@
             }
             
             .project-actions {
-                gap: 0.4rem;
+                gap: 0.3rem;
+                margin-top: 1rem;
             }
             
             .btn {
-                padding: 0.5rem 0.6rem;
-                font-size: 0.8rem;
-                min-height: auto;
+                padding: 0.4rem 0.5rem;
+                font-size: 0.75rem;
+                min-height: 32px;
+                line-height: 1.2;
             }
             
             .btn-secondary {
-                font-size: 0.75rem;
+                font-size: 0.7rem;
+                padding: 0.35rem 0.4rem;
+            }
+            
+            .project-features {
+                font-size: 0.8rem;
+                margin: 0.8rem 0;
+            }
+            
+            .project-features li {
+                padding: 0.2rem 0;
             }
             
             .add-project {
-                min-height: 200px;
-                font-size: 1rem;
+                min-height: 150px;
+                font-size: 0.9rem;
+                padding: 1rem;
             }
             
             .add-project .plus-icon {
-                font-size: 3rem;
+                font-size: 2.5rem;
             }
             
             /* Tableau responsive */
             table {
-                font-size: 0.8rem;
+                font-size: 0.7rem;
             }
             
             th, td {
-                padding: 0.5rem !important;
+                padding: 0.3rem !important;
             }
             
             /* Masquer certaines colonnes sur très petit écran */
             .desktop-only {
                 display: none;
+            }
+        }
+        
+        /* Spécifique pour mobiles réels avec densité élevée */
+        @media screen and (max-width: 414px) and (-webkit-min-device-pixel-ratio: 2) {
+            .project-actions {
+                gap: 0.2rem !important;
+            }
+            
+            .btn {
+                padding: 0.3rem 0.4rem !important;
+                font-size: 0.7rem !important;
+                min-height: 28px !important;
+            }
+            
+            .btn-secondary {
+                font-size: 0.65rem !important;
+                padding: 0.25rem 0.3rem !important;
+            }
+            
+            .project-card {
+                padding: 0.6rem !important;
+            }
+        }
+        
+        /* Pour iPhone et mobiles en portrait */
+        @media screen and (max-width: 390px) {
+            .project-actions {
+                display: flex !important;
+                flex-direction: column !important;
+                gap: 0.25rem !important;
+            }
+            
+            .project-actions .btn:first-child {
+                grid-column: unset !important;
+            }
+            
+            .btn {
+                font-size: 0.65rem !important;
+                padding: 0.25rem 0.3rem !important;
+                min-height: 24px !important;
             }
         }
     </style>
